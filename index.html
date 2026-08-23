@@ -30,7 +30,7 @@
         <h2>先着・サイン会を最優先</h2>
         <p>サイン会 / 原画・一点物 / サイン本をスマホでまとめて確認。</p>
       </div>
-      <div class="pills"><span>先着優先</span><span>オフライン</span><span>ウォッチリスト</span></div>
+      <div class="pills"><span>先着優先</span><span>自動巡回</span><span>ウォッチリスト</span></div>
     </section>
 
     <section class="stats">
@@ -46,6 +46,12 @@
         <option value="50">50+</option>
         <option value="85">85+ 緊急</option>
         <option value="100">100+ 最優先</option>
+      </select>
+      <select id="sortMode" aria-label="並び順">
+        <option value="score">優先度順</option>
+        <option value="event_start">開催日順</option>
+        <option value="apply_start">申込開始順</option>
+        <option value="apply_end">申込締切順</option>
       </select>
       <div class="chips" id="tabs">
         <button class="chip active" data-tab="all">新着</button>
