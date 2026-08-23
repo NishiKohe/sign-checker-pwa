@@ -10,28 +10,39 @@
   <title>Sign Checker</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=11">
+  <link rel="stylesheet" href="./styles.css?v=12">
 </head>
 <body>
   <header class="topbar">
-    <div><div class="eyebrow">AUTOGRAPH RADAR · UI v0.11</div><h1>Sign Checker</h1></div>
+    <div><div class="eyebrow">AUTOGRAPH RADAR · UI v0.12</div><h1>Sign Checker</h1></div>
     <div class="top-actions"><button id="installBtn" class="secondary hidden">インストール</button><button id="syncBtn">同期</button></div>
   </header>
 
   <main class="content">
     <section class="hero card">
-      <div><h2>獲得価値を優先</h2><p>サイン会 / 原画・一点物 / サイン本 / 個展・POP UP。終了済みは自動非表示。</p></div>
-      <div class="pills"><span>先着優先</span><span>購入不要抽選優先</span><span>終了済み非表示</span></div>
+      <div><h2>サイン・色紙まとめ</h2><p>サイン会、サイン本、原画・直筆色紙、一点物、個展情報を情報元横断で整理。</p></div>
+      <div class="pills"><span>サイン本重点</span><span>先着優先</span><span>購入不要抽選優先</span><span>終了済み非表示</span></div>
     </section>
 
     <section class="stats">
       <article class="card"><small>未読</small><strong id="statUnseen">0</strong></article>
       <article class="card"><small>緊急 85+</small><strong id="statUrgent">0</strong></article>
-      <article class="card"><small>表示中</small><strong id="statTotal">0</strong></article>
+      <article class="card"><small>表示可能</small><strong id="statTotal">0</strong></article>
     </section>
 
     <section class="filters card">
-      <input id="q" placeholder="作家名・作品名・会場">
+      <div class="filter-head"><strong>検索・絞り込み</strong><span id="resultCount">0件</span></div>
+      <input id="q" class="wide" placeholder="作家名・作品名・情報元・タグ・会場で検索">
+      <select id="sourceFilter"><option value="all">すべての情報元</option></select>
+      <select id="acquisitionFilter">
+        <option value="all">すべての獲得方式</option>
+        <option value="first_come">先着</option>
+        <option value="direct_sale">直接販売</option>
+        <option value="lottery_free">購入不要抽選</option>
+        <option value="lottery_open">抽選</option>
+        <option value="lottery_purchase">購入条件付き抽選</option>
+        <option value="unknown">方式未判定</option>
+      </select>
       <select id="scoreFilter">
         <option value="0">全優先度</option>
         <option value="50">50+</option>
@@ -44,12 +55,18 @@
         <option value="apply_start">申込開始順</option>
         <option value="apply_end">申込締切順</option>
       </select>
-      <div class="chips" id="tabs">
-        <button class="chip active" data-tab="all">新着</button>
+
+      <div class="filter-section wide">
+        <small>情報元</small>
+        <div class="source-chips" id="sourceChips"></div>
+      </div>
+      <div id="activeTag" class="active-tag wide hidden"></div>
+      <div class="chips wide" id="tabs">
+        <button class="chip active" data-tab="all">すべて</button>
         <button class="chip" data-tab="urgent">緊急</button>
         <button class="chip" data-tab="autograph_event">サイン会</button>
-        <button class="chip" data-tab="original_art">原画・一点物</button>
         <button class="chip" data-tab="signed_book">サイン本</button>
+        <button class="chip" data-tab="original_art">原画・色紙</button>
         <button class="chip" data-tab="exhibition">個展・POP UP</button>
         <button class="chip" data-tab="campaign">応募企画</button>
         <button class="chip" data-tab="favorites">★</button>
@@ -70,10 +87,25 @@
   </main>
 
   <nav class="bottom-nav">
-    <button data-tab="all" class="nav active">新着</button><button data-tab="urgent" class="nav">緊急</button><button data-tab="autograph_event" class="nav">会</button><button data-tab="original_art" class="nav">原画</button><button data-tab="signed_book" class="nav">本</button>
+    <button data-tab="all" class="nav active">一覧</button><button data-tab="urgent" class="nav">緊急</button><button data-tab="autograph_event" class="nav">会</button><button data-tab="signed_book" class="nav">本</button><button data-tab="original_art" class="nav">色紙</button>
   </nav>
 
-  <template id="itemTpl"><article class="item card"><div class="item-head"><div><h3></h3><p class="meta"></p></div><div class="score"></div></div><div class="badges"></div><p class="reason"></p><div class="actions item-actions"></div></article></template>
-  <script src="./app.js?v=11" defer></script>
+  <template id="itemTpl">
+    <article class="item card">
+      <div class="item-head">
+        <div class="item-title-wrap"><h3></h3><div class="card-meta"><span class="creator"></span><span class="location"></span></div></div>
+        <div class="score-box"><small>優先度</small><strong class="score-value"></strong></div>
+      </div>
+      <div class="item-tags"></div>
+      <div class="timeline-grid">
+        <div class="date-box" data-date="event_start"><small>開催</small><strong class="date-value">未取得</strong></div>
+        <div class="date-box" data-date="apply_start"><small>申込開始</small><strong class="date-value">未取得</strong></div>
+        <div class="date-box" data-date="apply_end"><small>申込締切</small><strong class="date-value">未取得</strong></div>
+      </div>
+      <details class="reason-details"><summary>優先度の根拠</summary><p class="reason"></p></details>
+      <div class="actions item-actions"></div>
+    </article>
+  </template>
+  <script src="./app.js?v=12" defer></script>
 </body>
 </html>
