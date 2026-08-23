@@ -14,23 +14,14 @@
 </head>
 <body>
   <header class="topbar">
-    <div>
-      <div class="eyebrow">AUTOGRAPH RADAR</div>
-      <h1>Sign Checker</h1>
-    </div>
-    <div class="top-actions">
-      <button id="installBtn" class="secondary hidden">インストール</button>
-      <button id="syncBtn">同期</button>
-    </div>
+    <div><div class="eyebrow">AUTOGRAPH RADAR</div><h1>Sign Checker</h1></div>
+    <div class="top-actions"><button id="installBtn" class="secondary hidden">インストール</button><button id="syncBtn">同期</button></div>
   </header>
 
   <main class="content">
     <section class="hero card">
-      <div>
-        <h2>先着・サイン会を最優先</h2>
-        <p>サイン会 / 原画・一点物 / サイン本をスマホでまとめて確認。</p>
-      </div>
-      <div class="pills"><span>先着優先</span><span>自動巡回</span><span>ウォッチリスト</span></div>
+      <div><h2>先着・サイン会を最優先</h2><p>サイン会 / 原画・一点物 / サイン本 / 個展・POP UP をまとめて確認。</p></div>
+      <div class="pills"><span>先着優先</span><span>自動巡回</span><span>展示も追跡</span></div>
     </section>
 
     <section class="stats">
@@ -59,6 +50,8 @@
         <button class="chip" data-tab="autograph_event">サイン会</button>
         <button class="chip" data-tab="original_art">原画・一点物</button>
         <button class="chip" data-tab="signed_book">サイン本</button>
+        <button class="chip" data-tab="exhibition">個展・POP UP</button>
+        <button class="chip" data-tab="campaign">応募企画</button>
         <button class="chip" data-tab="favorites">★</button>
       </div>
     </section>
@@ -66,35 +59,20 @@
     <section id="list" class="list" aria-live="polite"></section>
 
     <section class="settings card">
-      <details>
-        <summary>設定 / バックエンド接続</summary>
-        <div class="settings-grid">
-          <label>APIベースURL<input id="apiBase" placeholder="https://example.com"></label>
-          <label>ウォッチリスト<input id="watchlist" placeholder="Na-Ga, 村田蓮爾, あるぷ"></label>
-          <label class="check"><input id="demoMode" type="checkbox"> デモモード</label>
-          <div class="actions"><button id="saveSettingsBtn">設定保存</button><button id="seedBtn" class="secondary">デモ初期化</button></div>
-        </div>
-      </details>
+      <details><summary>設定 / バックエンド接続</summary><div class="settings-grid">
+        <label>APIベースURL<input id="apiBase" placeholder="https://example.com"></label>
+        <label>ウォッチリスト<input id="watchlist" placeholder="Na-Ga, 村田蓮爾, あるぷ"></label>
+        <label class="check"><input id="demoMode" type="checkbox"> デモモード</label>
+        <div class="actions"><button id="saveSettingsBtn">設定保存</button><button id="seedBtn" class="secondary">デモ初期化</button></div>
+      </div></details>
     </section>
   </main>
 
   <nav class="bottom-nav">
-    <button data-tab="all" class="nav active">新着</button>
-    <button data-tab="urgent" class="nav">緊急</button>
-    <button data-tab="autograph_event" class="nav">会</button>
-    <button data-tab="original_art" class="nav">原画</button>
-    <button data-tab="signed_book" class="nav">本</button>
+    <button data-tab="all" class="nav active">新着</button><button data-tab="urgent" class="nav">緊急</button><button data-tab="autograph_event" class="nav">会</button><button data-tab="original_art" class="nav">原画</button><button data-tab="signed_book" class="nav">本</button>
   </nav>
 
-  <template id="itemTpl">
-    <article class="item card">
-      <div class="item-head"><div><h3></h3><p class="meta"></p></div><div class="score"></div></div>
-      <div class="badges"></div>
-      <p class="reason"></p>
-      <div class="actions item-actions"></div>
-    </article>
-  </template>
-
+  <template id="itemTpl"><article class="item card"><div class="item-head"><div><h3></h3><p class="meta"></p></div><div class="score"></div></div><div class="badges"></div><p class="reason"></p><div class="actions item-actions"></div></article></template>
   <script src="./app.js" defer></script>
 </body>
 </html>
