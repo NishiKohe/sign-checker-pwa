@@ -1,0 +1,14 @@
+{
+  "name": "Sign Checker",
+  "short_name": "SignChecker",
+  "description": "サイン会 / 原画・一点物 / サイン本をスマホで監視するPWA",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f7fb",
+  "theme_color": "#6d28d9",
+  "lang": "ja",
+  "icons": [
+    {"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
