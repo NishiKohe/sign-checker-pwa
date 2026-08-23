@@ -1,121 +1,25 @@
 {
-  "generated_at": "2026-08-23T09:39:05.587252+00:00",
-  "count": 59,
+  "generated_at": "2026-08-23T09:45:24.040893+00:00",
+  "count": 141,
   "sources": {
-    "shosen": true,
-    "x": false
+    "shosen": {
+      "enabled": true,
+      "count": 59
+    },
+    "ogaki": {
+      "enabled": true,
+      "count": 82
+    },
+    "melonbooks": {
+      "enabled": false,
+      "count": 0
+    },
+    "x": {
+      "enabled": false,
+      "count": 0
+    }
   },
   "items": [
-    {
-      "id": "8ca67db72916ba37",
-      "title": "GA文庫『死亡エンドを回避したギャルゲーのヒロインたちが俺の【日記帳】を読んで秘密を知ったらしい3』発売記念 addict先生WEBサイン会",
-      "source": "書泉",
-      "creator": "addict",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/45027/",
-      "status": "closed",
-      "dates": [
-        "2026年9月6日",
-        "2028年8月21日",
-        "2026年09月15日",
-        "8月21日",
-        "9月6日",
-        "09月15日"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "fd0d9578f0723f2f",
-      "title": "GCN文庫『魔女と傭兵8』発売記念 超法規的かえる先生WEBサイン会",
-      "source": "書泉",
-      "creator": "超法規的かえる",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44701/",
-      "status": "closed",
-      "dates": [
-        "2026年8月31日",
-        "2028年8月3日",
-        "2026年09月24日",
-        "8月3日",
-        "8月31日",
-        "09月24日"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "54d99fd693ffb65f",
-      "title": "Pur Comics Pure『お前は俺のモノだろ？〜俺様社長の独占溺愛〜４』発売＆完結記念 高山千先生WEBサイン会",
-      "source": "書泉",
-      "creator": "高山千",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44901/",
-      "status": "closed",
-      "dates": [
-        "2026年8月17日(月)",
-        "2026年8月30日(日)",
-        "2026/9/17",
-        "2026/9/9",
-        "8月17日(月)",
-        "8月30日(日)"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "74ffa666c4bac225",
-      "title": "『シャーリー・メディスン』3巻発売記念 森薫先生リアルサイン会 ２DAYS(秋葉原)",
-      "source": "書泉",
-      "creator": "森薫",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44170/",
-      "status": "open",
-      "dates": [
-        "2026年10月3日(土)13:00",
-        "2026年10月4日(日)13:00",
-        "2026年9月10日(木)",
-        "2026年9月22日(火)",
-        "10月3日(土)13:00",
-        "10月4日(日)13:00"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "f710c20b1b2861e5",
-      "title": "『妹はシスコン兄がめんどくさい』6巻発売記念 ヨシミズ先生リアルサイン会(秋葉原)",
-      "source": "書泉",
-      "creator": "ヨシミズ",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44059/",
-      "status": "open",
-      "dates": [
-        "2026年9月5日(土)",
-        "2026年7月10日(金)18:00",
-        "2026年7月10日(金)",
-        "2026年8月10日(月)",
-        "2026年8月28日(金)",
-        "2026/8/28"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
     {
       "id": "ba982b452dff6b7e",
       "title": "『高橋よしひろ 犬マンガの世界 「白い戦士ヤマト」から「銀牙伝説」まで』刊行記念お渡し会",
@@ -132,161 +36,768 @@
         "2026年9月19日",
         "9月19日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
-      "id": "503a9ad49279fa27",
-      "title": "【受注商品案内】『灰仭巫覡』＆『エア・ギア』アートPOPUP",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
+      "id": "591bf08bc5e18440",
+      "title": "【7/30受付開始】『毒を喰らわば皿までも？①』松阪先生WEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "松阪",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 90,
+      "reasons": "サイン会 +50 / 先着 +25 / ゲーム/イラスト系 +15",
+      "url": "https://www.books-ogaki.co.jp/post/44248",
+      "status": "open",
+      "dates": [
+        "2022年7月24日",
+        "2022年7月28日",
+        "2022年7月30日",
+        "2022年9月2日",
+        "2026年8月19日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "6e54fb51421d01c2",
+      "title": "【8/31発売】東京創元社『少し長めの一瞬』大垣書店・廣文館限定購入特典のお知らせ",
+      "source": "大垣書店",
+      "creator": "松原タニシ",
+      "location": "京都",
       "category": "autograph_event",
       "method": "first_come",
       "score": 90,
       "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/41019/",
+      "url": "https://www.books-ogaki.co.jp/post/69830",
       "status": "unknown",
       "dates": [
-        "2026年5月30日(土)",
-        "2026年3月25日(水)10:00",
-        "2026年4月15日(水)23:59",
-        "2026年4月27日(月)",
-        "7月20日",
-        "5月30日(土)"
+        "2026年8月17日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "8月17日",
+        "8月31日(月)",
+        "8月19日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
-      "id": "27c64fc454782db4",
-      "title": "ひめ恋SELECTION『マスクを取った奏多くんはえっちで溺愛で、ちょっと腹黒い。 5』発売記念 カトウロカ先生WEBサイン会",
-      "source": "書泉",
-      "creator": "カトウロカ",
-      "location": "秋葉原",
+      "id": "13d8055ddee4e119",
+      "title": "【6/19受注開始】『大学受験ムビスタ 八澤のたった6時間で古典文法』マナビズム・八澤龍之介さんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "マナビズム・八澤龍之介",
+      "location": "オンライン",
       "category": "autograph_event",
       "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44735/",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/60873",
       "status": "closed",
       "dates": [
-        "2026年8月3日(月)",
-        "2026年8月16日(日)",
-        "2026/9/25",
-        "2026/8/26",
-        "8月3日(月)",
-        "8月16日(日)"
+        "2025年6月13日",
+        "2025年6月19日",
+        "2025年7月29日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
-      "id": "d932013bfd18a625",
-      "title": "ぶんか社コミックス S*girl Selection『執着幼なじみとぷっくり×× 再会した激重彼の舐め愛から逃げられません』3巻＆4巻同時発売記念 成田アポロ先生WEBサイン会",
-      "source": "書泉",
-      "creator": "成田アポロ",
-      "location": "秋葉原",
+      "id": "feca7ad9eb9a9869",
+      "title": "【6/22受注開始】『脱いで触って愛して』完結18巻発売記念 いいじま凛先生WEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "いいじま凛",
+      "location": "オンライン",
       "category": "autograph_event",
       "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44540/",
-      "status": "closed",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/54896",
+      "status": "open",
       "dates": [
-        "2026年7月24日(金)",
-        "2026年8月6日(木)",
-        "2026/9/16",
-        "2026/8/16",
-        "7月24日(金)",
-        "8月6日(木)"
+        "2024年6月14日",
+        "2024年6月18日",
+        "2024年6月17日",
+        "2024年6月22日",
+        "2024年7月17日",
+        "2026年8月19日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
-      "id": "1fcac45895c77be0",
-      "title": "アニメージュコミックスコイハルレーベル『熱愛プリンス お兄ちゃんはキミが好き』25巻発売記念 青月まどか先生WEBサイン会",
-      "source": "書泉",
-      "creator": "青月まどか",
-      "location": "秋葉原",
+      "id": "55b96be2446036ae",
+      "title": "【7/20受注開始】『カズキヨネ画集 散華』刊行記念 カズキヨネさんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "カズキヨネ",
+      "location": "オンライン",
       "category": "autograph_event",
       "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/45086/",
-      "status": "closed",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/61433",
+      "status": "open",
       "dates": [
-        "2026年8月17日(月)",
-        "2026年8月30日(日)",
-        "2026/10/13",
-        "2026/9/9",
-        "8月17日(月)",
-        "8月30日(日)"
+        "2025年7月13日",
+        "2025年7月14日",
+        "2025年7月20日",
+        "2025年9月10日",
+        "2026年8月19日",
+        "2026年8月18日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
-      "id": "de16207d88235479",
-      "title": "アリアンローズ『魔法世界の受付嬢になりたいです５』発売記念まこ先生サイン会 2026/9/21(月・祝)開催",
-      "source": "書泉",
-      "creator": "発売記念まこ",
-      "location": "秋葉原",
+      "id": "541c3e9d157a14a5",
+      "title": "【8/10配布開始】大文字送り火限定ブックカバー",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "オンライン",
       "category": "autograph_event",
       "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44015/",
-      "status": "closed",
-      "dates": [
-        "2026年9月21日(月・祝)",
-        "2026年7月13日(月)18:00",
-        "2026年9月11日(金)",
-        "2026年8月18日(火)",
-        "2026/9/21",
-        "9月21日(月・祝)"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "c46d72e92ad06d6d",
-      "title": "メルトコミックス『陽だまりのアスファルト 4』発売記念 山口ねね先生WEBサイン会",
-      "source": "書泉",
-      "creator": "山口ねね",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 90,
-      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/event/44737/",
-      "status": "closed",
-      "dates": [
-        "2026年8月3日(月)",
-        "2026年8月16日(日)",
-        "2026/9/25",
-        "2026/8/26",
-        "8月3日(月)",
-        "8月16日(日)"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "0741c6a561baa609",
-      "title": "8/29発売 AVC ジューシーハニーコレクションカード PLUS #30（浜辺やよい miru 神木麗 天神羽衣）12BOX入り1カートン販売",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "first_come",
-      "score": 80,
-      "reasons": "サイン本 +20 / 先着 +25 / 関東 +15 / 成人向け +20",
-      "url": "https://www.shosen.co.jp/pickup/43453/",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69807",
       "status": "unknown",
       "dates": [
-        "2004年9月30日",
-        "2004年9月1日",
-        "8月1日(土)18:00",
-        "9月30日",
-        "11月29日",
-        "12月20日"
+        "2026年8月6日",
+        "2026年8月10日",
+        "2026年8月31日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "e324d28ec5c735f0",
+      "title": "【8/16まで】澤村伊智さん『靴と自転車』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69704",
+      "status": "open",
+      "dates": [
+        "2026年8月3日",
+        "2026年8月4日",
+        "2026年10月6日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月3日"
+      ],
+      "apply_url": "https://livepocket.jp/e/o65n_",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "32a651c53c6b8f61",
+      "title": "【8/16受注開始】『Mizukiのレシピノートvol.2 さらにぎゅぎゅっと600品』刊行記念 MizukiさんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "Mizuki",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/62198",
+      "status": "open",
+      "dates": [
+        "2025年8月13日",
+        "2025年8月19日",
+        "2025年8月16日",
+        "2025年9月18日",
+        "2026年8月19日",
+        "2026年8月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "c50727f4aacccc8c",
+      "title": "【8/23まで】阿部智里さん『八咫烏シリーズ 愛蔵版』予約販売のお知らせ",
+      "source": "大垣書店",
+      "creator": "銀シャリ・橋本直",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69657",
+      "status": "open",
+      "dates": [
+        "2026年8月8日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "8月8日",
+        "8月23日"
+      ],
+      "apply_url": "https://livepocket.jp/e/s3hqs",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "5437b5e8553707f2",
+      "title": "【8/25発売】KADOKAWA『銀河特急 ミルキー☆サブウェイ』2巻 大垣書店グループ限定購入特典のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69950",
+      "status": "unknown",
+      "dates": [
+        "2026年8月17日",
+        "2026年8月18日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月17日",
+        "8月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "aa741d94c36e08f8",
+      "title": "【8/28発売】ライドコミックス『人気配信者たちのマネージャーになったら、全員元カノだった THE COMIC②』大垣書店・廣文館限定購入特典のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69896",
+      "status": "unknown",
+      "dates": [
+        "2026年8月18日",
+        "2026年8月19日",
+        "2026年8月17日",
+        "8月18日",
+        "8月19日",
+        "8月28日(金)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "1e86b9898cd06888",
+      "title": "【8/28発売】ライドコミックス『婚約破棄ですか？はい喜んで。だって僕は姉の代わりですから！①』大垣書店・廣文館限定購入特典のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69905",
+      "status": "unknown",
+      "dates": [
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "8月19日",
+        "8月28日(金)",
+        "8月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "e72f5adc67665fb1",
+      "title": "【8/29受注開始】『「かわいい」がすぐ描ける! ちびキャラ素体ポーズ集 キュートな２頭身＆ 動ける３頭身』刊行記念 咲牙めぶさんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69873",
+      "status": "open",
+      "dates": [
+        "2026年8月22日",
+        "2026年8月29日(土) 10:00",
+        "2026年9月9日(水) 23:59",
+        "2026年9月20日(日)",
+        "2026年9月18日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "4f97ba46e8813eeb",
+      "title": "【8/29受注開始】『令嬢のマナーと教養図鑑』刊行記念 青木美沙子さんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "青木美沙子",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/62463",
+      "status": "open",
+      "dates": [
+        "2025年8月25日",
+        "2025年8月27日",
+        "2025年8月26日",
+        "2025年8月29日",
+        "2025年10月5日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "2c31977366ad4400",
+      "title": "【8/29受注開始】『岬の魔女と頂の姫』刊行記念 野梨原 花南さんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "花南",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69876",
+      "status": "open",
+      "dates": [
+        "2026年8月19日",
+        "2026年8月22日",
+        "2026年8月29日(土) 10:00",
+        "2026年9月9日(水) 23:59",
+        "2026年9月20日(日)",
+        "2026年9月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "567b018326f3cc0a",
+      "title": "【8/30】『しゃシャリでてすみません』（毎日新聞出版）刊行記念 銀シャリ・橋本直さんサイン会 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "銀シャリ・橋本直",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69836",
+      "status": "closed",
+      "dates": [
+        "2026年8月8日",
+        "2026年8月30日",
+        "2026年8月29日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "apply_url": "https://livepocket.jp/e/txvh6",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "d81dccab6493384d",
+      "title": "【8/9受注開始】『美術のトラちゃん②』刊行記念 パピヨン本田さんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "パピヨン本田",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/61529",
+      "status": "open",
+      "dates": [
+        "2025年8月1日",
+        "2025年8月3日",
+        "2025年8月2日",
+        "2025年8月9日",
+        "2025年9月9日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "f0cabee584ae654b",
+      "title": "【9/12（土）】あのあと、能登で何が起こったか：記者・元記者の目から見た「新しくて古い防災」開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "松原タニシ",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69760",
+      "status": "closed",
+      "dates": [
+        "2026年8月16日",
+        "2026年8月17日",
+        "2026年9月12日",
+        "2026年9月11日",
+        "8月16日",
+        "8月17日"
+      ],
+      "apply_url": "https://livepocket.jp/e/qn_wm",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "e2371162f2ab6832",
+      "title": "【9/13まで】Masakiさん『着ぐるみ家族３』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69849",
+      "status": "open",
+      "dates": [
+        "2026年8月10日",
+        "2026年10月12日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月10日",
+        "9月13日"
+      ],
+      "apply_url": "https://livepocket.jp/e/0xwbh",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "fe8606bf6abbd015",
+      "title": "【9/13まで】世禕さん『ペンギン喫茶は今日も青天４』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/70024",
+      "status": "open",
+      "dates": [
+        "2026年8月22日",
+        "2026年8月21日",
+        "2026年10月27日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "8月22日"
+      ],
+      "apply_url": "https://livepocket.jp/e/xk0tf",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "5999ae4d6253423b",
+      "title": "【9/15受注開始】『熊野プラン画集 虫ノ少女ト』刊行記念 熊野プランさんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "熊野プラン",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/62799",
+      "status": "open",
+      "dates": [
+        "2025年9月7日",
+        "2025年9月10日",
+        "2025年9月8日",
+        "2025年9月15日",
+        "2025年10月5日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "8ad6d951c01faaf8",
+      "title": "【9/19】『最終楽章 響け！ユーフォニアム』後編公開記念 原作フェア 武田綾乃先生 サイン会開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "武田綾乃",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/68986",
+      "status": "open",
+      "dates": [
+        "2026年8月5日",
+        "2026年8月6日",
+        "2026年9月1日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "apply_url": "https://livepocket.jp/e/fw4a0",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "ab943b58ce0d08f0",
+      "title": "【9/19開催】『京都北山館の魔女たち』（ポプラ社）刊行記念 望月麻衣先生トーク&サイン会 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "望月麻衣",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69550",
+      "status": "open",
+      "dates": [
+        "2026年8月5日",
+        "2026年8月6日",
+        "2026年9月19日",
+        "2026年9月18日",
+        "2026年8月19日",
+        "2026年8月18日"
+      ],
+      "apply_url": "https://livepocket.jp/e/mazs8",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "a3436e83ef03a8ab",
+      "title": "【9/20開催】宮島未奈先生『ギャルにひかれて寺マルシェ』(KADOKAWA)刊行記念サイン会 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "宮島未奈",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69609",
+      "status": "closed",
+      "dates": [
+        "2026年8月3日",
+        "2026年8月5日",
+        "2026年8月4日",
+        "2026年9月20日",
+        "2026年9月19日",
+        "2026年8月19日"
+      ],
+      "apply_url": "https://livepocket.jp/e/hql9x",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "cf44f3a51bbee9fa",
+      "title": "【9/27まで】染山ゆかさん『春夏秋冬、ご自愛レシピ』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69781",
+      "status": "open",
+      "dates": [
+        "2026年8月9日",
+        "2026年8月10日",
+        "2026年10月21日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月9日"
+      ],
+      "apply_url": "https://livepocket.jp/e/2xjgy",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "915d9aa473f0a6df",
+      "title": "【9/3まで】逢坂冬馬さん『その犬をください』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69736",
+      "status": "closed",
+      "dates": [
+        "2026年8月5日",
+        "2026年8月4日",
+        "2026年9月20日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月5日"
+      ],
+      "apply_url": "https://livepocket.jp/e/2w-iw",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "5eb41bed52e5a5f4",
+      "title": "【9/6まで】はやみねかおる先生『怪盗クイーン ヴェネチア・カーニヴァル』（講談社）刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "はやみねかおる",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69995",
+      "status": "open",
+      "dates": [
+        "2026年8月19日",
+        "2026年8月22日",
+        "2026年9月6日",
+        "2026年9月30日",
+        "2026年8月14日",
+        "8月19日"
+      ],
+      "apply_url": "https://livepocket.jp/e/h26c4",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "c3a0815a2c1f5ddb",
+      "title": "【9/6（日）開催！】中公文庫『シャーロックホームズの凱旋』文庫化記念 森見登美彦さんトーク＆サイン会 のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69960",
+      "status": "closed",
+      "dates": [
+        "2026年8月17日",
+        "2026年9月6日",
+        "2026年8月21日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "2026年8月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "eef5ce4fe6a14f63",
+      "title": "【予約満了】『KとM』刊行記念 かも仮面さんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "かも仮面",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/61436",
+      "status": "open",
+      "dates": [
+        "2025年7月13日",
+        "2025年7月15日",
+        "2025年7月14日",
+        "2025年7月19日",
+        "2025年8月6日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "c73dc8fc09a1ae31",
+      "title": "【予約満了】『奇界遺産3 特装版』刊行記念 佐藤健寿さんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "佐藤健寿",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/61351",
+      "status": "open",
+      "dates": [
+        "2025年7月5日",
+        "2025年7月9日",
+        "2025年7月8日",
+        "2025年7月10日",
+        "2025年8月2日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "17641d2cc615b135",
+      "title": "【受付〆切：8/31】大垣書店教養講座『ベストセラー著者養成講座 ー あなたの強みを武器に変える ー』 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/67680",
+      "status": "unknown",
+      "dates": [
+        "2026年8月6日",
+        "2026年9月12日",
+        "2026年8月31日",
+        "2026年10月10日",
+        "2026年11月14日",
+        "2026年12月12日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "7a96425bb4464493",
+      "title": "【受付終了】『浜木綿子 楽しく波瀾万丈』発売記念 浜木綿子さんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "浜木綿子",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/60881",
+      "status": "open",
+      "dates": [
+        "2025年6月19日",
+        "2025年6月22日",
+        "2025年6月20日",
+        "2025年6月24日",
+        "2025年8月6日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "49b1ab7d4665c11a",
+      "title": "【受付終了】うたまるごはんさんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "うたまるごはん",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/60935",
+      "status": "open",
+      "dates": [
+        "2025年6月19日",
+        "2025年6月20日",
+        "2025年7月31日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "4f75fc66a315ef39",
+      "title": "【受付終了】主婦と生活社『 婚約破棄された令嬢を拾った俺が、イケナイことを教え込む 美味しいものを食べさせておしゃれをさせて、世界一幸せな少女にプロデュース！ １２』桂イチホ先生WEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "桂イチホ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 75,
+      "reasons": "サイン会 +50 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/69319",
+      "status": "closed",
+      "dates": [
+        "2026年8月4日",
+        "2026年8月5日",
+        "2026年8月12日",
+        "2026年9月2日",
+        "2026年8月22日",
+        "2026年8月19日"
+      ],
+      "apply_url": "https://livepocket.jp/e/4xym4",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "c4269861331dbf2f",
@@ -308,7 +819,139 @@
         "8月31日",
         "7月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "8ca67db72916ba37",
+      "title": "GA文庫『死亡エンドを回避したギャルゲーのヒロインたちが俺の【日記帳】を読んで秘密を知ったらしい3』発売記念 addict先生WEBサイン会",
+      "source": "書泉",
+      "creator": "addict",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/45027/",
+      "status": "closed",
+      "dates": [
+        "2026年9月6日",
+        "2028年8月21日",
+        "2026年09月15日",
+        "8月21日",
+        "9月6日",
+        "09月15日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "fd0d9578f0723f2f",
+      "title": "GCN文庫『魔女と傭兵8』発売記念 超法規的かえる先生WEBサイン会",
+      "source": "書泉",
+      "creator": "超法規的かえる",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44701/",
+      "status": "closed",
+      "dates": [
+        "2026年8月31日",
+        "2028年8月3日",
+        "2026年09月24日",
+        "8月3日",
+        "8月31日",
+        "09月24日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "54d99fd693ffb65f",
+      "title": "Pur Comics Pure『お前は俺のモノだろ？〜俺様社長の独占溺愛〜４』発売＆完結記念 高山千先生WEBサイン会",
+      "source": "書泉",
+      "creator": "高山千",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44901/",
+      "status": "closed",
+      "dates": [
+        "2026年8月17日(月)",
+        "2026年8月30日(日)",
+        "2026/9/17",
+        "2026/9/9",
+        "8月17日(月)",
+        "8月30日(日)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "74ffa666c4bac225",
+      "title": "『シャーリー・メディスン』3巻発売記念 森薫先生リアルサイン会 ２DAYS(秋葉原)",
+      "source": "書泉",
+      "creator": "森薫",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44170/",
+      "status": "open",
+      "dates": [
+        "2026年10月3日(土)13:00",
+        "2026年10月4日(日)13:00",
+        "2026年9月10日(木)",
+        "2026年9月22日(火)",
+        "10月3日(土)13:00",
+        "10月4日(日)13:00"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "f710c20b1b2861e5",
+      "title": "『妹はシスコン兄がめんどくさい』6巻発売記念 ヨシミズ先生リアルサイン会(秋葉原)",
+      "source": "書泉",
+      "creator": "ヨシミズ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44059/",
+      "status": "open",
+      "dates": [
+        "2026年9月5日(土)",
+        "2026年7月10日(金)18:00",
+        "2026年7月10日(金)",
+        "2026年8月10日(月)",
+        "2026年8月28日(金)",
+        "2026/8/28"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "503a9ad49279fa27",
+      "title": "【受注商品案内】『灰仭巫覡』＆『エア・ギア』アートPOPUP",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/41019/",
+      "status": "unknown",
+      "dates": [
+        "2026年5月30日(土)",
+        "2026年3月25日(水)10:00",
+        "2026年4月15日(水)23:59",
+        "2026年4月27日(月)",
+        "7月20日",
+        "5月30日(土)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "49d970120bb6485b",
@@ -330,7 +973,139 @@
         "2026年8月24日(月)",
         "2026年8月21日(金)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "27c64fc454782db4",
+      "title": "ひめ恋SELECTION『マスクを取った奏多くんはえっちで溺愛で、ちょっと腹黒い。 5』発売記念 カトウロカ先生WEBサイン会",
+      "source": "書泉",
+      "creator": "カトウロカ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44735/",
+      "status": "closed",
+      "dates": [
+        "2026年8月3日(月)",
+        "2026年8月16日(日)",
+        "2026/9/25",
+        "2026/8/26",
+        "8月3日(月)",
+        "8月16日(日)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "d932013bfd18a625",
+      "title": "ぶんか社コミックス S*girl Selection『執着幼なじみとぷっくり×× 再会した激重彼の舐め愛から逃げられません』3巻＆4巻同時発売記念 成田アポロ先生WEBサイン会",
+      "source": "書泉",
+      "creator": "成田アポロ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44540/",
+      "status": "closed",
+      "dates": [
+        "2026年7月24日(金)",
+        "2026年8月6日(木)",
+        "2026/9/16",
+        "2026/8/16",
+        "7月24日(金)",
+        "8月6日(木)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "1fcac45895c77be0",
+      "title": "アニメージュコミックスコイハルレーベル『熱愛プリンス お兄ちゃんはキミが好き』25巻発売記念 青月まどか先生WEBサイン会",
+      "source": "書泉",
+      "creator": "青月まどか",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/45086/",
+      "status": "closed",
+      "dates": [
+        "2026年8月17日(月)",
+        "2026年8月30日(日)",
+        "2026/10/13",
+        "2026/9/9",
+        "8月17日(月)",
+        "8月30日(日)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "de16207d88235479",
+      "title": "アリアンローズ『魔法世界の受付嬢になりたいです５』発売記念まこ先生サイン会 2026/9/21(月・祝)開催",
+      "source": "書泉",
+      "creator": "発売記念まこ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44015/",
+      "status": "closed",
+      "dates": [
+        "2026年9月21日(月・祝)",
+        "2026年7月13日(月)18:00",
+        "2026年9月11日(金)",
+        "2026年8月18日(火)",
+        "2026/9/21",
+        "9月21日(月・祝)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "c46d72e92ad06d6d",
+      "title": "メルトコミックス『陽だまりのアスファルト 4』発売記念 山口ねね先生WEBサイン会",
+      "source": "書泉",
+      "creator": "山口ねね",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 70,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44737/",
+      "status": "closed",
+      "dates": [
+        "2026年8月3日(月)",
+        "2026年8月16日(日)",
+        "2026/9/25",
+        "2026/8/26",
+        "8月3日(月)",
+        "8月16日(日)"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "13442dd8c73e74a8",
+      "title": "【7/15より開催】やまもとりえ『うちらはマブダチ』展 in 京都のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 65,
+      "reasons": "サイン会 +50 / ゲーム/イラスト系 +15",
+      "url": "https://www.books-ogaki.co.jp/post/68265",
+      "status": "unknown",
+      "dates": [
+        "2026年6月22日",
+        "2026年7月15日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "6月22日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "3efe8da7a1c591af",
@@ -348,7 +1123,7 @@
         "2026年8月28日(金)18:30",
         "8月28日(金)18:30"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "d4c6522711e7b6d7",
@@ -365,7 +1140,29 @@
       "dates": [
         "6月12日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "0741c6a561baa609",
+      "title": "8/29発売 AVC ジューシーハニーコレクションカード PLUS #30（浜辺やよい miru 神木麗 天神羽衣）12BOX入り1カートン販売",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 60,
+      "reasons": "サイン本 +20 / 抽選 +5 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/pickup/43453/",
+      "status": "unknown",
+      "dates": [
+        "2004年9月30日",
+        "2004年9月1日",
+        "8月1日(土)18:00",
+        "9月30日",
+        "11月29日",
+        "12月20日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "2f78a73be00d41fd",
@@ -383,7 +1180,7 @@
         "2026年7月7日",
         "7月7日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "90a5f7447fb285c5",
@@ -405,25 +1202,7 @@
         "2026/8/1（土）11:00",
         "9月21日(月・祝)13:00"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "de38d447952d674d",
-      "title": "スターツ出版『鬼の花嫁』アニメ化記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "first_come",
-      "score": 60,
-      "reasons": "サイン本 +20 / 先着 +25 / 関東 +15",
-      "url": "https://www.shosen.co.jp/fair/43697/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/04",
-        "2026/09/30"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "f3bf333b41c89a0d",
@@ -445,7 +1224,7 @@
         "2026年9月28日(月)",
         "2026年10月31日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "fb9e927a34eba337",
@@ -463,7 +1242,348 @@
         "2026/07/04",
         "2026/09/30"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "488e4d08923f0585",
+      "title": "【10/2まで】ふに・無9さん『怪異さんと俺 《参》』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69775",
+      "status": "open",
+      "dates": [
+        "2026年8月7日",
+        "2026年10月26日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月7日",
+        "10月2日"
+      ],
+      "apply_url": "https://livepocket.jp/e/dgjik",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "e64bd0e6567530cf",
+      "title": "【6/3まで】【抽選】『新装版 もやしもん』完結記念 石川雅之氏WEBサイン会 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "さいとうなおき",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/68058",
+      "status": "open",
+      "dates": [
+        "2026年5月23日",
+        "2026年5月26日",
+        "2026年5月24日",
+        "2026年6月6日",
+        "2026年6月26日",
+        "2026年8月22日"
+      ],
+      "apply_url": "https://livepocket.jp/e/hcxbe",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "e58e9f8cf8ab58d2",
+      "title": "【7/2～7/31】たけいなぎ 絵本『ゆめみるねこ』刊行記念原画展とサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/68787",
+      "status": "unknown",
+      "dates": [
+        "2026年6月22日",
+        "2026年6月23日",
+        "2018年12月3日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "5a8ce76667ed682e",
+      "title": "【8/22まで】【抽選】KADOKAWA『安達としまむらSS3』入間人間先生WEBサイン会",
+      "source": "大垣書店",
+      "creator": "入間人間",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69581",
+      "status": "open",
+      "dates": [
+        "2026年8月6日",
+        "2026年8月23日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月6日",
+        "8月22日"
+      ],
+      "apply_url": "https://livepocket.jp/e/u9uwi",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "5bb69823d8b03293",
+      "title": "【8/22・23開催】夏休み特別企画 LaQであそぼう！LaQハカセブルーがやってくる！ 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "美好よしみ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69675",
+      "status": "unknown",
+      "dates": [
+        "2026年8月2日",
+        "2026年8月3日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "51cdc22c3df4e552",
+      "title": "【8/31まで】【抽選】クラナガさん『恐竜はじめました５』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69789",
+      "status": "unknown",
+      "dates": [
+        "2026年8月6日",
+        "2026年8月7日",
+        "2026年10月13日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月6日"
+      ],
+      "apply_url": "https://livepocket.jp/e/ozvvk",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "49dd369d5246678f",
+      "title": "【8/31まで】人気イラストレーター１０名の直筆サイン入り色紙プレゼントキャンペーンのお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "オンライン",
+      "category": "original_art",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "原画・一点物 +35 / 抽選 +5 / ゲーム/イラスト系 +15",
+      "url": "https://www.books-ogaki.co.jp/post/44192",
+      "status": "unknown",
+      "dates": [
+        "2022年7月28日",
+        "2022年7月30日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "7月28日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "49fd81218b3b7197",
+      "title": "【8/3抽選受付開始】『BLOOM MIYOSHI YOSHIMI FASHION ILLUSTRATIONS』刊行記念 美好よしみさんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "美好よしみ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69450",
+      "status": "open",
+      "dates": [
+        "2026年8月2日",
+        "2026年8月3日",
+        "2026年8月3日(月) 10:00",
+        "2026年8月28日(金) 23:59",
+        "2026年8月29日(土)",
+        "2026年10月4日(日)"
+      ],
+      "apply_url": "https://livepocket.jp/e/1l757",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "b5a5508144e0813b",
+      "title": "【8/3抽選受付開始】『竜とけもの図鑑 山村れぇイラストレーション集』刊行記念 山村れぇさんWEBサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "山村れぇ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69399",
+      "status": "open",
+      "dates": [
+        "2026年8月3日",
+        "2026年8月3日(月) 10:00",
+        "2026年8月28日(金) 23:59",
+        "2026年8月29日(土)",
+        "2026年10月3日(土)",
+        "2026年10月6日(火)"
+      ],
+      "apply_url": "https://livepocket.jp/e/rf1tf",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "51f6ff0f3e9bb649",
+      "title": "【9/12開催】出版無料相談会のお知らせ",
+      "source": "大垣書店",
+      "creator": "山村れぇ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/68447",
+      "status": "unknown",
+      "dates": [
+        "2026年8月3日",
+        "2026年9月12日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "8月3日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "e7a69fd7643f3abd",
+      "title": "【9/14まで】【抽選】犬山スケッチさん『柴犬ぽんちゃん、今日もわが道を行く３』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/70018",
+      "status": "unknown",
+      "dates": [
+        "2026年8月22日",
+        "2026年8月21日",
+        "2026年10月27日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "8月22日"
+      ],
+      "apply_url": "https://livepocket.jp/e/db2wj",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "2c2e2a1ca9d2d897",
+      "title": "【9/1まで】【抽選】KADOKAWA『神の庭付き楠木邸 ６』安斎アキラ先生WEBサイン会",
+      "source": "大垣書店",
+      "creator": "安斎アキラ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69577",
+      "status": "open",
+      "dates": [
+        "2026年8月6日",
+        "2026年9月3日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月6日",
+        "9月1日"
+      ],
+      "apply_url": "https://livepocket.jp/e/mrfrb",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "be591fc450b72591",
+      "title": "【9/3まで】【抽選】むめいさん『へたくそなのに泣くほど笑える！ カッラフルなエッッブリデイ★５thステージ』刊行記念ＷＥＢサイン会のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69855",
+      "status": "unknown",
+      "dates": [
+        "2026年8月10日",
+        "2026年10月10日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月10日",
+        "9月3日"
+      ],
+      "apply_url": "https://livepocket.jp/e/4eyw1",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "c95c76815998111d",
+      "title": "【9/4まで】【抽選】KADOKAWA『鈴木りつ第二短編集 垂直・宇宙・無限』鈴木りつ先生WEBサイン会",
+      "source": "大垣書店",
+      "creator": "鈴木りつ",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69885",
+      "status": "open",
+      "dates": [
+        "2026年8月14日",
+        "2026年8月16日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月14日",
+        "8月16日"
+      ],
+      "apply_url": "https://livepocket.jp/e/fjzxg",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "02c6f1b2cc054e91",
+      "title": "【9/5まで】KADOKAWA『Re:ゼロから始める異世界生活 46』長月達平先生WEBサイン会",
+      "source": "大垣書店",
+      "creator": "長月達平",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 55,
+      "reasons": "サイン会 +50 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69588",
+      "status": "open",
+      "dates": [
+        "2026年8月8日",
+        "2026年8月9日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月8日",
+        "8月9日"
+      ],
+      "apply_url": "https://livepocket.jp/e/qhx48",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "fad7b1bf0f172be5",
@@ -482,7 +1602,7 @@
         "7月17日",
         "8月23日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "f0eb70c9680e49e6",
@@ -500,7 +1620,7 @@
         "３月20日",
         "３月27日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "a052360d0df99cb0",
@@ -520,7 +1640,292 @@
         "7月22日",
         "8月23日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "8fab76e4997542cc",
+      "title": "【7/31刊行】『里山ホームは花盛り』ご案内",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69388",
+      "status": "unknown",
+      "dates": [
+        "2026年7月18日",
+        "2026年7月20日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "7月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "059c0963e85da0c8",
+      "title": "【8/13～16開催】LaQであそぼう！開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/68731",
+      "status": "unknown",
+      "dates": [
+        "2026年8月6日",
+        "2026年8月13日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "8月6日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "b94df89a583ad9ae",
+      "title": "【8/13～9/11開催】「フィリップ・K・ディック展」in 大垣書店 京都本店 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69799",
+      "status": "unknown",
+      "dates": [
+        "2026年8月6日",
+        "2026年8月7日",
+        "2026年8月13日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "2bfd90a72fa090b7",
+      "title": "【8/20開催】葦原 海（みゅう）さんトークショー＆サイン本お渡し会終了",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "東京",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/51406",
+      "status": "unknown",
+      "dates": [
+        "2023年8月10日",
+        "2023年10月25日",
+        "2023年8月20日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "fe2f070058529681",
+      "title": "【8/5刊行】『花鈴のマウンド 19巻』ご案内",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69380",
+      "status": "unknown",
+      "dates": [
+        "2026年7月18日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "7月18日",
+        "8月22日",
+        "8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "b1e3de44b09d9159",
+      "title": "【9/11】『空海読んだら、人生変わった』×『ネガティヴ・ケイパビリティで生きる』刊行記念 渡辺祐真×谷川嘉浩トークイベント〜令和人文主義⭐︎Night vol.3 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69723",
+      "status": "unknown",
+      "dates": [
+        "2026年8月5日",
+        "2026年9月11日",
+        "8月5日",
+        "9月11日"
+      ],
+      "apply_url": "https://livepocket.jp/e/0s29h",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "45508f69a2d16c52",
+      "title": "【9/12・13開催】LaQであそぼう！ LaQハカセライムがやってくる！ 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69769",
+      "status": "unknown",
+      "dates": [
+        "2026年8月6日",
+        "2026年9月12日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "8月6日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "9285f2892eb3686a",
+      "title": "【9/26】楽しく遊んで、経営のコツをつかもう！ ＼松下幸之助がわかる／ ミニレクチャー&ボードゲーム体験会 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "東京",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69693",
+      "status": "unknown",
+      "dates": [
+        "2026年8月3日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "8月3日",
+        "9月26日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "5edf0c53cc0a39ac",
+      "title": "【イベント終了】『ニコプチ秋号発売記念イベント』撮影会&サイン本お渡し会",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/63097",
+      "status": "unknown",
+      "dates": [
+        "2025年9月17日",
+        "2025年9月22日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "9月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "b454b4eca3d06d89",
+      "title": "【ブックスタマ東大和店】営業終了のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "神戸",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69916",
+      "status": "unknown",
+      "dates": [
+        "2026年8月10日",
+        "2026年8月12日",
+        "2026年8月25日(火)",
+        "2026年8月18日",
+        "2026年8月17日",
+        "2026年7月31日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "72e33c1c266765ea",
+      "title": "【プリコ神戸店】営業終了のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "神戸",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/69978",
+      "status": "unknown",
+      "dates": [
+        "2026年8月17日",
+        "2026年8月18日",
+        "2026年8月16日(日)",
+        "2026年8月10日",
+        "2026年7月27日",
+        "2026年7月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "b6191dcff1381deb",
+      "title": "【烏丸御池駅徒歩1分 コワーキングスペース】大垣書店＆lounge オープンのおしらせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/67060",
+      "status": "unknown",
+      "dates": [
+        "2026年4月21日",
+        "2026年4月23日",
+        "2026年4月22日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "37af0ac50fd02fd2",
+      "title": "あさのゆきこ先生サイン会 終了",
+      "source": "大垣書店",
+      "creator": "あさのゆきこ",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/23523",
+      "status": "unknown",
+      "dates": [
+        "2018年4月21日",
+        "2018年4月30日",
+        "2018年4月28日",
+        "2026年8月19日",
+        "2026年8月17日",
+        "2026年8月16日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "5e2e54706fdbdb92",
@@ -539,7 +1944,229 @@
         "2026/09/14",
         "8月15日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "149780f80c4979bc",
+      "title": "今月のイベント（2026年8月）",
+      "source": "大垣書店",
+      "creator": "松原タニシ",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/65126",
+      "status": "unknown",
+      "dates": [
+        "2026年8月1日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "8月1日",
+        "8月19日"
+      ],
+      "apply_url": "https://livepocket.jp/e/vgwd0",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "78f262613bb8849f",
+      "title": "大垣書店×ライフカード 提携クレジットカード のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/66069",
+      "status": "closed",
+      "dates": [
+        "2026年2月17日",
+        "2026年2月18日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "2月17日",
+        "2月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "1f9e02fde4e00341",
+      "title": "来月のイベント（2026年9月）",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "京都",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/64137",
+      "status": "unknown",
+      "dates": [
+        "2026年7月31日",
+        "2026年8月1日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日",
+        "7月31日"
+      ],
+      "apply_url": "https://livepocket.jp/e/tqads",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "6f4da2b54c31c1fe",
+      "title": "森岡隆三さん トークショー＆サイン本お渡し会 終了",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 50,
+      "reasons": "サイン会 +50",
+      "url": "https://www.books-ogaki.co.jp/post/43532",
+      "status": "unknown",
+      "dates": [
+        "2022年6月10日",
+        "2022年6月15日",
+        "2022年6月12日",
+        "2026年8月19日",
+        "2026年8月18日",
+        "2026年8月17日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "31972d247f25be90",
+      "title": "「WEB取り置き」サービスのお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "first_come",
+      "score": 45,
+      "reasons": "サイン本 +20 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/43291",
+      "status": "closed",
+      "dates": [
+        "2022年3月28日",
+        "2022年4月1日",
+        "2026年7月28日",
+        "2026年7月18日",
+        "2026年6月26日",
+        "2026年5月28日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "c08898f9cb15b40d",
+      "title": "【10/11受注開始】『仁村紗和1st写真集「燦爛」』刊行＆パネル展開催記念 仁村紗和さん宛名入りサイン本受注のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "東京",
+      "category": "signed_book",
+      "method": "first_come",
+      "score": 45,
+      "reasons": "サイン本 +20 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/63406",
+      "status": "open",
+      "dates": [
+        "2025年10月10日",
+        "2025年10月14日",
+        "2025年10月11日",
+        "2025年11月5日",
+        "2026年8月19日",
+        "2026年8月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "b7b4de53be13431f",
+      "title": "【12/10受注開始】『さいとうなおきの絵心ゼロから始めるイラストドリル』刊行記念 さいとうなおきさんサイン本販売のお知らせ",
+      "source": "大垣書店",
+      "creator": "さいとうなおき",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "first_come",
+      "score": 45,
+      "reasons": "サイン本 +20 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/64534",
+      "status": "open",
+      "dates": [
+        "2025年12月8日",
+        "2025年12月9日",
+        "2025年12月10日",
+        "2026年1月4日",
+        "2026年1月26日",
+        "2026年8月22日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "603573665142a4dc",
+      "title": "【2/11まで】ＫＡＤＯＫＡＷＡ『死亡遊戯で飯を食う。 ねこめたるアートワークス』鵜飼有志先生＆ねこめたる先生 サイン本受注販売のお知らせ",
+      "source": "大垣書店",
+      "creator": "鵜飼有志",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "first_come",
+      "score": 45,
+      "reasons": "サイン本 +20 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/65134",
+      "status": "open",
+      "dates": [
+        "2026年1月16日",
+        "2026年1月18日",
+        "2026年1月17日",
+        "2026年1月26日(月)",
+        "2026年2月11日(水)",
+        "2026年2月20日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "c3ded72208de0b78",
+      "title": "【6/13受注開始】『酒井若菜 写真集 （仮）』刊行記念 酒井 若菜さんサイン本数量限定販売のお知らせ",
+      "source": "大垣書店",
+      "creator": "若菜",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "first_come",
+      "score": 45,
+      "reasons": "サイン本 +20 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/68411",
+      "status": "closed",
+      "dates": [
+        "2026年6月11日",
+        "2026年6月12日",
+        "2026年6月13日(土) 10:00",
+        "2026年6月21日(日) 23:59",
+        "2026年6月30日(火)",
+        "2026年7月1日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "be9fc29817b88aa6",
+      "title": "【9/12受注開始】『あんのあーの画集 らびかぷ！』刊行記念 あんのあーのさん直筆サイン本販売のお知らせ",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "東京",
+      "category": "signed_book",
+      "method": "first_come",
+      "score": 45,
+      "reasons": "サイン本 +20 / 先着 +25",
+      "url": "https://www.books-ogaki.co.jp/post/62968",
+      "status": "open",
+      "dates": [
+        "2025年9月10日",
+        "2025年9月17日",
+        "2025年9月11日",
+        "2025年9月12日",
+        "2025年9月24日",
+        "2026年8月19日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "bcbfe8967d62edec",
@@ -557,7 +2184,7 @@
         "2026/07/03",
         "2026/10/03"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "3a8b28c14c841975",
@@ -577,7 +2204,7 @@
         "7月24日(金)11:00",
         "8月23日(日)20:00"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "25ade65953ab283b",
@@ -597,7 +2224,7 @@
         "9月30日",
         "7月15日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "d1d5ba40564e2caf",
@@ -619,7 +2246,7 @@
         "2024/03/18",
         "2023/09/19"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "14eef49a7e9aafba",
@@ -637,7 +2264,7 @@
         "2026/06/12",
         "2026/10/04"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "0161fc6a4d71cc7f",
@@ -655,7 +2282,7 @@
         "2026/07/04",
         "2026/10/31"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "42bb05e2cb98ce97",
@@ -675,7 +2302,7 @@
         "7月24日",
         "7月24日(金)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "61222a08ec1fca0a",
@@ -695,7 +2322,7 @@
         "7月10日",
         "7月23日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "243f3d44960833a3",
@@ -713,7 +2340,7 @@
         "2026/06/20",
         "2026/09/30"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "02b45ab060b242aa",
@@ -735,47 +2362,7 @@
         "8月24日(月)",
         "8月24日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "1b82a20a16108f8f",
-      "title": "【書泉芳林堂書店限定カラーイラストペーパー】『俺、悪役騎士団長に転生する。 ５』",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +20 / 抽選 +5 / 関東 +15",
-      "url": "https://www.shosen.co.jp/privilege/44267/",
-      "status": "unknown",
-      "dates": [
-        "2026年7月10日(金)",
-        "7月10日(金)",
-        "7月10日",
-        "7月23日"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
-    },
-    {
-      "id": "56592f79b057baf2",
-      "title": "【書泉芳林堂書店限定ペーパー】『俺、悪役騎士団長に転生する。 2』",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +20 / 抽選 +5 / 関東 +15",
-      "url": "https://www.shosen.co.jp/privilege/44336/",
-      "status": "unknown",
-      "dates": [
-        "2026年7月23日(木)",
-        "7月23日(木)",
-        "7月10日",
-        "7月23日"
-      ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "72f979ddc655e485",
@@ -795,7 +2382,7 @@
         "8月17日(月)",
         "9月7日(月)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "32ddf34b8ca56ddb",
@@ -813,7 +2400,25 @@
         "2026/07/10",
         "2026/09/27"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "de38d447952d674d",
+      "title": "スターツ出版『鬼の花嫁』アニメ化記念フェア",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 40,
+      "reasons": "サイン本 +20 / 抽選 +5 / 関東 +15",
+      "url": "https://www.shosen.co.jp/fair/43697/",
+      "status": "unknown",
+      "dates": [
+        "2026/07/04",
+        "2026/09/30"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "f89cf7b1ff2d54ab",
@@ -831,7 +2436,7 @@
         "2026/07/24",
         "2026/08/23"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "8fc5f034353fd3c8",
@@ -853,7 +2458,7 @@
         "8月17日(月)",
         "8月31日(月)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "d276f4b945516bdc",
@@ -872,7 +2477,7 @@
         "6月5日(金)",
         "9月4日(金)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "e79a21e731417bf3",
@@ -892,7 +2497,7 @@
         "3月31日",
         "4月28日(火)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "c59aed96f065b68c",
@@ -907,7 +2512,7 @@
       "url": "https://www.shosen.co.jp/pickup/43139/",
       "status": "unknown",
       "dates": [],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "fd5286f85752d080",
@@ -927,7 +2532,7 @@
         "7月31日(金)",
         "8月31日(月)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "9d1c936160e8d6ef",
@@ -945,7 +2550,47 @@
         "2026年08月19日",
         "08月19日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "1b82a20a16108f8f",
+      "title": "【書泉芳林堂書店限定カラーイラストペーパー】『俺、悪役騎士団長に転生する。 ５』",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 35,
+      "reasons": "サイン本 +20 / 関東 +15",
+      "url": "https://www.shosen.co.jp/privilege/44267/",
+      "status": "unknown",
+      "dates": [
+        "2026年7月10日(金)",
+        "7月10日(金)",
+        "7月10日",
+        "7月23日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "56592f79b057baf2",
+      "title": "【書泉芳林堂書店限定ペーパー】『俺、悪役騎士団長に転生する。 2』",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 35,
+      "reasons": "サイン本 +20 / 関東 +15",
+      "url": "https://www.shosen.co.jp/privilege/44336/",
+      "status": "unknown",
+      "dates": [
+        "2026年7月23日(木)",
+        "7月23日(木)",
+        "7月10日",
+        "7月23日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "32e022518626ec7a",
@@ -963,7 +2608,7 @@
         "2026年7月24日(金)",
         "7月24日(金)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "13b77d80f462b6fa",
@@ -981,7 +2626,7 @@
         "2026年7月24日(金)",
         "7月24日(金)"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "402bcca134871c55",
@@ -999,7 +2644,7 @@
         "2026年7月22日",
         "7月22日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "07d386578b86f62c",
@@ -1017,7 +2662,7 @@
         "2026年8月31日",
         "8月31日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "b29c22dc5a2fa724",
@@ -1035,7 +2680,7 @@
         "2026年7月22日",
         "7月22日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "cd3d984faf24cee0",
@@ -1053,7 +2698,7 @@
         "2026年7月17日",
         "7月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "2583d439b42ee80b",
@@ -1071,7 +2716,7 @@
         "2026年7月17日",
         "7月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "db0bdd43e43db82e",
@@ -1089,7 +2734,7 @@
         "2026年7月17日",
         "7月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "1ff5bb75325ad2fc",
@@ -1107,7 +2752,7 @@
         "2026年7月17日",
         "7月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "aa92c17b0f366662",
@@ -1125,7 +2770,7 @@
         "2026年7月17日",
         "7月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "c1ce099b0de2210e",
@@ -1143,7 +2788,7 @@
         "2026年7月17日",
         "7月17日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     },
     {
       "id": "048a471cc9723373",
@@ -1161,7 +2806,210 @@
         "2025年3月14日",
         "3月14日"
       ],
-      "fetched_at": "2026-08-23T09:39:05.587252+00:00"
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "81803d1eb8ed6a23",
+      "title": "「文庫」「コミック」新刊案内を配信いたします",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 25,
+      "reasons": "サイン本 +20 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/58966",
+      "status": "unknown",
+      "dates": [
+        "2026年7月27日",
+        "2026年7月28日",
+        "2026年7月18日",
+        "2026年6月26日",
+        "2026年5月28日",
+        "7月27日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "e42c57ea8707eca5",
+      "title": "【5/31まで】【抽選】麒麟 川島明さん『川島明の辞書で呑む 公式辞典』刊行記念直筆サイン本販売のお知らせ",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 25,
+      "reasons": "サイン本 +20 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/67774",
+      "status": "unknown",
+      "dates": [
+        "2026年5月9日",
+        "2026年5月8日",
+        "2026年7月10日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "5月9日"
+      ],
+      "apply_url": "https://livepocket.jp/e/nsu_-",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "34cd82aa2cc33a2c",
+      "title": "【8/29まで】【抽選】KADOKAWA『異世界サムライ ８』齋藤勁吾先生サイン本抽選販売",
+      "source": "大垣書店",
+      "creator": "齋藤勁吾",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 25,
+      "reasons": "サイン本 +20 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69508",
+      "status": "open",
+      "dates": [
+        "2026年8月7日",
+        "2026年8月8日",
+        "2026年8月31日",
+        "2026年8月22日",
+        "2026年8月19日",
+        "8月7日"
+      ],
+      "apply_url": "https://livepocket.jp/e/9zcf8",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "b9a9e5b0ac04aee6",
+      "title": "【9/5】『人新世の「黙示録」』刊行記念 斎藤幸平×西郷南海子トークイベント 開催のお知らせ",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 25,
+      "reasons": "サイン本 +20 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69920",
+      "status": "unknown",
+      "dates": [
+        "2026年8月10日",
+        "2026年8月12日",
+        "2026年9月5日",
+        "8月10日",
+        "8月12日",
+        "9月5日"
+      ],
+      "apply_url": "https://livepocket.jp/e/tqads",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "0416a94d0753aebf",
+      "title": "【当選発表】王欣太先生『達人伝』サイン本購入抽選結果のお知らせ",
+      "source": "大垣書店",
+      "creator": "王欣太",
+      "location": "京都",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 25,
+      "reasons": "サイン本 +20 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/30727",
+      "status": "closed",
+      "dates": [
+        "2019年10月3日",
+        "2019年10月12日",
+        "2019年10月7日",
+        "2019年9月14日",
+        "2019年9月23日",
+        "2019年8月28日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "58b0935b44036164",
+      "title": "【抽選10名様限定】KADOKAWA『ようこそ実力至上主義の教室へ 終・2年生編、3年生編startＢＯＸ トモセシュンサク Art Works』トモセシュンサク先生サイン本抽選販売のお知らせ",
+      "source": "大垣書店",
+      "creator": "トモセシュンサク",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 25,
+      "reasons": "サイン本 +20 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/69206",
+      "status": "open",
+      "dates": [
+        "2026年8月12日",
+        "2026年8月14日",
+        "2026年8月26日",
+        "2026年9月11日",
+        "2026年8月22日",
+        "2026年8月19日"
+      ],
+      "apply_url": "https://livepocket.jp/e/ldzra",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "1ee06df801ca7c3c",
+      "title": "竹書房×大垣書店 プレミアム・サイン本フェア 2026 ～Qpaコレクション 珠玉の3タイトル～",
+      "source": "大垣書店",
+      "creator": "咲牙めぶ",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 25,
+      "reasons": "サイン本 +20 / 抽選 +5",
+      "url": "https://www.books-ogaki.co.jp/post/67845",
+      "status": "open",
+      "dates": [
+        "2026年5月15日",
+        "2026年5月16日",
+        "2026年5月16日(土)",
+        "2026年5月24日(日)",
+        "2026年8月22日",
+        "2026年8月19日"
+      ],
+      "apply_url": "https://livepocket.jp/e/s__5f",
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "679e9f44518bfb23",
+      "title": "崔実さんにご来店いただきました！",
+      "source": "大垣書店",
+      "creator": "",
+      "location": "東京",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 20,
+      "reasons": "サイン本 +20",
+      "url": "https://www.books-ogaki.co.jp/post/15120",
+      "status": "unknown",
+      "dates": [
+        "2016年6月27日",
+        "2016年7月10日",
+        "2016年7月9日",
+        "2016年7月15日",
+        "2026年7月28日",
+        "2026年7月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
+    },
+    {
+      "id": "a15c9017850fcba2",
+      "title": "松岡茉優さん『ほんまつ』発売記念 お名前入れ＆サイン本販売会 終了",
+      "source": "大垣書店",
+      "creator": "森見登美彦",
+      "location": "",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 20,
+      "reasons": "サイン本 +20",
+      "url": "https://www.books-ogaki.co.jp/post/52739",
+      "status": "unknown",
+      "dates": [
+        "2023年11月18日",
+        "2023年12月7日",
+        "2023年12月3日",
+        "2023年11月17日",
+        "2026年8月19日",
+        "2026年8月18日"
+      ],
+      "fetched_at": "2026-08-23T09:45:24.040893+00:00"
     }
   ]
 }
