@@ -10,18 +10,18 @@
   <title>Sign Checker</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./styles.css?v=11">
 </head>
 <body>
   <header class="topbar">
-    <div><div class="eyebrow">AUTOGRAPH RADAR</div><h1>Sign Checker</h1></div>
+    <div><div class="eyebrow">AUTOGRAPH RADAR · UI v0.11</div><h1>Sign Checker</h1></div>
     <div class="top-actions"><button id="installBtn" class="secondary hidden">インストール</button><button id="syncBtn">同期</button></div>
   </header>
 
   <main class="content">
     <section class="hero card">
-      <div><h2>先着・サイン会を最優先</h2><p>サイン会 / 原画・一点物 / サイン本 / 個展・POP UP をまとめて確認。終了済みは自動非表示。</p></div>
-      <div class="pills"><span>先着優先</span><span>自動巡回</span><span>終了済み非表示</span></div>
+      <div><h2>獲得価値を優先</h2><p>サイン会 / 原画・一点物 / サイン本 / 個展・POP UP。終了済みは自動非表示。</p></div>
+      <div class="pills"><span>先着優先</span><span>購入不要抽選優先</span><span>終了済み非表示</span></div>
     </section>
 
     <section class="stats">
@@ -74,6 +74,6 @@
   </nav>
 
   <template id="itemTpl"><article class="item card"><div class="item-head"><div><h3></h3><p class="meta"></p></div><div class="score"></div></div><div class="badges"></div><p class="reason"></p><div class="actions item-actions"></div></article></template>
-  <script src="./app.js" defer></script>
+  <script src="./app.js?v=11" defer></script>
 </body>
 </html>
