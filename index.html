@@ -20,14 +20,14 @@
 
   <main class="content">
     <section class="hero card">
-      <div><h2>先着・サイン会を最優先</h2><p>サイン会 / 原画・一点物 / サイン本 / 個展・POP UP をまとめて確認。</p></div>
-      <div class="pills"><span>先着優先</span><span>自動巡回</span><span>展示も追跡</span></div>
+      <div><h2>先着・サイン会を最優先</h2><p>サイン会 / 原画・一点物 / サイン本 / 個展・POP UP をまとめて確認。終了済みは自動非表示。</p></div>
+      <div class="pills"><span>先着優先</span><span>自動巡回</span><span>終了済み非表示</span></div>
     </section>
 
     <section class="stats">
       <article class="card"><small>未読</small><strong id="statUnseen">0</strong></article>
       <article class="card"><small>緊急 85+</small><strong id="statUrgent">0</strong></article>
-      <article class="card"><small>保存件数</small><strong id="statTotal">0</strong></article>
+      <article class="card"><small>表示中</small><strong id="statTotal">0</strong></article>
     </section>
 
     <section class="filters card">
@@ -63,6 +63,7 @@
         <label>APIベースURL<input id="apiBase" placeholder="https://example.com"></label>
         <label>ウォッチリスト<input id="watchlist" placeholder="Na-Ga, 村田蓮爾, あるぷ"></label>
         <label class="check"><input id="demoMode" type="checkbox"> デモモード</label>
+        <label class="check"><input id="showExpired" type="checkbox"> 終了済みも表示（確認・デバッグ用）</label>
         <div class="actions"><button id="saveSettingsBtn">設定保存</button><button id="seedBtn" class="secondary">デモ初期化</button></div>
       </div></details>
     </section>
