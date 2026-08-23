@@ -1,9 +1,418 @@
 {
-  "generated_at": "2026-08-23T05:01:59.280871+00:00",
-  "count": 0,
+  "generated_at": "2026-08-23T05:27:43.629624+00:00",
+  "count": 20,
   "sources": {
     "shosen": true,
     "x": false
   },
-  "items": []
+  "items": [
+    {
+      "id": "8ca67db72916ba37",
+      "title": "GA文庫『死亡エンドを回避したギャルゲーのヒロインたちが俺の【日記帳】を読んで秘密を知ったらしい3』発売記念 addict先生WEBサイン会",
+      "source": "書泉",
+      "creator": "addict",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/45027/",
+      "status": "closed",
+      "dates": [
+        "2026年9月6日",
+        "2028年8月21日",
+        "2026年09月15日",
+        "8月21日",
+        "9月6日",
+        "09月15日"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "fd0d9578f0723f2f",
+      "title": "GCN文庫『魔女と傭兵8』発売記念 超法規的かえる先生WEBサイン会",
+      "source": "書泉",
+      "creator": "超法規的かえる",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44701/",
+      "status": "closed",
+      "dates": [
+        "2026年8月31日",
+        "2028年8月3日",
+        "2026年09月24日",
+        "8月3日",
+        "8月31日",
+        "09月24日"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "54d99fd693ffb65f",
+      "title": "Pur Comics Pure『お前は俺のモノだろ？〜俺様社長の独占溺愛〜４』発売＆完結記念 高山千先生WEBサイン会",
+      "source": "書泉",
+      "creator": "高山千",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44901/",
+      "status": "closed",
+      "dates": [
+        "2026年8月17日(月)",
+        "2026年8月30日(日)",
+        "8月17日(月)",
+        "8月30日(日)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "80e0d10a9f44f1e9",
+      "title": "TVアニメ『BLACK TORCH』POP UP SHOP （ShoPro Mall 出張所）",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44286/",
+      "status": "unknown",
+      "dates": [
+        "2026年8月25日(火)",
+        "2026年7月4日",
+        "2026年7月9日",
+        "2026年11月5日",
+        "8月25日(火)",
+        "9月6日"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "74ffa666c4bac225",
+      "title": "『シャーリー・メディスン』3巻発売記念 森薫先生リアルサイン会 ２DAYS(秋葉原)",
+      "source": "書泉",
+      "creator": "森薫",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44170/",
+      "status": "open",
+      "dates": [
+        "2026年10月3日(土)13:00",
+        "2026年10月4日(日)13:00",
+        "2026年9月10日(木)",
+        "2026年9月22日(火)",
+        "10月3日(土)13:00",
+        "10月4日(日)13:00"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "f710c20b1b2861e5",
+      "title": "『妹はシスコン兄がめんどくさい』6巻発売記念 ヨシミズ先生リアルサイン会(秋葉原)",
+      "source": "書泉",
+      "creator": "ヨシミズ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44059/",
+      "status": "open",
+      "dates": [
+        "2026年9月5日(土)",
+        "2026年7月10日(金)18:00",
+        "2026年7月10日(金)",
+        "2026年8月10日(月)",
+        "2026年8月28日(金)",
+        "9月5日(土)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "ba982b452dff6b7e",
+      "title": "『高橋よしひろ 犬マンガの世界 「白い戦士ヤマト」から「銀牙伝説」まで』刊行記念お渡し会",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44988/",
+      "status": "open",
+      "dates": [
+        "2026年9月19日",
+        "9月19日"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "503a9ad49279fa27",
+      "title": "【受注商品案内】『灰仭巫覡』＆『エア・ギア』アートPOPUP",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/41019/",
+      "status": "unknown",
+      "dates": [
+        "2026年5月30日(土)",
+        "2026年3月25日(水)10:00",
+        "2026年4月15日(水)23:59",
+        "2026年4月27日(月)",
+        "7月20日",
+        "5月30日(土)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "27c64fc454782db4",
+      "title": "ひめ恋SELECTION『マスクを取った奏多くんはえっちで溺愛で、ちょっと腹黒い。 5』発売記念 カトウロカ先生WEBサイン会",
+      "source": "書泉",
+      "creator": "カトウロカ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44735/",
+      "status": "closed",
+      "dates": [
+        "2026年8月3日(月)",
+        "2026年8月16日(日)",
+        "8月3日(月)",
+        "8月16日(日)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "d932013bfd18a625",
+      "title": "ぶんか社コミックス S*girl Selection『執着幼なじみとぷっくり×× 再会した激重彼の舐め愛から逃げられません』3巻＆4巻同時発売記念 成田アポロ先生WEBサイン会",
+      "source": "書泉",
+      "creator": "成田アポロ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44540/",
+      "status": "closed",
+      "dates": [
+        "2026年7月24日(金)",
+        "2026年8月6日(木)",
+        "7月24日(金)",
+        "8月6日(木)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "1fcac45895c77be0",
+      "title": "アニメージュコミックスコイハルレーベル『熱愛プリンス お兄ちゃんはキミが好き』25巻発売記念 青月まどか先生WEBサイン会",
+      "source": "書泉",
+      "creator": "青月まどか",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/45086/",
+      "status": "closed",
+      "dates": [
+        "2026年8月17日(月)",
+        "2026年8月30日(日)",
+        "8月17日(月)",
+        "8月30日(日)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "de16207d88235479",
+      "title": "アリアンローズ『魔法世界の受付嬢になりたいです５』発売記念まこ先生サイン会 2026/9/21(月・祝)開催",
+      "source": "書泉",
+      "creator": "発売記念まこ",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44015/",
+      "status": "closed",
+      "dates": [
+        "2026年9月21日(月・祝)",
+        "2026年7月13日(月)18:00",
+        "2026年9月11日(金)",
+        "2026年8月18日(火)",
+        "9月21日(月・祝)",
+        "7月13日(月)18:00"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "c46d72e92ad06d6d",
+      "title": "メルトコミックス『陽だまりのアスファルト 4』発売記念 山口ねね先生WEBサイン会",
+      "source": "書泉",
+      "creator": "山口ねね",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 110,
+      "reasons": "サイン会 +50 / 先着 +25 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44737/",
+      "status": "closed",
+      "dates": [
+        "2026年8月3日(月)",
+        "2026年8月16日(日)",
+        "8月3日(月)",
+        "8月16日(日)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "fd5286f85752d080",
+      "title": "【サイン本予約販売】棚架ユウ 先生『転生したら剣でした』",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 90,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44698/",
+      "status": "closed",
+      "dates": [
+        "2026年7月31日(金)",
+        "2026年8月31日(月)",
+        "7月31日(金)",
+        "8月31日(月)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "49d970120bb6485b",
+      "title": "【抽選】『everywear』（翔泳社）刊行記念TSUMOI先生 サイン会（秋葉原）",
+      "source": "書泉",
+      "creator": "刊行記念TSUMOI",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 90,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/45006/",
+      "status": "closed",
+      "dates": [
+        "2025年8月20日",
+        "2026年9月12日(日)",
+        "2026年8月07日(月)12:00",
+        "2026年08月07日(金)12:00",
+        "2026年8月24日(月)",
+        "2026年8月21日(金)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "90a5f7447fb285c5",
+      "title": "【抽選受付】2026年成年コミックフェア サイン本販売",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 90,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44546/",
+      "status": "open",
+      "dates": [
+        "2026年9月21日(月・祝)13:00",
+        "9月21日(月・祝)13:00"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "72f979ddc655e485",
+      "title": "【直筆サイン本抽選販売】理原先生「祝言の籠」",
+      "source": "書泉",
+      "creator": "理原",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 90,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/44967/",
+      "status": "closed",
+      "dates": [
+        "2026年8月17日(月)",
+        "2026年9月7日(月)",
+        "8月17日(月)",
+        "9月7日(月)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "8fc5f034353fd3c8",
+      "title": "バンブーコミックス 恋パラコレクションDX『推しとは恋に落ちません。（たぶん）3』発売記念 三浦ひらく先生サイン本予約抽選販売",
+      "source": "書泉",
+      "creator": "三浦ひらく",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 90,
+      "reasons": "サイン会 +50 / 抽選 +5 / 関東 +15 / 成人向け +20",
+      "url": "https://www.shosen.co.jp/event/43965/",
+      "status": "closed",
+      "dates": [
+        "2026年8月17日(月)",
+        "2026年8月31日(月)",
+        "8月17日(月)",
+        "8月31日(月)"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "e89f6dd6bff0aafd",
+      "title": "【イベント情報掲載についてのお知らせ】",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 65,
+      "reasons": "サイン会 +50 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/36977/",
+      "status": "unknown",
+      "dates": [
+        "2025年10月10日",
+        "10月10日"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    },
+    {
+      "id": "3efe8da7a1c591af",
+      "title": "ストラング流，線形代数の世界 『図解線形代数：ストラング流直感的理解』出版記念講演",
+      "source": "書泉",
+      "creator": "",
+      "location": "秋葉原",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 65,
+      "reasons": "サイン会 +50 / 関東 +15",
+      "url": "https://www.shosen.co.jp/event/44902/",
+      "status": "open",
+      "dates": [
+        "2026年8月28日(金)18:30",
+        "8月28日(金)18:30"
+      ],
+      "fetched_at": "2026-08-23T05:27:43.629624+00:00"
+    }
+  ]
 }
