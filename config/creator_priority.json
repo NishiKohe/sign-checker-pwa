@@ -3,7 +3,11 @@
     "Na-Ga",
     "米山舞",
     "大暮維人",
-    "村田蓮爾"
+    "村田蓮爾",
+    "いとうのいぢ",
+    "黒星紅白",
+    "huke",
+    "カントク"
   ],
   "tier_a": [
     "河森正治",
@@ -12,7 +16,19 @@
     "カズキヨネ",
     "redjuice",
     "岸田メル",
-    "Tony"
+    "Tony",
+    "深崎暮人",
+    "藤ちょこ",
+    "lack",
+    "しらび",
+    "BUNBUN",
+    "abec",
+    "珈琲貴族",
+    "てぃんくる",
+    "べっかんこう",
+    "みつみ美里",
+    "甘露樹",
+    "涼香"
   ],
-  "notes": "Server-side seed list for creator-value scoring. The PWA watchlist adds a separate personal boost."
+  "notes": "Server-side seed list for creator-value scoring. The PWA watchlist adds a separate personal boost. Expand this curated list as real results are reviewed."
 }
