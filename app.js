@@ -1,51 +1,188 @@
-const STORAGE='sign-checker-pwa-v4';
-const labels={autograph_event:'サイン会',original_art:'原画・一点物',signed_book:'サイン本',exhibition:'個展・POP UP',campaign:'応募企画',other:'その他'};
+const STORAGE='sign-checker-pwa-v5';
+const labels={autograph_event:'サイン会',original_art:'原画・色紙・一点物',signed_book:'サイン本',exhibition:'個展・POP UP',campaign:'応募企画',other:'その他'};
 const methods={first_come:'先着',lottery:'抽選',unknown:'方式不明'};
+const acquisitions={first_come:'先着',lottery_free:'購入不要抽選',lottery_open:'抽選',lottery_purchase:'購入条件付き抽選',direct_sale:'直接販売',unknown:'方式未判定'};
 const $=s=>document.querySelector(s);
 let installPrompt=null;
+
 const demo=[
-{id:'1',title:'Na-Ga 直筆サイン会 先着受付',source:'X',creator:'Na-Ga',location:'秋葉原',category:'autograph_event',method:'first_come',score:122,reasons:'サイン会 +50 / 先着 +25 / 関東 +15 / Na-Ga +40',url:'https://example.com',seen:false,ignored:false,favorite:true,status:'open',dates:[],event_start:'2026-09-01T13:00+09:00',apply_start:'2026-08-24T12:00+09:00',apply_end:'2026-08-28T23:59+09:00'},
-{id:'2',title:'村田蓮爾 複製原画 予約開始',source:'BOOTH',creator:'村田蓮爾',location:'通販',category:'original_art',method:'first_come',score:94,reasons:'原画・一点物 +35 / 先着 +25 / 注目作家 +15',url:'https://example.com',seen:false,ignored:false,favorite:true,status:'open',dates:[],event_start:null,apply_start:'2026-08-25T20:00+09:00',apply_end:null},
-{id:'3',title:'あるぷ先生 サイン本 抽選販売',source:'書泉',creator:'あるぷ',location:'神保町',category:'signed_book',method:'lottery',score:72,reasons:'サイン本 +20 / 関東 +15 / 注目作家 +15',url:'https://example.com',seen:false,ignored:false,favorite:false,status:'unknown',dates:[],event_start:null,apply_start:'2026-08-26T10:00+09:00',apply_end:'2026-09-02T23:59+09:00'}
+  {id:'1',title:'Na-Ga 直筆サイン会 先着受付',source:'X',creator:'Na-Ga',location:'秋葉原',category:'autograph_event',method:'first_come',acquisition:'first_come',score:130,reasons:'サイン会 / 先着で獲得 / 著名クリエイター',url:'https://example.com',seen:false,ignored:false,favorite:true,status:'open',tags:['X','サイン会','先着','Na-Ga','秋葉原','著名クリエイター'],event_start:'2026-09-01T13:00+09:00',apply_start:'2026-08-24T12:00+09:00',apply_end:'2026-08-28T23:59+09:00'},
+  {id:'2',title:'村田蓮爾 直筆原画 先着販売',source:'BOOTH',creator:'村田蓮爾',location:'オンライン',category:'original_art',method:'first_come',acquisition:'first_come',score:125,reasons:'原画・直筆 / 先着で獲得 / 著名クリエイター',url:'https://example.com',seen:false,ignored:false,favorite:true,status:'open',tags:['BOOTH','原画・色紙・一点物','先着','村田蓮爾','オンライン','一点物・直筆'],event_start:null,apply_start:'2026-08-25T20:00+09:00',apply_end:null},
+  {id:'3',title:'あるぷ先生 サイン本 抽選販売',source:'書泉',creator:'あるぷ',location:'神保町',category:'signed_book',method:'lottery',acquisition:'lottery_open',score:88,reasons:'サイン本重点 / 抽選',url:'https://example.com',seen:false,ignored:false,favorite:false,status:'open',tags:['書泉','サイン本','抽選','あるぷ','神保町'],event_start:null,apply_start:'2026-08-26T10:00+09:00',apply_end:'2026-09-02T23:59+09:00'}
 ];
-function defaults(){return{items:[],settings:{apiBase:'',watchlist:'Na-Ga, 村田蓮爾, あるぷ',demoMode:false,showExpired:false},ui:{tab:'all',q:'',score:'0',sort:'score'},feed:{generatedAt:null,sources:{}}}}
-function load(){try{const raw=JSON.parse(localStorage.getItem(STORAGE)||'{}');return{...defaults(),...raw,settings:{...defaults().settings,...(raw.settings||{})},ui:{...defaults().ui,...(raw.ui||{})},feed:{...defaults().feed,...(raw.feed||{})}}}catch{return defaults()}}
+
+function defaults(){
+  return {
+    items:[],
+    settings:{apiBase:'',watchlist:'Na-Ga, 村田蓮爾, あるぷ',demoMode:false,showExpired:false},
+    ui:{tab:'all',q:'',score:'0',sort:'score',source:'all',acquisition:'all',tagFilter:''},
+    feed:{generatedAt:null,sources:{}}
+  };
+}
+function load(){
+  try{
+    const raw=JSON.parse(localStorage.getItem(STORAGE)||'{}');
+    return {...defaults(),...raw,settings:{...defaults().settings,...(raw.settings||{})},ui:{...defaults().ui,...(raw.ui||{})},feed:{...defaults().feed,...(raw.feed||{})}};
+  }catch{return defaults()}
+}
 let state=load();
 function save(){localStorage.setItem(STORAGE,JSON.stringify(state))}
 function toast(t){const e=document.createElement('div');e.className='toast';e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),2200)}
-function statusLabel(v){return v==='open'?'受付中':v==='closed'?'終了':'状況未判定'}
 function safeUrl(v){try{const u=new URL(v,location.href);return ['http:','https:'].includes(u.protocol)?u.href:'#'}catch{return '#'}}
-function fmtIso(v){if(!v)return'';const d=new Date(v);if(Number.isNaN(d.getTime()))return'';return new Intl.DateTimeFormat('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}).format(d)}
-function normalizedExpiry(v){if(!v)return NaN;let ms=Date.parse(v);if(!Number.isFinite(ms))return NaN;/* date-only parser values are stored as 00:00 JST; keep them visible for the whole day */if(/T00:00(?::00)?(?:\.000)?(?:\+09:00|Z|[+-]\d\d:\d\d)?$/.test(String(v))){ms+=24*60*60*1000-1}return ms}
+function statusLabel(v){return v==='open'?'受付中':v==='closed'?'終了':'状況未判定'}
+
+function fmtDate(v){
+  if(!v)return '未取得';
+  const d=new Date(v);if(Number.isNaN(d.getTime()))return String(v);
+  const dateOnly=/T00:00(?::00)?(?:\.000)?(?:\+09:00|Z|[+-]\d\d:\d\d)?$/.test(String(v));
+  const opts=dateOnly?{year:'numeric',month:'numeric',day:'numeric'}:{year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false};
+  return new Intl.DateTimeFormat('ja-JP',{...opts,timeZone:'Asia/Tokyo'}).format(d);
+}
+function normalizedExpiry(v){
+  if(!v)return NaN;let ms=Date.parse(v);if(!Number.isFinite(ms))return NaN;
+  if(/T00:00(?::00)?(?:\.000)?(?:\+09:00|Z|[+-]\d\d:\d\d)?$/.test(String(v)))ms+=24*60*60*1000-1;
+  return ms;
+}
 function isExpired(x,now=Date.now()){
-  if(x.expired===true)return true;
-  if(x.status==='closed')return true;
+  if(x.expired===true||x.status==='closed')return true;
   const deadline=normalizedExpiry(x.apply_end);if(Number.isFinite(deadline))return deadline<now;
   const eventEnd=normalizedExpiry(x.event_end||x.event_start);if(Number.isFinite(eventEnd))return eventEnd<now;
   return false;
 }
 function visibleBase(){return state.items.filter(x=>!x.ignored&&(state.settings.showExpired||!isExpired(x)))}
-function sortItems(items,mode){const copy=[...items];if(mode==='score')return copy.sort((a,b)=>Number(b.score||0)-Number(a.score||0));return copy.sort((a,b)=>{const av=a[mode]?Date.parse(a[mode]):Number.POSITIVE_INFINITY;const bv=b[mode]?Date.parse(b[mode]):Number.POSITIVE_INFINITY;if(av!==bv)return av-bv;return Number(b.score||0)-Number(a.score||0)})}
-function filtered(){const q=($('#q').value||'').toLowerCase().trim(),min=Number($('#scoreFilter').value||0),tab=state.ui.tab,mode=state.ui.sort||'score';const items=visibleBase().filter(x=>Number(x.score||0)>=min).filter(x=>tab==='all'||(tab==='urgent'&&Number(x.score||0)>=85)||(tab==='favorites'&&x.favorite)||x.category===tab).filter(x=>!q||[x.title,x.creator,x.location,x.source,x.reasons,(x.dates||[]).join(' '),x.event_start,x.apply_start,x.apply_end].join(' ').toLowerCase().includes(q));return sortItems(items,mode)}
-function addAction(container,label,act,id){const b=document.createElement('button');b.className='secondary';b.dataset.act=act;b.dataset.id=id;b.textContent=label;container.appendChild(b)}
-function render(){
-$('#q').value=state.ui.q||'';$('#scoreFilter').value=state.ui.score||'0';$('#sortMode').value=state.ui.sort||'score';$('#apiBase').value=state.settings.apiBase||'';$('#watchlist').value=state.settings.watchlist||'';$('#demoMode').checked=!!state.settings.demoMode;const se=$('#showExpired');if(se)se.checked=!!state.settings.showExpired;
-document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===state.ui.tab));
-const all=visibleBase();$('#statUnseen').textContent=all.filter(x=>!x.seen).length;$('#statUrgent').textContent=all.filter(x=>Number(x.score||0)>=85).length;$('#statTotal').textContent=all.length;
-const list=$('#list');list.innerHTML='';const items=filtered();if(!items.length){list.innerHTML='<div class="card empty">現在見られる案件はありません。終了済み・期限切れ案件は自動的に非表示です。</div>';return}
-for(const x of items){const n=$('#itemTpl').content.firstElementChild.cloneNode(true);n.classList.toggle('urgent',Number(x.score||0)>=85);n.classList.toggle('seen',x.seen);n.querySelector('h3').textContent=x.title||'(無題)';const timeline=[x.event_start?`開催 ${fmtIso(x.event_start)}`:'',x.apply_start?`申込 ${fmtIso(x.apply_start)}`:'',x.apply_end?`締切 ${fmtIso(x.apply_end)}`:''].filter(Boolean);const legacy=timeline.length?[]:(x.dates||[]).slice(0,2);n.querySelector('.meta').textContent=[x.source,x.creator||'作家未抽出',x.location||'場所未抽出',...timeline,...legacy].filter(Boolean).join(' · ');n.querySelector('.score').textContent=Number(x.score||0);n.querySelector('.reason').textContent=x.reasons||'';const badges=[labels[x.category]||x.category,methods[x.method]||x.method,statusLabel(x.status),state.settings.showExpired&&isExpired(x)?'終了済み':'',x.favorite?'お気に入り':'',x.seen?'既読':''].filter(Boolean);const badgeBox=n.querySelector('.badges');badges.forEach(v=>{const s=document.createElement('span');s.className='badge';s.textContent=v;badgeBox.appendChild(s)});const actions=n.querySelector('.item-actions');actions.textContent='';const link=document.createElement('a');link.href=safeUrl(x.apply_url||x.url);link.target='_blank';link.rel='noopener';link.textContent=x.apply_url?'申込ページ':'元ページ';actions.appendChild(link);if(x.apply_url&&x.url){const src=document.createElement('a');src.href=safeUrl(x.url);src.target='_blank';src.rel='noopener';src.textContent='情報元';actions.appendChild(src)}addAction(actions,x.seen?'未読へ':'既読','seen',x.id);addAction(actions,x.favorite?'★解除':'★','favorite',x.id);addAction(actions,'除外','ignore',x.id);list.appendChild(n)}
+
+function acquisitionOf(x){
+  if(x.acquisition)return x.acquisition;
+  if(x.method==='first_come')return 'first_come';
+  if(x.method==='lottery')return 'lottery_open';
+  return 'unknown';
 }
-function boost(items){const names=(state.settings.watchlist||'').split(',').map(s=>s.trim()).filter(Boolean);return items.map(x=>{let add=0,rs='';for(const n of names){if(`${x.title||''} ${x.creator||''}`.includes(n)){const b=n==='Na-Ga'?40:15;add+=b;rs+=` / ウォッチ:${n} +${b}`}}return add?{...x,score:Math.min(140,Number(x.score||0)+add),reasons:(x.reasons||'')+rs}:x})}
+function tagsFor(x){
+  const vals=[];const add=v=>{v=String(v||'').trim();if(v&&!vals.includes(v))vals.push(v)};
+  (x.tags||[]).forEach(add);
+  add(x.source);add(labels[x.category]||x.category);add(acquisitions[acquisitionOf(x)]);add(x.creator);add(x.location);
+  if(x.subject_type==='performer')add('声優・出演者');
+  if(x.subject_type==='performer_exception')add('著名出演者');
+  return vals;
+}
+function searchText(x){return [x.title,x.creator,x.location,x.source,x.reasons,statusLabel(x.status),acquisitions[acquisitionOf(x)],...(x.dates||[]),...tagsFor(x),x.event_start,x.apply_start,x.apply_end].filter(Boolean).join(' ').toLowerCase()}
+
+function sortItems(items,mode){
+  const copy=[...items];
+  if(mode==='score')return copy.sort((a,b)=>Number(b.score||0)-Number(a.score||0));
+  return copy.sort((a,b)=>{
+    const av=a[mode]?Date.parse(a[mode]):Number.POSITIVE_INFINITY;
+    const bv=b[mode]?Date.parse(b[mode]):Number.POSITIVE_INFINITY;
+    if(av!==bv)return av-bv;
+    return Number(b.score||0)-Number(a.score||0);
+  });
+}
+function filtered(){
+  const q=(state.ui.q||'').toLowerCase().trim();
+  const min=Number(state.ui.score||0),tab=state.ui.tab,mode=state.ui.sort||'score';
+  const source=state.ui.source||'all',acq=state.ui.acquisition||'all',tag=state.ui.tagFilter||'';
+  const items=visibleBase()
+    .filter(x=>Number(x.score||0)>=min)
+    .filter(x=>source==='all'||x.source===source)
+    .filter(x=>acq==='all'||acquisitionOf(x)===acq)
+    .filter(x=>tab==='all'||(tab==='urgent'&&Number(x.score||0)>=85)||(tab==='favorites'&&x.favorite)||x.category===tab)
+    .filter(x=>!tag||tagsFor(x).includes(tag))
+    .filter(x=>!q||searchText(x).includes(q));
+  return sortItems(items,mode);
+}
+
+function renderSourceControls(all){
+  const sources=[...new Set(all.map(x=>x.source).filter(Boolean))].sort((a,b)=>a.localeCompare(b,'ja'));
+  const sel=$('#sourceFilter');sel.textContent='';
+  const any=document.createElement('option');any.value='all';any.textContent='すべての情報元';sel.appendChild(any);
+  sources.forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=s;sel.appendChild(o)});
+  if(state.ui.source!=='all'&&!sources.includes(state.ui.source))state.ui.source='all';
+  sel.value=state.ui.source||'all';
+
+  const counts=new Map();all.forEach(x=>{if(x.source)counts.set(x.source,(counts.get(x.source)||0)+1)});
+  const box=$('#sourceChips');box.textContent='';
+  [...counts.entries()].sort((a,b)=>b[1]-a[1]).forEach(([s,n])=>{
+    const b=document.createElement('button');b.className='source-chip'+(state.ui.source===s?' active':'');b.dataset.source=s;b.textContent=`${s} ${n}`;box.appendChild(b);
+  });
+}
+function renderActiveTag(){
+  const box=$('#activeTag');box.textContent='';
+  if(!state.ui.tagFilter){box.classList.add('hidden');return}
+  box.classList.remove('hidden');
+  const span=document.createElement('span');span.textContent=`タグ: ${state.ui.tagFilter}`;box.appendChild(span);
+  const b=document.createElement('button');b.dataset.clearTag='1';b.textContent='解除';box.appendChild(b);
+}
+function setDateBox(card,field,value){const e=card.querySelector(`[data-date="${field}"] .date-value`);if(e)e.textContent=fmtDate(value)}
+function addAction(container,label,act,id){const b=document.createElement('button');b.className='secondary';b.dataset.act=act;b.dataset.id=id;b.textContent=label;container.appendChild(b)}
+function addTag(container,text,x){
+  if(!text)return;
+  const b=document.createElement('button');b.className='item-tag';b.textContent=text;
+  if(text===x.source){b.classList.add('source-tag');b.dataset.source=x.source}else b.dataset.filterTag=text;
+  container.appendChild(b);
+}
+
+function render(){
+  $('#q').value=state.ui.q||'';$('#scoreFilter').value=state.ui.score||'0';$('#sortMode').value=state.ui.sort||'score';$('#acquisitionFilter').value=state.ui.acquisition||'all';
+  $('#apiBase').value=state.settings.apiBase||'';$('#watchlist').value=state.settings.watchlist||'';$('#demoMode').checked=!!state.settings.demoMode;$('#showExpired').checked=!!state.settings.showExpired;
+  document.querySelectorAll('[data-tab]').forEach(b=>b.classList.toggle('active',b.dataset.tab===state.ui.tab));
+
+  const all=visibleBase();renderSourceControls(all);renderActiveTag();
+  $('#statUnseen').textContent=all.filter(x=>!x.seen).length;$('#statUrgent').textContent=all.filter(x=>Number(x.score||0)>=85).length;$('#statTotal').textContent=all.length;
+
+  const list=$('#list');list.textContent='';const items=filtered();$('#resultCount').textContent=`${items.length}件`;
+  if(!items.length){list.innerHTML='<div class="card empty">条件に合う案件はありません。終了済み・期限切れ案件は通常非表示です。</div>';return}
+
+  for(const x of items){
+    const n=$('#itemTpl').content.firstElementChild.cloneNode(true);n.classList.toggle('urgent',Number(x.score||0)>=85);n.classList.toggle('seen',x.seen);
+    n.querySelector('h3').textContent=x.title||'(タイトル未取得)';
+    n.querySelector('.score-value').textContent=Number(x.score||0);
+    n.querySelector('.creator').textContent=x.creator||'作家未抽出';n.querySelector('.location').textContent=x.location||'場所未抽出';
+
+    const tagBox=n.querySelector('.item-tags');tagsFor(x).slice(0,10).forEach(t=>addTag(tagBox,t,x));
+    const status=document.createElement('span');status.className='status-text';status.textContent=statusLabel(x.status);n.querySelector('.card-meta').appendChild(status);
+
+    setDateBox(n,'event_start',x.event_start);setDateBox(n,'apply_start',x.apply_start);setDateBox(n,'apply_end',x.apply_end);
+    n.querySelector('.reason').textContent=x.reasons||'判定根拠未取得';
+
+    const actions=n.querySelector('.item-actions');actions.textContent='';
+    const link=document.createElement('a');link.href=safeUrl(x.apply_url||x.url);link.target='_blank';link.rel='noopener';link.textContent=x.apply_url?'申込ページ':'元ページ';actions.appendChild(link);
+    if(x.apply_url&&x.url){const src=document.createElement('a');src.href=safeUrl(x.url);src.target='_blank';src.rel='noopener';src.textContent='情報元';actions.appendChild(src)}
+    addAction(actions,x.seen?'未読へ':'既読','seen',x.id);addAction(actions,x.favorite?'★解除':'★','favorite',x.id);addAction(actions,'除外','ignore',x.id);
+    list.appendChild(n);
+  }
+}
+
+function boost(items){
+  const names=(state.settings.watchlist||'').split(',').map(s=>s.trim()).filter(Boolean);
+  return items.map(x=>{
+    let add=0,rs='';for(const name of names){if(`${x.title||''} ${x.creator||''}`.includes(name)){const b=name==='Na-Ga'?40:15;add+=b;rs+=` / ウォッチ:${name} +${b}`}}
+    return add?{...x,score:Math.min(140,Number(x.score||0)+add),reasons:(x.reasons||'')+rs}:x;
+  });
+}
 function mergeFeed(items){const old=new Map(state.items.map(x=>[x.id,x]));state.items=boost(items).map(x=>{const prev=old.get(x.id)||{};return{...x,seen:!!prev.seen,ignored:!!prev.ignored,favorite:!!prev.favorite}})}
-async function loadStaticFeed(){const r=await fetch(`./data/items.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error('収集データ取得失敗');const p=await r.json();const items=Array.isArray(p.items)?p.items:[];mergeFeed(items);state.feed={generatedAt:p.generated_at||null,sources:p.sources||{}};save();render();return visibleBase().length}
-async function apiItems(){const base=(state.settings.apiBase||'').replace(/\/$/,'');if(!base)throw new Error('APIベースURL未設定');const r=await fetch(`${base}/api/items`);if(!r.ok)throw new Error('API接続失敗');const a=await r.json();return boost(a.map((x,i)=>({...x,id:String(x.id??x.url??i),score:Number(x.score||0),seen:!!x.seen,ignored:!!x.ignored,favorite:!!x.favorite})))}
+async function loadStaticFeed(){const r=await fetch(`./data/items.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error('収集データ取得失敗');const p=await r.json();mergeFeed(Array.isArray(p.items)?p.items:[]);state.feed={generatedAt:p.generated_at||null,sources:p.sources||{}};save();render();return visibleBase().length}
+async function apiItems(){const baseUrl=(state.settings.apiBase||'').replace(/\/$/,'');if(!baseUrl)throw new Error('APIベースURL未設定');const r=await fetch(`${baseUrl}/api/items`);if(!r.ok)throw new Error('API接続失敗');const a=await r.json();return boost(a.map((x,i)=>({...x,id:String(x.id??x.url??i),score:Number(x.score||0),seen:!!x.seen,ignored:!!x.ignored,favorite:!!x.favorite})))}
 function upsert(items){const m=new Map(state.items.map(x=>[x.id,x]));items.forEach(x=>m.set(x.id,{...(m.get(x.id)||{}),...x}));state.items=[...m.values()]}
-document.addEventListener('click',async e=>{const tab=e.target.closest('[data-tab]');if(tab){state.ui.tab=tab.dataset.tab;save();render();return}const a=e.target.closest('[data-act]');if(a){const x=state.items.find(v=>v.id===a.dataset.id);if(!x)return;if(a.dataset.act==='seen')x.seen=!x.seen;if(a.dataset.act==='favorite')x.favorite=!x.favorite;if(a.dataset.act==='ignore')x.ignored=true;save();render()}});
-$('#q').addEventListener('input',e=>{state.ui.q=e.target.value;save();render()});$('#scoreFilter').addEventListener('change',e=>{state.ui.score=e.target.value;save();render()});$('#sortMode').addEventListener('change',e=>{state.ui.sort=e.target.value;save();render()});
-$('#saveSettingsBtn').addEventListener('click',async()=>{state.settings.apiBase=$('#apiBase').value.trim();state.settings.watchlist=$('#watchlist').value.trim();state.settings.demoMode=$('#demoMode').checked;const se=$('#showExpired');state.settings.showExpired=se?se.checked:false;save();if(state.settings.demoMode&&state.items.length===0){state.items=structuredClone(demo)}else if(!state.settings.demoMode){try{await loadStaticFeed()}catch{}}render();toast('保存しました')});
+
+function bindSelect(id,key){$(id).addEventListener('change',e=>{state.ui[key]=e.target.value;save();render()})}
+$('#q').addEventListener('input',e=>{state.ui.q=e.target.value;save();render()});
+bindSelect('#scoreFilter','score');bindSelect('#sortMode','sort');bindSelect('#sourceFilter','source');bindSelect('#acquisitionFilter','acquisition');
+
+document.addEventListener('click',e=>{
+  const tab=e.target.closest('[data-tab]');if(tab){state.ui.tab=tab.dataset.tab;save();render();return}
+  const source=e.target.closest('[data-source]');if(source){state.ui.source=source.dataset.source;save();render();return}
+  const tag=e.target.closest('[data-filter-tag]');if(tag){state.ui.tagFilter=tag.dataset.filterTag;save();render();return}
+  if(e.target.closest('[data-clear-tag]')){state.ui.tagFilter='';save();render();return}
+  const a=e.target.closest('[data-act]');if(a){const x=state.items.find(v=>v.id===a.dataset.id);if(!x)return;if(a.dataset.act==='seen')x.seen=!x.seen;if(a.dataset.act==='favorite')x.favorite=!x.favorite;if(a.dataset.act==='ignore')x.ignored=true;save();render()}
+});
+
+$('#saveSettingsBtn').addEventListener('click',async()=>{state.settings.apiBase=$('#apiBase').value.trim();state.settings.watchlist=$('#watchlist').value.trim();state.settings.demoMode=$('#demoMode').checked;state.settings.showExpired=$('#showExpired').checked;save();if(state.settings.demoMode&&state.items.length===0)state.items=structuredClone(demo);else if(!state.settings.demoMode){try{await loadStaticFeed()}catch{}}render();toast('保存しました')});
 $('#seedBtn').addEventListener('click',()=>{state.items=structuredClone(demo);state.settings.demoMode=true;save();render();toast('デモ初期化')});
-$('#syncBtn').addEventListener('click',async()=>{const b=$('#syncBtn');b.disabled=true;b.textContent='同期中…';try{if(state.settings.demoMode){upsert(boost([{id:`d-${Date.now()}`,title:'新着デモ: サイン会情報を検知',source:'デモ巡回',creator:'注目作家',location:'池袋',category:'autograph_event',method:'first_come',score:97,reasons:'サイン会 +50 / 先着 +25 / 関東 +15',url:'https://example.com',seen:false,ignored:false,favorite:false,status:'open',dates:[],event_start:null,apply_start:new Date().toISOString(),apply_end:null}]))}else if(state.settings.apiBase){const base=(state.settings.apiBase||'').replace(/\/$/,'');await fetch(`${base}/api/collect`,{method:'POST'});upsert(await apiItems())}else{const n=await loadStaticFeed();toast(`${n}件を表示中`);return}save();render();toast('同期しました')}catch(err){toast(err.message||'同期失敗')}finally{b.disabled=false;b.textContent='同期'}});
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
-window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('#installBtn').classList.remove('hidden')});$('#installBtn').addEventListener('click',async()=>{if(!installPrompt)return toast('Chromeメニューの「ホーム画面に追加」も利用できます');installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$('#installBtn').classList.add('hidden')});
+$('#syncBtn').addEventListener('click',async()=>{const b=$('#syncBtn');b.disabled=true;b.textContent='同期中…';try{if(state.settings.demoMode){state.items=structuredClone(demo);save();render();toast('デモ同期')}else if(state.settings.apiBase){const baseUrl=(state.settings.apiBase||'').replace(/\/$/,'');await fetch(`${baseUrl}/api/collect`,{method:'POST'});upsert(await apiItems());save();render();toast('同期しました')}else{const n=await loadStaticFeed();toast(`${n}件を表示中`)}}catch(err){toast(err.message||'同期失敗')}finally{b.disabled=false;b.textContent='同期'}});
+
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=12').catch(()=>{}));
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('#installBtn').classList.remove('hidden')});
+$('#installBtn').addEventListener('click',async()=>{if(!installPrompt)return toast('Chromeメニューの「ホーム画面に追加」も利用できます');installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$('#installBtn').classList.add('hidden')});
+
 render();
-if(!state.settings.demoMode&&!state.settings.apiBase){loadStaticFeed().catch(()=>{});}
+if(!state.settings.demoMode&&!state.settings.apiBase)loadStaticFeed().catch(()=>{});
