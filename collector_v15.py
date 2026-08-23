@@ -65,7 +65,7 @@ def classify_lifecycle(item: dict, now: datetime) -> tuple[bool, str]:
     if apply_end and apply_end < now:
         return True, "application_deadline_passed"
 
-    # For actual events, the event date itself is a hard cutoff if there is no later application window.
+    # Event-like items are no longer actionable once the event itself is over.
     event_start = parse_iso(item.get("event_end") or item.get("event_start"))
     if category in ACTION_WINDOW_CATEGORIES and event_start and event_start < now:
         return True, "event_passed"
@@ -74,8 +74,8 @@ def classify_lifecycle(item: dict, now: datetime) -> tuple[bool, str]:
     if category == "signed_book" or acquisition == "direct_sale":
         return False, "signed_book_or_direct_sale"
 
-    # Conservative fallback: when no structured timeline exists for an event-like item and every
-    # date visible on the source page is already past, there is no current action to take.
+    # Conservative fallback: if no structured event/deadline exists and all dates visible on an
+    # event-like source page are already past, it has no current action to take.
     if category in ACTION_WINDOW_CATEGORIES and not item.get("event_start") and not item.get("apply_end"):
         parsed = [parse_raw_date(x, now) for x in (item.get("dates") or [])]
         parsed = [x for x in parsed if x is not None]
@@ -85,11 +85,50 @@ def classify_lifecycle(item: dict, now: datetime) -> tuple[bool, str]:
     return False, "active_or_unknown"
 
 
+def action_state(item: dict, now: datetime) -> str:
+    apply_start = parse_iso(item.get("apply_start"))
+    apply_end = parse_iso(item.get("apply_end"))
+    event_start = parse_iso(item.get("event_start"))
+    status = item.get("status")
+    category = item.get("category")
+    acquisition = item.get("acquisition")
+
+    if apply_start and apply_start > now:
+        return "upcoming"
+    if apply_end and now <= apply_end <= now + timedelta(days=3):
+        return "closing_soon"
+    if status == "open":
+        return "accepting"
+    if category == "signed_book" or acquisition == "direct_sale":
+        return "on_sale_candidate"
+    if not apply_start and not apply_end and not event_start:
+        return "date_unknown"
+    return "active"
+
+
+def add_state_tag(item: dict, state: str) -> None:
+    label = {
+        "upcoming": "受付前",
+        "closing_soon": "締切間近",
+        "accepting": "受付中",
+        "on_sale_candidate": "販売中候補",
+        "date_unknown": "日時未取得",
+        "active": "有効",
+    }.get(state)
+    if not label:
+        return
+    tags = list(item.get("tags") or [])
+    if label not in tags:
+        tags.append(label)
+    item["tags"] = tags[:14]
+
+
 def organize_payload(payload: dict) -> dict:
     now = datetime.now(JST)
     active = []
     removed = []
     reason_counts: dict[str, int] = {}
+    state_counts: dict[str, int] = {}
 
     for item in payload.get("items", []):
         expired, reason = classify_lifecycle(item, now)
@@ -98,8 +137,13 @@ def organize_payload(payload: dict) -> dict:
         if expired:
             removed.append(item)
             reason_counts[reason] = reason_counts.get(reason, 0) + 1
-        else:
-            active.append(item)
+            continue
+
+        state = action_state(item, now)
+        item["action_state"] = state
+        add_state_tag(item, state)
+        state_counts[state] = state_counts.get(state, 0) + 1
+        active.append(item)
 
     # Keep the public feed actionable and compact.
     active.sort(key=lambda x: (-int(x.get("score", 0)), x.get("apply_end") or "9999", x.get("title", "")))
@@ -107,7 +151,8 @@ def organize_payload(payload: dict) -> dict:
     payload["count"] = len(active)
     payload["expired_removed"] = len(removed)
     payload["expired_reason_counts"] = reason_counts
-    payload["feed_policy"] = "active_only_v1"
+    payload["action_state_counts"] = state_counts
+    payload["feed_policy"] = "active_only_v2"
 
     source_counts: dict[str, int] = {}
     category_counts: dict[str, int] = {}
@@ -119,7 +164,6 @@ def organize_payload(payload: dict) -> dict:
     payload["active_source_counts"] = source_counts
     payload["category_counts"] = category_counts
 
-    # Update the existing source health objects to show active counts where possible.
     key_by_label = {
         "書泉": "shosen", "大垣書店": "ogaki", "メロンブックス": "melonbooks",
         "PR TIMES": "prtimes", "アニメイト": "animate", "ゲーマーズ": "gamers",
@@ -137,7 +181,7 @@ def main():
     payload = json.loads(OUT.read_text(encoding="utf-8"))
     payload = organize_payload(payload)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print("active-only feed", payload.get("count"), "removed", payload.get("expired_removed"), payload.get("expired_reason_counts"))
+    print("active-only feed", payload.get("count"), "removed", payload.get("expired_removed"), payload.get("expired_reason_counts"), payload.get("action_state_counts"))
 
 
 if __name__ == "__main__":
