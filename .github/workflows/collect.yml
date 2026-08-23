@@ -8,6 +8,7 @@ on:
     branches: ['main']
     paths:
       - 'collector.py'
+      - 'collector_v2.py'
       - 'requirements.txt'
       - '.github/workflows/collect.yml'
 
@@ -32,7 +33,7 @@ jobs:
       - name: Collect
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python collector.py
+        run: python collector_v2.py
 
       - name: Commit updated feed
         run: |
