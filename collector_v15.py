@@ -15,7 +15,7 @@ CLOSED_TITLE_HINTS = (
     "予約満了", "受付終了", "受付は終了", "応募終了", "応募受付終了", "販売終了",
     "受注終了", "申込終了", "申し込み終了", "完売", "終了しました", "開催終了",
 )
-ACTION_WINDOW_CATEGORIES = {"autograph_event", "campaign", "exhibition"}
+ACTION_WINDOW_CATEGORIES = {"autograph_event", "campaign", "exhibition", "original_art"}
 
 
 def parse_iso(value: str | None):
@@ -48,6 +48,36 @@ def parse_raw_date(raw: str, now: datetime):
     return None
 
 
+def title_deadline(item: dict, now: datetime):
+    title = str(item.get("title") or "")
+    patterns = (
+        re.compile(r"(?:(?P<y>20\d{2})[/-])?(?P<m>\d{1,2})/(?P<d>\d{1,2})(?:\s*(?P<h>\d{1,2})[:：](?P<mi>\d{2}))?\s*まで"),
+        re.compile(r"(?:(?P<y>20\d{2})\s*年\s*)?(?P<m>\d{1,2})\s*月\s*(?P<d>\d{1,2})\s*日(?:\s*(?P<h>\d{1,2})[:：](?P<mi>\d{2}))?\s*まで"),
+    )
+    for pat in patterns:
+        m = pat.search(title)
+        if not m:
+            continue
+        try:
+            mo = int(m.group("m")); d = int(m.group("d"))
+            # Prefer an explicit year found in the source's extracted dates for the same month/day.
+            year = int(m.groupdict().get("y") or 0)
+            if not year:
+                for raw in item.get("dates") or []:
+                    dm = re.search(rf"(20\d{{2}})[/-]{mo}[/-]{d}(?!\d)", str(raw))
+                    if dm:
+                        year = int(dm.group(1)); break
+                    dm = re.search(rf"(20\d{{2}})\s*年\s*{mo}\s*月\s*{d}\s*日", str(raw))
+                    if dm:
+                        year = int(dm.group(1)); break
+            year = year or now.year
+            h = int(m.groupdict().get("h") or 23); mi = int(m.groupdict().get("mi") or 59)
+            return datetime(year, mo, d, h, mi, tzinfo=JST)
+        except Exception:
+            continue
+    return None
+
+
 def classify_lifecycle(item: dict, now: datetime) -> tuple[bool, str]:
     title = str(item.get("title") or "")
     status = str(item.get("status") or "")
@@ -60,6 +90,10 @@ def classify_lifecycle(item: dict, now: datetime) -> tuple[bool, str]:
         return True, "status_closed"
     if any(k in title for k in CLOSED_TITLE_HINTS):
         return True, "title_closed"
+
+    explicit_deadline = title_deadline(item, now)
+    if explicit_deadline and explicit_deadline < now:
+        return True, "title_deadline_passed"
 
     apply_end = parse_iso(item.get("apply_end"))
     if apply_end and apply_end < now:
@@ -145,14 +179,13 @@ def organize_payload(payload: dict) -> dict:
         state_counts[state] = state_counts.get(state, 0) + 1
         active.append(item)
 
-    # Keep the public feed actionable and compact.
     active.sort(key=lambda x: (-int(x.get("score", 0)), x.get("apply_end") or "9999", x.get("title", "")))
     payload["items"] = active
     payload["count"] = len(active)
     payload["expired_removed"] = len(removed)
     payload["expired_reason_counts"] = reason_counts
     payload["action_state_counts"] = state_counts
-    payload["feed_policy"] = "active_only_v2"
+    payload["feed_policy"] = "active_only_v3"
 
     source_counts: dict[str, int] = {}
     category_counts: dict[str, int] = {}
