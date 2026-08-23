@@ -22,6 +22,7 @@ on:
       - 'collector_v13.py'
       - 'collector_v14.py'
       - 'collector_v15.py'
+      - 'collector_v16.py'
       - 'config/creator_priority.json'
       - 'config/performer_priority.json'
       - 'requirements.txt'
@@ -54,7 +55,7 @@ jobs:
       - name: Collect
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python collector_v15.py
+        run: python collector_v16.py
 
       - name: Commit updated feed
         run: |
