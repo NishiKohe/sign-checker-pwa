@@ -9,9 +9,18 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parent; OUT=ROOT/'data'/'items.json'
 UA='SignChecker/0.3 (+https://github.com/NishiKohe/sign-checker-pwa)'
 S=requests.Session(); S.headers.update({'User-Agent':UA,'Accept-Language':'ja,en;q=0.7'})
-LISTS=['https://www.shosen.co.jp/event/search/type%3A57/','https://www.shosen.co.jp/event/search/type%3A66/','https://www.shosen.co.jp/event/']
 
-# 「サイン会」だけでなく「サイン」全般を入口にする。
+# 「サイン会」カテゴリだけではサイン本販売を落とすため、販売会・お渡し会・特典・フェアも巡回。
+LISTS=[
+    'https://www.shosen.co.jp/event/search/type%3A57/',  # サイン会
+    'https://www.shosen.co.jp/event/search/type%3A66/',  # WEBサイン会
+    'https://www.shosen.co.jp/event/search/type%3A67/',  # 販売会（サイン本販売が出る）
+    'https://www.shosen.co.jp/event/search/type%3A58/',  # お渡し会
+    'https://www.shosen.co.jp/event/',                    # 全イベント
+    'https://www.shosen.co.jp/privilege/',                # 特典
+    'https://www.shosen.co.jp/fair/',                     # フェア
+]
+
 SIGN_WORDS=('サイン','直筆','署名')
 EVENT_WORDS=('サイン会','webサイン会','リアルサイン会','お渡し会','トーク＆サイン','トーク&サイン','サインイベント')
 BOOK_SIGN_WORDS=('サイン本','直筆サイン本','サイン入り','サイン付き','サイン付','著者サイン','直筆サイン入り','署名本')
@@ -28,17 +37,14 @@ def sid(src,url,title): return hashlib.sha1(f'{src}|{url}|{title}'.encode()).hex
 def has_sign_context(t):
     x=t.lower()
     if not any(k in x for k in SIGN_WORDS): return False
-    # 「サイン」単独は広すぎるため、販売/本/作家/イベント等の文脈を最低1つ要求。
     context=BOOK_CONTEXT+ART_WORDS+ACTION_WORDS+CREATOR_WORDS+('イベント','オンライン','限定','特典')
     return any(k.lower() in x for k in context)
 
 def signed_book_context(t):
     x=t.lower()
     if any(k.lower() in x for k in BOOK_SIGN_WORDS): return True
-    # 「サイン」と本系語が近接しているケースを拾う（例: 著者直筆サイン付きコミックス）。
     if not any(k in x for k in SIGN_WORDS): return False
-    book='|'.join(map(re.escape,BOOK_CONTEXT))
-    sign='|'.join(map(re.escape,SIGN_WORDS))
+    book='|'.join(map(re.escape,BOOK_CONTEXT)); sign='|'.join(map(re.escape,SIGN_WORDS))
     return bool(re.search(rf'(?:{sign}).{{0,28}}(?:{book})|(?:{book}).{{0,28}}(?:{sign})',x,re.I))
 
 def cat(t):
@@ -47,7 +53,6 @@ def cat(t):
     if any(k.lower() in x for k in ART_WORDS) and any(k in x for k in SIGN_WORDS+('直筆',)): return 'original_art'
     if signed_book_context(x): return 'signed_book'
     if any(k.lower() in x for k in ART_WORDS): return 'original_art'
-    # サイン関連だが種別を断定できないものも全件一覧には残す。
     if has_sign_context(x): return 'other'
     return 'other'
 
@@ -90,7 +95,7 @@ def score(c,m,title,text,l):
     if c=='autograph_event':add(50,'サイン会')
     elif c=='original_art':add(35,'原画・一点物')
     elif c=='signed_book':add(20,'サイン本')
-    elif has_sign_context(title): add(8,'サイン関連')
+    elif has_sign_context(title):add(8,'サイン関連')
     if m=='first_come':add(25,'先着')
     elif m=='lottery':add(5,'抽選')
     if l in ('秋葉原','神保町','池袋','新宿') or '東京' in text:add(15,'関東')
@@ -103,25 +108,26 @@ def get(u):
 
 def shosen():
     links={}
+    detail_re=re.compile(r'/(?:event|privilege|fair)/\d+/?(?:\?.*)?$')
     for lu in LISTS:
         try:soup=BeautifulSoup(get(lu),'html.parser')
-        except Exception as e: print('[shosen:list]',e);continue
+        except Exception as e: print('[shosen:list]',lu,e);continue
         for a in soup.find_all('a',href=True):
             href=a.get('href','')
-            if not re.search(r'/event/\d+/?(?:\?.*)?$',href):continue
+            if not detail_re.search(href):continue
             title=n(a.get_text(' ',strip=True))
             if not title:
                 img=a.find('img');title=n(img.get('alt','') if img else '')
             links[urljoin(lu,href)]=title
     print('discovered detail links',len(links))
     items=[]
-    for i,(url,lt) in enumerate(list(links.items())[:80]):
-        if i:time.sleep(.15)
+    for i,(url,lt) in enumerate(list(links.items())[:140]):
+        if i:time.sleep(.12)
         try:
             soup=BeautifulSoup(get(url),'html.parser');h=soup.find('h1');title=n(h.get_text(' ',strip=True) if h else lt);text=n(soup.get_text(' ',strip=True))
         except Exception as e: print('[shosen:detail]',url,e);continue
         joined=title+' '+text
-        if not relevant(joined): continue
+        if not relevant(joined):continue
         c=cat(joined);m=method(text);l=loc(text);sc,rs=score(c,m,title,text,l)
         items.append({'id':sid('書泉',url,title),'title':title,'source':'書泉','creator':creator(title),'location':l,'category':c,'method':m,'score':sc,'reasons':rs,'url':url,'status':status(text),'dates':dates(text)})
     return items
@@ -129,7 +135,6 @@ def shosen():
 def xitems():
     token=os.getenv('X_BEARER_TOKEN','').strip()
     if not token:return []
-    # 「サイン」を含めて入口を広げ、取得後に relevant() で文脈フィルタリングする。
     q='(サイン OR 直筆 OR 署名 OR "サイン本" OR "サイン入り" OR "直筆色紙" OR "原画販売") -is:retweet lang:ja'
     try:
         r=requests.get('https://api.x.com/2/tweets/search/recent',params={'query':q,'max_results':100,'tweet.fields':'created_at'},headers={'Authorization':f'Bearer {token}','User-Agent':UA},timeout=20);r.raise_for_status();data=r.json().get('data',[])
