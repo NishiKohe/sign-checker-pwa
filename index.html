@@ -10,23 +10,25 @@
   <title>Sign Checker</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=12">
+  <link rel="stylesheet" href="./styles.css?v=13">
 </head>
 <body>
   <header class="topbar">
-    <div><div class="eyebrow">AUTOGRAPH RADAR · UI v0.12</div><h1>Sign Checker</h1></div>
+    <div><div class="eyebrow">AUTOGRAPH RADAR · UI v0.13</div><h1>Sign Checker</h1></div>
     <div class="top-actions"><button id="installBtn" class="secondary hidden">インストール</button><button id="syncBtn">同期</button></div>
   </header>
 
   <main class="content">
     <section class="hero card">
       <div><h2>サイン・色紙まとめ</h2><p>サイン会、サイン本、原画・直筆色紙、一点物、個展情報を情報元横断で整理。</p></div>
-      <div class="pills"><span>サイン本重点</span><span>先着優先</span><span>購入不要抽選優先</span><span>終了済み非表示</span></div>
+      <div class="pills"><span>サイン本重点</span><span>先着優先</span><span>購入不要抽選優先</span><span>完了履歴から学習</span><span>終了済み非表示</span></div>
+      <p id="learnSummary" class="learn-summary">応募・購入完了を付けると好みを学習します</p>
     </section>
 
     <section class="stats">
       <article class="card"><small>未読</small><strong id="statUnseen">0</strong></article>
       <article class="card"><small>緊急 85+</small><strong id="statUrgent">0</strong></article>
+      <article class="card"><small>応募・購入完了</small><strong id="statCompleted">0</strong></article>
       <article class="card"><small>表示可能</small><strong id="statTotal">0</strong></article>
     </section>
 
@@ -70,6 +72,7 @@
         <button class="chip" data-tab="exhibition">個展・POP UP</button>
         <button class="chip" data-tab="campaign">応募企画</button>
         <button class="chip" data-tab="favorites">★</button>
+        <button class="chip" data-tab="completed">応募・購入完了</button>
       </div>
     </section>
 
@@ -107,6 +110,6 @@
     </article>
   </template>
   <script>try{if(!localStorage.getItem('sign-checker-pwa-v5')&&localStorage.getItem('sign-checker-pwa-v4'))localStorage.setItem('sign-checker-pwa-v5',localStorage.getItem('sign-checker-pwa-v4'))}catch{}</script>
-  <script src="./app.js?v=12" defer></script>
+  <script src="./app.js?v=13" defer></script>
 </body>
 </html>
