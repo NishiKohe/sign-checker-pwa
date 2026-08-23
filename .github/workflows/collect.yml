@@ -14,6 +14,7 @@ on:
       - 'collector_v5.py'
       - 'collector_v6.py'
       - 'collector_v7.py'
+      - 'collector_v8.py'
       - 'requirements.txt'
       - '.github/workflows/collect.yml'
 
@@ -38,7 +39,7 @@ jobs:
       - name: Collect
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python collector_v7.py
+        run: python collector_v8.py
 
       - name: Commit updated feed
         run: |
