@@ -3,7 +3,7 @@ name: Collect autograph events
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '17 * * * *'
   push:
     branches: ['main']
     paths:
@@ -33,7 +33,7 @@ permissions:
 
 concurrency:
   group: sign-checker-collect
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   collect:
