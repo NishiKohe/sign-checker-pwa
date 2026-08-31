@@ -1,16 +1,18 @@
 {
-  "generated_at": "2026-08-31T05:41:36.980840+00:00",
-  "count": 219,
+  "generated_at": "2026-08-31T13:58:23.571209+00:00",
+  "count": 174,
   "sources": {
     "shosen": {
       "enabled": true,
-      "count": 61,
-      "active_count": 45
+      "count": 0,
+      "active_count": 0
     },
     "ogaki": {
-      "enabled": true,
-      "count": 95,
-      "active_count": 20
+      "enabled": false,
+      "count": 0,
+      "active_count": 20,
+      "stale_fallback_count": 20,
+      "stale_from_generated_at": "2026-08-31T05:41:36.980840+00:00"
     },
     "melonbooks": {
       "enabled": false,
@@ -21,8 +23,8 @@
     },
     "prtimes": {
       "enabled": true,
-      "count": 81,
-      "active_count": 47
+      "count": 77,
+      "active_count": 45
     },
     "animate": {
       "enabled": true,
@@ -31,13 +33,13 @@
     },
     "gamers": {
       "enabled": true,
-      "count": 53,
-      "active_count": 18
+      "count": 56,
+      "active_count": 19
     },
     "toranoana": {
       "enabled": true,
-      "count": 71,
-      "active_count": 9
+      "count": 72,
+      "active_count": 10
     },
     "caiman": {
       "enabled": true,
@@ -51,8 +53,8 @@
       "updated_count": 0
     },
     "livepocket": {
-      "enabled": true,
-      "discovered": 45,
+      "enabled": false,
+      "discovered": 0,
       "fetched": 0
     },
     "x": {
@@ -62,11 +64,11 @@
     }
   },
   "category_counts": {
-    "signed_book": 102,
-    "autograph_event": 57,
-    "original_art": 30,
-    "exhibition": 11,
-    "campaign": 19
+    "autograph_event": 53,
+    "signed_book": 70,
+    "exhibition": 8,
+    "original_art": 25,
+    "campaign": 18
   },
   "sort_fields": [
     "score",
@@ -75,6 +77,48 @@
     "apply_end"
   ],
   "items": [
+    {
+      "id": "8ee7f363f98c5e95",
+      "title": "小林愛香「BLUE MAGIC」発売記念ミニライブ＆特典お渡し会＠AKIHABARAゲーマーズ本店",
+      "source": "ゲーマーズ",
+      "creator": "",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "first_come",
+      "score": 96,
+      "reasons": "サイン会 +18 / 先着で獲得 +40 / 成人向け +25 / 東京 +5 / 受付開始 +8",
+      "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7815",
+      "status": "unknown",
+      "dates": [
+        "2026年08月06日",
+        "2026年9月5日",
+        "2026年9月16日",
+        "08月06日",
+        "9月5日",
+        "9月16日"
+      ],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "acquisition": "first_come",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
+      "expired": false,
+      "subject_type": "creator_or_other",
+      "tags": [
+        "ゲーマーズ",
+        "サイン会",
+        "先着",
+        "オンライン",
+        "成人向け",
+        "日時未取得"
+      ],
+      "source_tag": "ゲーマーズ",
+      "lifecycle": "active",
+      "lifecycle_reason": "active_or_unknown",
+      "action_state": "date_unknown",
+      "first_seen_at": null,
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
+    },
     {
       "id": "f626c961601ea18c",
       "title": "#【直筆サイン入り】エルフに淫紋をつける本 LEVEL:8表紙 B3複製原画【にのこや祭り2026エルフたちの宴】（にのこや祭り2026エルフたちの宴）の通販・購入はメロンブックス",
@@ -119,9 +163,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "24e695373b654abc",
@@ -166,9 +210,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "ca2b75291f16038e",
@@ -193,7 +237,7 @@
       "event_start": null,
       "apply_start": "2026-09-10T00:00+09:00",
       "apply_end": "2026-09-20T23:59+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -210,7 +254,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "670eadd68ccccf4e",
@@ -235,7 +279,7 @@
       "event_start": null,
       "apply_start": "2026-09-10T00:00+09:00",
       "apply_end": "2026-09-27T23:59+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -252,7 +296,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "e42506ec8f6f1327",
@@ -277,7 +321,7 @@
       "event_start": null,
       "apply_start": "2026-09-10T00:00+09:00",
       "apply_end": "2026-10-18T23:59+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -294,7 +338,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "bb6b4eeaa54a05cc",
@@ -318,7 +362,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-31 11:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -336,7 +380,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "08d175a61ac1455a",
@@ -362,7 +406,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -378,49 +422,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "8ee7f363f98c5e95",
-      "title": "小林愛香「BLUE MAGIC」発売記念ミニライブ＆特典お渡し会＠AKIHABARAゲーマーズ本店",
-      "source": "ゲーマーズ",
-      "creator": "",
-      "location": "オンライン",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 88,
-      "reasons": "サイン会 +18 / 先着で獲得 +40 / 成人向け +25 / 東京 +5",
-      "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7815",
-      "status": "unknown",
-      "dates": [
-        "2026年08月06日",
-        "2026年9月5日",
-        "2026年9月16日",
-        "08月06日",
-        "9月5日",
-        "9月16日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "acquisition": "first_come",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "subject_type": "creator_or_other",
-      "tags": [
-        "ゲーマーズ",
-        "サイン会",
-        "先着",
-        "オンライン",
-        "成人向け",
-        "日時未取得"
-      ],
-      "source_tag": "ゲーマーズ",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c845d5ce4ed6d4cc",
@@ -463,9 +465,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6d47d0883a3624de",
@@ -502,9 +504,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "ca6fb29b9cb993ee",
@@ -530,7 +532,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -546,7 +548,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6040f5f1ebcf7687",
@@ -572,7 +574,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -588,7 +590,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0c7f7abf150b0df7",
@@ -614,7 +616,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -631,81 +633,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-30T09:20:28.573391+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "e79a21e731417bf3",
-      "title": "『BUSHI自伝 EN SERIOマジで！』刊行記念サイン本販売",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 79,
-      "reasons": "サイン本 +12 / サイン本直接販売 +28 / 東京 +5 / 受付開始 +8 / サイン本重点 +18 / サイン本直接販売重点 +8",
-      "url": "https://www.shosen.co.jp/pickup/41445/",
-      "status": "open",
-      "dates": [
-        "2026年3月31日",
-        "2026年4月28日(火)",
-        "3月31日",
-        "4月28日(火)"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "direct_sale",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "直接販売",
-        "秋葉原",
-        "受付中"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "accepting",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "b2020abd85fb404f",
-      "title": "2026年成年コミックフェア 色紙の展示＆抽選プレゼント",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "original_art",
-      "method": "lottery",
-      "score": 78,
-      "reasons": "原画・直筆 +20 / 購入条件なし抽選 +28 / 成人向け +25 / 東京 +5",
-      "url": "https://www.shosen.co.jp/fair/44417/",
-      "status": "unknown",
-      "dates": [],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_open",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "原画・色紙・一点物",
-        "抽選",
-        "秋葉原",
-        "成人向け",
-        "日時未取得"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6ef9e46941f18166",
@@ -730,7 +658,7 @@
       "event_start": null,
       "apply_start": "2026-09-10T00:00+09:00",
       "apply_end": "2026-09-24T00:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -746,7 +674,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "38bf1b9068f5bc84",
@@ -790,9 +718,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "242d1203a15424b5",
@@ -818,7 +746,7 @@
       "apply_start": "2026-08-19T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-08-26 12:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -834,44 +762,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "ba982b452dff6b7e",
-      "title": "『高橋よしひろ 犬マンガの世界 「白い戦士ヤマト」から「銀牙伝説」まで』刊行記念お渡し会",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 71,
-      "reasons": "サイン会 +18 / 先着で獲得 +40 / 東京 +5 / 受付開始 +8",
-      "url": "https://www.shosen.co.jp/event/44988/",
-      "status": "open",
-      "dates": [
-        "2026年9月19日",
-        "9月19日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "first_come",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン会",
-        "先着",
-        "秋葉原",
-        "受付中"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "accepting",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "d9afcc058a605f4a",
@@ -896,7 +787,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -912,7 +803,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "cdeb51f342db35b9",
@@ -942,6 +833,7 @@
       "acquisition": "direct_sale",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン本",
         "直接販売",
@@ -952,7 +844,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "f651c089fea88be3",
@@ -978,7 +872,7 @@
       "apply_start": "2026-08-31T00:00+09:00",
       "apply_end": "2026-09-23T00:00+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -995,126 +889,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "c4269861331dbf2f",
-      "title": "安彦良和先生最新刊『クラッシャージョウARTWORKS』（玄光社）発売記念 フェア",
-      "source": "書泉",
-      "creator": "安彦良和",
-      "location": "秋葉原",
-      "category": "original_art",
-      "method": "first_come",
-      "score": 65,
-      "reasons": "原画・直筆 +20 / 先着で獲得 +40 / 東京 +5",
-      "url": "https://www.shosen.co.jp/fair/43992/",
-      "status": "unknown",
-      "dates": [
-        "2026年7月17日(金)",
-        "2026年8月31日",
-        "2026年7月17日",
-        "7月17日(金)",
-        "8月31日",
-        "7月17日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "first_come",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "原画・色紙・一点物",
-        "先着",
-        "安彦良和",
-        "秋葉原",
-        "日時未取得"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "9a43710a27e4ac9d",
-      "title": "『永遠と1日 「たかじんさん」との出会い、別れ、そして今』発売記念 やしきさくらさんサイン本お渡し会",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 63,
-      "reasons": "サイン会 +18 / 先着で獲得 +40 / 東京 +5",
-      "url": "https://www.shosen.co.jp/event/45450/",
-      "status": "unknown",
-      "dates": [
-        "2026年9月27日",
-        "9月27日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "first_come",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン会",
-        "先着",
-        "秋葉原",
-        "日時未取得"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "3f54b55b77a41733",
-      "title": "『白昼夢の青写真3』（スニーカー文庫）発売記念 緒乃ワサビ先生サイン会",
-      "source": "書泉",
-      "creator": "緒乃ワサビ",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "first_come",
-      "score": 63,
-      "reasons": "サイン会 +18 / 先着で獲得 +40 / 東京 +5",
-      "url": "https://www.shosen.co.jp/event/45380/",
-      "status": "open",
-      "dates": [
-        "2026年08月27日(木)18:00",
-        "2026/10/01",
-        "08月27日(木)18:00",
-        "10月2日(金)12:00"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "first_come",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン会",
-        "先着",
-        "緒乃ワサビ",
-        "秋葉原",
-        "受付中"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "accepting",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "3e8a2d0a92d71fd7",
@@ -1136,7 +911,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-28 11:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1152,7 +927,51 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
+    },
+    {
+      "id": "0821dc65d29c756a",
+      "title": "直筆サイン＆お宛名入りポスターが当たる！泡山わわ先生 2冊同時発売記念キャンペーン開催！【ホーリンラブブックス】",
+      "source": "PR TIMES",
+      "creator": "泡山わわ",
+      "location": "京都",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 63,
+      "reasons": "サイン本 +12 / 購入条件なし抽選 +28 / 東京 +5 / サイン本重点 +18",
+      "url": "https://prtimes.jp/main/html/rd/p/000001250.000005279.html",
+      "status": "unknown",
+      "dates": [
+        "2026年8月31日",
+        "2026年10月8日",
+        "2026年10月23日",
+        "2026年11月20日",
+        "8月31日",
+        "10月8日"
+      ],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "published_at": "2026-08-31 18:00:02",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
+      "expired": false,
+      "acquisition": "lottery_open",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "PR TIMES",
+        "サイン本",
+        "抽選",
+        "泡山わわ",
+        "京都",
+        "販売中候補"
+      ],
+      "source_tag": "PR TIMES",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b131f255c868eb3b",
@@ -1178,7 +997,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-12 18:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -1195,45 +1014,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "bcbfe8967d62edec",
-      "title": "PASH！コミックス『異郷の爪塗り見習い セミカラー版』連続刊行記念フェア 第二弾",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 62,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 一点物/直筆 +22 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/44067/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/03",
-        "2026/10/03"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "一点物・直筆",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "aca951fd8907f1fc",
@@ -1246,7 +1027,7 @@
       "score": 60,
       "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 成人向け +25 / サイン本重点 +18",
       "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7894",
-      "status": "open",
+      "status": "unknown",
       "dates": [
         "2026年08月26日",
         "2026年9月1日(火)",
@@ -1259,7 +1040,7 @@
       "apply_start": "2026-08-26T00:00+09:00",
       "apply_end": "2026-10-04T00:00+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1269,14 +1050,14 @@
         "購入条件付き抽選",
         "オンライン",
         "成人向け",
-        "受付中"
+        "販売中候補"
       ],
       "source_tag": "ゲーマーズ",
       "lifecycle": "active",
       "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "accepting",
+      "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "105f12d86afd51da",
@@ -1302,7 +1083,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-31 10:03:31",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1320,7 +1101,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "5852c6faab2df620",
@@ -1351,6 +1132,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン本",
         "抽選",
@@ -1362,7 +1144,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "74fdbd8b743356e5",
@@ -1393,6 +1177,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン本",
         "抽選",
@@ -1405,7 +1190,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "3cc5624250cebe47",
@@ -1423,7 +1210,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -1439,7 +1226,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "2f448f49e1dcc196",
@@ -1466,6 +1253,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン本",
         "抽選",
@@ -1477,7 +1265,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "5902fcece0b6449d",
@@ -1503,7 +1293,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-25 10:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1518,7 +1308,48 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
+    },
+    {
+      "id": "6d872a5cf98fdc34",
+      "title": "サークル特価販売キャンペーン",
+      "source": "とらのあな",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 58,
+      "reasons": "サイン本 +12 / 購入条件なし抽選 +28 / サイン本重点 +18",
+      "url": "https://news.toranoana.jp/240433",
+      "status": "unknown",
+      "dates": [
+        "2026/08/29",
+        "9月25日",
+        "7月31日(金)",
+        "9月28日",
+        "9月25日(水)",
+        "12月25日(土)"
+      ],
+      "event_start": null,
+      "apply_start": "2026-09-10T00:00+09:00",
+      "apply_end": null,
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
+      "expired": false,
+      "acquisition": "lottery_open",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "とらのあな",
+        "サイン本",
+        "抽選",
+        "オンライン",
+        "受付前"
+      ],
+      "source_tag": "とらのあな",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "upcoming",
+      "first_seen_at": null,
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "511b662331737656",
@@ -1543,7 +1374,7 @@
       "event_start": null,
       "apply_start": "2027-01-13T00:00+09:00",
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -1560,7 +1391,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "35720f581265c695",
@@ -1602,9 +1433,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "2f6a015bde002caf",
@@ -1626,7 +1457,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1642,7 +1473,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "d53322ee8de22cda",
@@ -1664,7 +1495,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1680,7 +1511,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "e72efc28dafa67ae",
@@ -1702,7 +1533,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1718,7 +1549,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "99afa8dd6f3e415b",
@@ -1740,7 +1571,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1756,7 +1587,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b29a51645909c337",
@@ -1793,9 +1624,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "f0fc0ea061ff75d0",
@@ -1840,9 +1671,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "e310e8e2852f2bb3",
@@ -1887,9 +1718,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "dd0878b98f581020",
@@ -1915,7 +1746,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1932,46 +1763,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "fb9e927a34eba337",
-      "title": "GCN『乙女ゲー世界はモブに厳しい世界です』アニメ二期放送記念 三嶋与夢先生フェア",
-      "source": "書泉",
-      "creator": "三嶋与夢",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 50,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / ゲーム/イラスト系 +10 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/43734/",
-      "status": "open",
-      "dates": [
-        "2026/07/04",
-        "2026/09/30"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "三嶋与夢",
-        "秋葉原",
-        "ゲーム・イラスト",
-        "受付中"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "accepting",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c10296c1f7a3e180",
@@ -1996,7 +1788,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-28 15:30:01",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2012,7 +1804,50 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
+    },
+    {
+      "id": "4b08e725bc624de8",
+      "title": "『芝崎典子のたまには旅するのもいいよね in HAWAII』 発売記念イベント",
+      "source": "ゲーマーズ",
+      "creator": "",
+      "location": "オンライン",
+      "category": "autograph_event",
+      "method": "lottery",
+      "score": 48,
+      "reasons": "サイン会 +18 / 購入条件付き抽選 +5 / 成人向け +25",
+      "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7742",
+      "status": "unknown",
+      "dates": [
+        "2026年07月15日",
+        "2026年9月1日(火)",
+        "2026年9月14日(月)",
+        "2026年7月16日(木)",
+        "2026年8月30日(日)",
+        "2026年8月23日(日)23:59"
+      ],
+      "event_start": "2026-09-14T00:00+09:00",
+      "apply_start": "2026-07-15T00:00+09:00",
+      "apply_end": "2026-09-01T00:00+09:00",
+      "acquisition": "lottery_purchase",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
+      "expired": false,
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "ゲーマーズ",
+        "サイン会",
+        "購入条件付き抽選",
+        "オンライン",
+        "成人向け",
+        "締切間近"
+      ],
+      "source_tag": "ゲーマーズ",
+      "lifecycle": "active",
+      "lifecycle_reason": "active_or_unknown",
+      "action_state": "closing_soon",
+      "first_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "fd9ffb6f2cab3b6d",
@@ -2038,7 +1873,7 @@
       "apply_start": "2026-06-20T00:00+09:00",
       "apply_end": "2026-09-02T00:00+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2054,7 +1889,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6016daaf80a77686",
@@ -2080,7 +1915,7 @@
       "apply_start": null,
       "apply_end": "2026-10-26T23:59+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2096,7 +1931,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "79403cab2304cf60",
@@ -2121,7 +1956,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2137,7 +1972,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6285b888aa5d9f93",
@@ -2168,6 +2003,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2181,7 +2017,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "8c35dbc871976ae7",
@@ -2212,6 +2050,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2223,7 +2062,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b180ac83176d3eb5",
@@ -2254,6 +2095,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2266,7 +2108,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c5e4b783125f3fc3",
@@ -2297,6 +2141,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2309,7 +2154,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6748ccf54f179bd9",
@@ -2340,6 +2187,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2351,7 +2199,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "d57f52bba5071426",
@@ -2382,6 +2232,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2393,7 +2244,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "7cd1410530b01990",
@@ -2424,6 +2277,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2435,7 +2289,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "3c0d86f0c17f2e5f",
@@ -2466,6 +2322,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2477,7 +2334,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "9cf8c338c1a6b904",
@@ -2508,6 +2367,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2519,7 +2379,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6cb98b905bf69c3e",
@@ -2550,6 +2412,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2561,7 +2424,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "8a6048d04db567c5",
@@ -2592,6 +2457,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2603,7 +2469,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "8aceca5456f98246",
@@ -2634,6 +2502,7 @@
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "抽選",
@@ -2645,7 +2514,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "d90865ce430feff6",
@@ -2670,7 +2541,7 @@
       "event_start": null,
       "apply_start": "2026-08-28T10:00+09:00",
       "apply_end": "2027-08-28T10:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2687,7 +2558,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1d0fec9d1d4d33be",
@@ -2713,7 +2584,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-24 14:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2729,7 +2600,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b735c70b751e7977",
@@ -2766,9 +2637,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "3b20df0e1d70113d",
@@ -2805,9 +2676,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6808251a3077a3a4",
@@ -2844,9 +2715,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "65924c601b8886e9",
@@ -2883,9 +2754,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "96a3a3b3be0c0cf8",
@@ -2922,9 +2793,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "43754518ff289deb",
@@ -2961,9 +2832,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "2dff84b529e8fb86",
@@ -3000,9 +2871,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "efa8ee41c5d01195",
@@ -3039,9 +2910,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "db8b2126a29ae851",
@@ -3078,9 +2949,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "7481ecf10cac0cc4",
@@ -3117,9 +2988,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0f52cce159c745a5",
@@ -3156,9 +3027,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "5fd22e293a8b34d3",
@@ -3195,9 +3066,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1685a49912530f80",
@@ -3234,9 +3105,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b8fba494e60a857f",
@@ -3273,9 +3144,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "759cc2465e8d9af0",
@@ -3312,9 +3183,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0b479d38b5ec718f",
@@ -3340,7 +3211,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -3356,7 +3227,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "155b1e5c07e1f45f",
@@ -3400,9 +3271,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "85c51431eadd9613",
@@ -3432,6 +3303,7 @@
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "原画・色紙・一点物",
         "購入条件付き抽選",
@@ -3444,7 +3316,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "d0cb5ddd43055c7f",
@@ -3484,428 +3358,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "7f6d91a1a7ea0ac1",
-      "title": "TOブックス『悪党一家の愛娘、転生先も乙女ゲームの極道令嬢でした。～最上級ランクの悪役さま、その溺愛は不要です！～』ノベルス6巻＆@COMIC 第６巻 同時発売記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/44524/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月1日",
-        "2026/08/01",
-        "2026/08/31",
-        "8月1日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "新着",
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "25ade65953ab283b",
-      "title": "「天幕のジャードゥーガル」TVアニメ化記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/44173/",
-      "status": "unknown",
-      "dates": [
-        "2026年9月30日",
-        "2026年7月15日",
-        "9月30日",
-        "7月15日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "14eef49a7e9aafba",
-      "title": "『これ描いて死ね』9・10巻発売＆アニメ化記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/43538/",
-      "status": "unknown",
-      "dates": [
-        "2026/06/12",
-        "2026/10/04"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "0161fc6a4d71cc7f",
-      "title": "『ふつつかな悪女ではございますが ~雛宮蝶鼠とりかえ伝~ 』アニメ化記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/43519/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/04",
-        "2026/10/31"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "cc1fc91757c5da1a",
-      "title": "『俺がいないとすぐ××る儚木かすみ』2巻発売記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/44410/",
-      "status": "unknown",
-      "dates": [
-        "2026年7月29日(水)",
-        "2026年8月31日(月)",
-        "7月29日(水)",
-        "8月31日(月)"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "333ca52dbfe5dc7f",
-      "title": "『宇宙人ムームー』完結記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/44768/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/30",
-        "2026/07/31"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "243f3d44960833a3",
-      "title": "『骸骨騎士様、只今異世界へお出掛け中』アニメ2期放送記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/43448/",
-      "status": "unknown",
-      "dates": [
-        "2026/06/20",
-        "2026/09/30"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "32ddf34b8ca56ddb",
-      "title": "アース・スター『領民０人スタートの辺境領主様』アニメ化フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/44054/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/10",
-        "2026/09/27"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "de38d447952d674d",
-      "title": "スターツ出版『鬼の花嫁』アニメ化記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/43697/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/04",
-        "2026/09/30"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "d276f4b945516bdc",
-      "title": "メルティアブックス新創刊記念フェア in 書泉",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/42899/",
-      "status": "unknown",
-      "dates": [
-        "2026年6月5日(金)",
-        "6月5日(金)",
-        "9月4日(金)"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "80a9ead4b14bb1b2",
-      "title": "一迅社『わたしの創った千年王国 天才魔導師の自由気ままな転生無双譚』一迅社ノベルス＆ZERO-SUMコミックス同時発売記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "lottery",
-      "score": 40,
-      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/fair/44542/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月4日",
-        "2026年7月31日",
-        "2026/07/31",
-        "2026/09/06",
-        "8月4日",
-        "7月31日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "購入条件付き抽選",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0c93ee8b9abcbf62",
@@ -3931,7 +3386,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-19 00:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -3948,7 +3403,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "5ba85188355e0e1c",
@@ -3973,7 +3428,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -3990,7 +3445,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "64a9f50369e7fdd3",
@@ -4031,196 +3486,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "2f78a73be00d41fd",
-      "title": "『クリーム2026年8月号』直筆サイン入りチェキ付き発売！",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "first_come",
-      "score": 35,
-      "reasons": "サイン本 +12 / 先着で獲得 +40 / 東京 +5 / 声優・出演者系 低優先 57→35",
-      "url": "https://www.shosen.co.jp/pickup/43979/",
-      "status": "unknown",
-      "dates": [
-        "2026年7月7日",
-        "7月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "first_come",
-      "subject_type": "performer",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "先着",
-        "秋葉原",
-        "声優・出演者",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "23550072c3b6d080",
-      "title": "【共通ペーパー】GANGSTA. 9巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44871/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "新着",
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "ee0ff76a7c42b6cd",
-      "title": "【共通ペーパー】死体担ぎのネム 3巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44866/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "e28d5c740f6fa534",
-      "title": "【共通ペーパー】魔王城の料理番 ～コワモテ魔族ばかりだけど、ホワイトな職場です～ 6巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44865/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "db25360350f5e38b",
-      "title": "【特典ペーパー】レザレクション -近代医学の怪人ジョン・ハンターー 1巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44819/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月3日",
-        "8月3日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "11a0909c2f35ec64",
@@ -4262,9 +3530,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "82b39b6a639913d6",
@@ -4306,9 +3574,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "515102548a8df2ee",
@@ -4350,9 +3618,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b5b552f851d31a5e",
@@ -4393,9 +3661,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "83588160af7d4e8a",
@@ -4436,9 +3704,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1574df340edb8f2c",
@@ -4479,9 +3747,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6ec1f7e29ebc385e",
@@ -4522,9 +3790,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "21afbb81034f33cf",
@@ -4565,418 +3833,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "7056a80945bfb7b6",
-      "title": "【限定ペーパー】AR/MS!! (エーアール・マルチプルサヴァイヴ) ７巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44676/",
-      "status": "unknown",
-      "dates": [
-        "2026年7月31日",
-        "7月31日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "c828e7effb42827d",
-      "title": "【限定ペーパー】ぶらり異世界ケモの旅 ２巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44608/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月3日",
-        "8月3日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "19aad824f8080822",
-      "title": "【限定ペーパー】ガールズ×ヴァンパイア 1巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44814/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月6日",
-        "8月6日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "34a1de6a29cea1ad",
-      "title": "【限定ペーパー】キミに恋する三姉妹 9巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44798/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月6日",
-        "8月6日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "956bf8fddab321de",
-      "title": "【限定ペーパー】ギャラ飲み女子とラーメンおじさん １巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44998/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "新着",
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "18cbff3e9d6928ab",
-      "title": "【限定ペーパー】クマ撃ちの女 17巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44868/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "f153c031aec7a52d",
-      "title": "【限定ペーパー】タイカの理性 7巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44813/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月6日",
-        "8月6日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "f0d5a5dfb325bf72",
-      "title": "【限定ペーパー】ネノ國の結ビノ巫女 1巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44869/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "a7740e4e41f8f853",
-      "title": "【限定ペーパー】ポンコツ魔王の田舎暮らし 6巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44867/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "198c05e24573336a",
-      "title": "【限定ペーパー】ヤンキーJKクズハナちゃん 32巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44812/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月6日",
-        "8月6日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "8abd283f1018d51e",
-      "title": "【限定ペーパー】先輩と後輩、大暴れの日々 1巻",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 35,
-      "reasons": "サイン本 +12 / 東京 +5 / サイン本重点 +18",
-      "url": "https://www.shosen.co.jp/privilege/44870/",
-      "status": "unknown",
-      "dates": [
-        "2026年8月7日",
-        "8月7日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "新着",
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c9679e3838a0e58b",
@@ -5006,6 +3865,7 @@
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン本",
         "方式未判定",
@@ -5017,7 +3877,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "5521fe0e88893e7f",
@@ -5063,9 +3925,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "20d9444880b68cb8",
@@ -5106,9 +3968,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b6450d47b8a9726f",
@@ -5134,7 +3996,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-27 11:00:03",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -5151,48 +4013,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "f3bf333b41c89a0d",
-      "title": "2026年女性向け異世界フェア 色紙の展示＆抽選プレゼント",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "original_art",
-      "method": "lottery",
-      "score": 30,
-      "reasons": "原画・直筆 +20 / 購入条件付き抽選 +5 / 東京 +5",
-      "url": "https://www.shosen.co.jp/fair/41850/",
-      "status": "unknown",
-      "dates": [
-        "2026年5月1日(金)",
-        "2026年7月31日(金)",
-        "2026年7月31日(金)23:59",
-        "2026年9月14日(月)",
-        "2026年9月28日(月)",
-        "2026年10月31日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "原画・色紙・一点物",
-        "購入条件付き抽選",
-        "秋葉原",
-        "日時未取得"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "ae281210a0134127",
@@ -5216,7 +4037,7 @@
       "event_start": null,
       "apply_start": "2026-08-31T00:00+09:00",
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -5234,51 +4055,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "0d1407dd1e323d15",
-      "title": "イラストレーター・福田利之作品展を2026年9月5日（土）から10月12日（月・祝）まで会津若松市のスペース・アルテマイスターで開催",
-      "source": "PR TIMES",
-      "creator": "",
-      "location": "大阪",
-      "category": "exhibition",
-      "method": "unknown",
-      "score": 29,
-      "reasons": "個展/POP UP +4 / ゲーム/イラスト系 +10 / 在廊 +15",
-      "url": "https://prtimes.jp/main/html/rd/p/000000074.000085131.html",
-      "status": "unknown",
-      "dates": [
-        "2026年9月5日",
-        "2026年8月27日",
-        "2026年9月5日(土)",
-        "2024年4月27日(土)",
-        "9月5日",
-        "10月12日"
-      ],
-      "event_start": "2026-10-12T00:00+09:00",
-      "apply_start": null,
-      "apply_end": null,
-      "published_at": "2026-08-27 15:00:01",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "PR TIMES",
-        "個展・POP UP",
-        "方式未判定",
-        "大阪",
-        "在廊",
-        "ゲーム・イラスト",
-        "有効"
-      ],
-      "source_tag": "PR TIMES",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "active",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "35aae9e097cb42f5",
@@ -5316,9 +4093,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0e06fb74161feaa8",
@@ -5356,9 +4133,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "814437529e138512",
@@ -5396,9 +4173,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1a9c7ec8651553e4",
@@ -5442,9 +4219,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "eff89853d3f70e49",
@@ -5488,130 +4265,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "74ffa666c4bac225",
-      "title": "『シャーリー・メディスン』3巻発売記念 森薫先生リアルサイン会 ２DAYS(秋葉原)",
-      "source": "書泉",
-      "creator": "森薫",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "lottery",
-      "score": 28,
-      "reasons": "サイン会 +18 / 購入条件付き抽選 +5 / 東京 +5",
-      "url": "https://www.shosen.co.jp/event/44170/",
-      "status": "open",
-      "dates": [
-        "2026年10月3日(土)13:00",
-        "2026年10月4日(日)13:00",
-        "2026年9月10日(木)",
-        "2026年9月22日(火)",
-        "10月3日(土)13:00",
-        "10月4日(日)13:00"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン会",
-        "購入条件付き抽選",
-        "森薫",
-        "秋葉原",
-        "受付中"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "accepting",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "8b0eb0a3a70e0243",
-      "title": "『シャーリー・メディスン』3巻発売記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "lottery",
-      "score": 28,
-      "reasons": "サイン会 +18 / 購入条件付き抽選 +5 / 東京 +5",
-      "url": "https://www.shosen.co.jp/fair/44292/",
-      "status": "unknown",
-      "dates": [
-        "2026年11月1日",
-        "11月1日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン会",
-        "購入条件付き抽選",
-        "秋葉原",
-        "日時未取得"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "f710c20b1b2861e5",
-      "title": "『妹はシスコン兄がめんどくさい』6巻発売記念 ヨシミズ先生リアルサイン会(秋葉原)",
-      "source": "書泉",
-      "creator": "ヨシミズ",
-      "location": "秋葉原",
-      "category": "autograph_event",
-      "method": "lottery",
-      "score": 28,
-      "reasons": "サイン会 +18 / 購入条件付き抽選 +5 / 東京 +5",
-      "url": "https://www.shosen.co.jp/event/44059/",
-      "status": "open",
-      "dates": [
-        "2026年9月5日(土)",
-        "2026年7月10日(金)18:00",
-        "2026年7月10日(金)",
-        "2026年8月10日(月)",
-        "2026年8月28日(金)",
-        "2026/8/28"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "lottery_purchase",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "サイン会",
-        "購入条件付き抽選",
-        "ヨシミズ",
-        "秋葉原",
-        "受付中"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "accepting",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "3c105d12adbb15ae",
@@ -5633,7 +4289,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "performer",
       "tags": [
@@ -5650,7 +4306,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "076193cdc0fd5041",
@@ -5675,7 +4331,7 @@
       "apply_start": "2026-08-20T12:00+09:00",
       "apply_end": null,
       "published_at": "2026-08-21 11:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -5694,7 +4350,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "694455b0988996d8",
@@ -5735,9 +4391,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "a7a36d9da726675e",
@@ -5775,9 +4431,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "8bc4b5c0965e911f",
@@ -5815,9 +4471,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "f5c8dce728c98faf",
@@ -5855,9 +4511,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T06:43:47.788460+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "196340d50c454caa",
@@ -5895,9 +4551,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "06ebe43ff2de588d",
@@ -5935,9 +4591,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "2f34549762ffb4b1",
@@ -5975,9 +4631,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "39ca75dd34d4ac22",
@@ -6015,9 +4671,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0d0974b421ed5877",
@@ -6055,9 +4711,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "8fcc8f25141f95ee",
@@ -6095,9 +4751,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6e8c8d1ded4b014d",
@@ -6135,9 +4791,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c2e95e7b55796a2c",
@@ -6175,47 +4831,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "9d1c936160e8d6ef",
-      "title": "【サイン本受注販売】『桜庭大翔 1st写真集 筋字塔』（玄光社）",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 28,
-      "reasons": "サイン本 +12 / サイン本直接販売 +28 / 東京 +5 / 声優・出演者系 低優先 45→28",
-      "url": "https://www.shosen.co.jp/pickup/44091/",
-      "status": "unknown",
-      "dates": [
-        "2026年08月19日",
-        "08月19日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "direct_sale",
-      "subject_type": "performer",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "直接販売",
-        "秋葉原",
-        "声優・出演者",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1db649b03639fbbb",
@@ -6253,9 +4871,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "bd6147c816bece3e",
@@ -6296,9 +4914,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "678c4c2afcb1bd22",
@@ -6339,9 +4957,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "48016d6df7862f03",
@@ -6384,9 +5002,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "3d97b4a440d6e2d7",
@@ -6424,9 +5042,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "78f9a9136d5109d8",
@@ -6464,9 +5082,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0a77180c9f886063",
@@ -6504,9 +5122,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "5e7bb8297ebba5e3",
@@ -6544,9 +5162,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "d78d9e3ad383d6e9",
@@ -6584,9 +5202,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "3a2f2d9d9851fc7a",
@@ -6624,9 +5242,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "976c6070fa89d2fd",
@@ -6664,9 +5282,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "352b50a08942c522",
@@ -6704,9 +5322,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "34a9a4feafc73a0c",
@@ -6744,9 +5362,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "423d87c1e1e62e11",
@@ -6784,9 +5402,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "cdf05b65e42b962b",
@@ -6824,9 +5442,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "a99eed5a77125523",
@@ -6868,9 +5486,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "beb2a52c2af71bcf",
@@ -6911,9 +5529,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "9ad4aa7ee007f4ef",
@@ -6955,47 +5573,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "048a471cc9723373",
-      "title": "つばきファクトリー小野瑞歩写真集「ひだまりといつも」サイン本発売決定！",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 28,
-      "reasons": "サイン本 +12 / サイン本直接販売 +28 / 東京 +5 / 声優・出演者系 低優先 45→28",
-      "url": "https://www.shosen.co.jp/pickup/40555/",
-      "status": "unknown",
-      "dates": [
-        "2025年3月14日",
-        "3月14日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "direct_sale",
-      "subject_type": "performer",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "直接販売",
-        "秋葉原",
-        "声優・出演者",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "20b5a936e5f07b05",
@@ -7036,9 +5616,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c91ef66e64625728",
@@ -7080,9 +5660,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "e4e9ce83050f5c9a",
@@ -7107,7 +5687,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "subject_type": "performer",
       "tags": [
@@ -7125,7 +5705,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "809c91dcbf78e4a6",
@@ -7163,48 +5743,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "cbb2a13e77d86bea",
-      "title": "ロージークロニクル写真集「Rosy Chronicle ①」サイン本発売決定！",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 28,
-      "reasons": "サイン本 +12 / サイン本直接販売 +28 / 東京 +5 / 声優・出演者系 低優先 45→28",
-      "url": "https://www.shosen.co.jp/pickup/40551/",
-      "status": "unknown",
-      "dates": [
-        "2025年2月22日",
-        "2月22日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "direct_sale",
-      "subject_type": "performer",
-      "tags": [
-        "新着",
-        "書泉",
-        "サイン本",
-        "直接販売",
-        "秋葉原",
-        "声優・出演者",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": "2026-08-30T06:43:47.788460+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "ef7640e7df33320f",
@@ -7246,9 +5787,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "5b9cc735f00a5402",
@@ -7293,9 +5834,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "68183958a321e884",
@@ -7338,9 +5879,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "25e49f752dd16ac7",
@@ -7382,9 +5923,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "83b09885f226230c",
@@ -7427,9 +5968,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-08-31T05:41:36.980840+00:00"
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "acc66f5ee1802b8a",
@@ -7455,7 +5996,7 @@
       "apply_start": "2026-08-25T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-08-25 12:00:01",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -7471,82 +6012,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "7b3c9c31107a8b3a",
-      "title": "『光って！月魄さん』完結記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "original_art",
-      "method": "unknown",
-      "score": 25,
-      "reasons": "原画・直筆 +20 / 東京 +5",
-      "url": "https://www.shosen.co.jp/fair/44779/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/30",
-        "2026/08/31"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "原画・色紙・一点物",
-        "方式未判定",
-        "秋葉原",
-        "日時未取得"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "5e2e54706fdbdb92",
-      "title": "ラブパルフェコミックス創刊４周年記念フェア",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "original_art",
-      "method": "unknown",
-      "score": 25,
-      "reasons": "原画・直筆 +20 / 東京 +5",
-      "url": "https://www.shosen.co.jp/fair/44350/",
-      "status": "unknown",
-      "dates": [
-        "2026/07/15",
-        "2026/09/14",
-        "8月15日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "書泉",
-        "原画・色紙・一点物",
-        "方式未判定",
-        "秋葉原",
-        "日時未取得"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0514f6da0710f76d",
@@ -7572,7 +6038,7 @@
       "event_start": "2026-09-04T00:00+09:00",
       "apply_start": "2026-09-04T00:00+09:00",
       "apply_end": "2026-09-04T00:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7588,7 +6054,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "879c318764541547",
@@ -7614,7 +6080,7 @@
       "apply_start": "2026-09-16T00:00+09:00",
       "apply_end": "2026-09-16T00:00+09:00",
       "published_at": "2026-08-19 12:14:10",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7631,7 +6097,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "388637104d48f087",
@@ -7657,7 +6123,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-21 12:46:04",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -7674,7 +6140,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c6010dbc88baf4c4",
@@ -7700,7 +6166,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7717,7 +6183,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "a0f2b404d834f19b",
@@ -7743,7 +6209,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-24 11:30:01",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7759,7 +6225,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "7057d86f0133b451",
@@ -7785,7 +6251,7 @@
       "apply_start": "2026-08-15T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-08-21 18:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7801,7 +6267,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "e3870df59150413d",
@@ -7826,7 +6292,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-28 13:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7842,7 +6308,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "4d01654aca214c23",
@@ -7868,12 +6334,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "新着",
         "PR TIMES",
         "応募企画",
         "方式未判定",
@@ -7884,7 +6349,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-29T09:06:40.352840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0df1583cc223d19f",
@@ -7910,7 +6375,7 @@
       "event_start": "2026-09-13T00:00+09:00",
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7926,7 +6391,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "18bdda4bd64fb3e0",
@@ -7952,7 +6417,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-17 14:00:01",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7968,7 +6433,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "61fb488258f420af",
@@ -7992,7 +6457,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8009,7 +6474,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "170b865b5a7be3d8",
@@ -8033,6 +6498,7 @@
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "方式未判定",
@@ -8045,7 +6511,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "da9a0ff4e651fba9",
@@ -8071,7 +6539,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-27 17:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8086,7 +6554,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "6eff64053c9c2cd5",
@@ -8109,7 +6577,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-31 10:59:20",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8126,7 +6594,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "eabd65e6ab927fc6",
@@ -8156,6 +6624,7 @@
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
+        "前回取得情報",
         "大垣書店",
         "サイン会",
         "方式未判定",
@@ -8166,7 +6635,48 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "source_stale": true,
+      "source_stale_since": "2026-08-31T13:58:23.571209+00:00"
+    },
+    {
+      "id": "0f5367b8a7c4cb2e",
+      "title": "【バンビシャス奈良】王寺町 × バンビシャス奈良 バスケットボールフェスティバルを実施",
+      "source": "PR TIMES",
+      "creator": "",
+      "location": "",
+      "category": "autograph_event",
+      "method": "unknown",
+      "score": 18,
+      "reasons": "サイン会 +18",
+      "url": "https://prtimes.jp/main/html/rd/p/000000168.000105349.html",
+      "status": "unknown",
+      "dates": [
+        "2026年8月31日",
+        "8月23日",
+        "8月31日"
+      ],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "published_at": "2026-08-31 15:00:01",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "PR TIMES",
+        "サイン会",
+        "方式未判定",
+        "日時未取得"
+      ],
+      "source_tag": "PR TIMES",
+      "lifecycle": "active",
+      "lifecycle_reason": "active_or_unknown",
+      "action_state": "date_unknown",
+      "first_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "b4e013ce588ef7ec",
@@ -8192,7 +6702,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-31 11:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8209,7 +6719,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "283874b9abd06c70",
@@ -8235,7 +6745,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-30 23:34:38",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8252,50 +6762,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "0b5caaf04c8ea4e0",
-      "title": "「TVアニメ『進撃の巨人』 POP UP SHOP in TOWER RECORDS vol.2」が開催決定！",
-      "source": "PR TIMES",
-      "creator": "",
-      "location": "新宿",
-      "category": "exhibition",
-      "method": "unknown",
-      "score": 17,
-      "reasons": "個展/POP UP +4 / 東京 +5 / 受付開始 +8",
-      "url": "https://prtimes.jp/main/html/rd/p/000009453.000016064.html",
-      "status": "open",
-      "dates": [
-        "2026年8月27日",
-        "2026年9月11日",
-        "2026/08/27",
-        "8月27日",
-        "9月11日",
-        "9月21日"
-      ],
-      "event_start": null,
-      "apply_start": "2026-09-11T00:00+09:00",
-      "apply_end": "2026-09-11T00:00+09:00",
-      "published_at": "2026-08-27 12:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "PR TIMES",
-        "個展・POP UP",
-        "方式未判定",
-        "新宿",
-        "受付中",
-        "受付前"
-      ],
-      "source_tag": "PR TIMES",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "upcoming",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "0cb6549e0881dc13",
@@ -8321,7 +6788,7 @@
       "apply_start": "2026-09-11T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-08-31 13:00:30",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8338,42 +6805,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "c59aed96f065b68c",
-      "title": "【お詫びとお知らせ】「Cream（クリーム）6月号」五百木いおさんサイン本につきまして",
-      "source": "書泉",
-      "creator": "",
-      "location": "秋葉原",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 17,
-      "reasons": "サイン本 +12 / 東京 +5 / 声優・出演者系 低優先 17→17",
-      "url": "https://www.shosen.co.jp/pickup/43139/",
-      "status": "unknown",
-      "dates": [],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "performer",
-      "tags": [
-        "書泉",
-        "サイン本",
-        "方式未判定",
-        "秋葉原",
-        "声優・出演者",
-        "販売中候補"
-      ],
-      "source_tag": "書泉",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "92564b837b025bbf",
@@ -8399,7 +6831,7 @@
       "event_start": "2026-10-10T00:00+09:00",
       "apply_start": "2026-10-10T00:00+09:00",
       "apply_end": "2026-09-25T00:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8415,7 +6847,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1ec527b5789770ff",
@@ -8439,7 +6871,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": "2026-12-31T00:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8456,7 +6888,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "8b410327e978d49a",
@@ -8482,7 +6914,7 @@
       "event_start": "2026-09-13T00:00+09:00",
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8497,7 +6929,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "04d9d74a307d4fcf",
@@ -8523,7 +6955,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8539,7 +6971,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1c621c06142b3953",
@@ -8564,7 +6996,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8580,7 +7012,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "a535c7698b23b900",
@@ -8606,7 +7038,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8622,11 +7054,11 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
-      "id": "e9b48c2de6de5897",
-      "title": "9月19日(土)より【Re:ゼロから始めるエミリアの誕生日生活2026 in マルイ】の開催が決定！",
+      "id": "1f80ac105256a71e",
+      "title": "Tsubame Lab、分析・科学機器の総合展示会「JASIS 2026」に出展 ─ プラスミド構築ワークフローの自動化システムと分注特化の卓上パッケージを実機展示",
       "source": "PR TIMES",
       "creator": "",
       "location": "京都",
@@ -8634,37 +7066,38 @@
       "method": "unknown",
       "score": 9,
       "reasons": "個展/POP UP +4 / 東京 +5",
-      "url": "https://prtimes.jp/main/html/rd/p/000009703.000014827.html",
+      "url": "https://prtimes.jp/main/html/rd/p/000000008.000180662.html",
       "status": "unknown",
       "dates": [
-        "2026年8月27日",
-        "2026年9月19日(土)",
-        "2026年10月3日(土)",
-        "9月19日(土)",
-        "8月27日",
-        "9月23日"
+        "2026年8月31日",
+        "2026年9月2日",
+        "2026年7月1日",
+        "9月2日",
+        "8月31日",
+        "9月4日"
       ],
-      "event_start": "2026-09-19T00:00+09:00",
+      "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "published_at": "2026-08-27 13:00:04",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "published_at": "2026-08-31 22:46:13",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
+        "新着",
         "PR TIMES",
         "個展・POP UP",
         "方式未判定",
         "京都",
-        "有効"
+        "日時未取得"
       ],
       "source_tag": "PR TIMES",
       "lifecycle": "active",
       "lifecycle_reason": "active_or_unknown",
-      "action_state": "active",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "action_state": "date_unknown",
+      "first_seen_at": "2026-08-31T13:58:23.571209+00:00",
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "1b612242960bc2e1",
@@ -8688,7 +7121,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-28 10:10:01",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8704,49 +7137,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "f716d918b69053c1",
-      "title": "劇場版『ゾンビランドサガ ゆめぎんがパラダイス』POP UP SHOP in ロフトの開催が決定！",
-      "source": "PR TIMES",
-      "creator": "",
-      "location": "京都",
-      "category": "exhibition",
-      "method": "unknown",
-      "score": 9,
-      "reasons": "個展/POP UP +4 / 東京 +5",
-      "url": "https://prtimes.jp/main/html/rd/p/000009474.000016064.html",
-      "status": "unknown",
-      "dates": [
-        "2026年8月27日",
-        "2026年9月18日(金)",
-        "2026年9月27日(日)",
-        "8月27日",
-        "9月18日(金)",
-        "9月27日(日)"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "published_at": "2026-08-27 12:00:02",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "PR TIMES",
-        "個展・POP UP",
-        "方式未判定",
-        "京都",
-        "日時未取得"
-      ],
-      "source_tag": "PR TIMES",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "fe1c16114bcfc04e",
@@ -8772,7 +7163,7 @@
       "event_start": null,
       "apply_start": "2026-08-31T00:00+09:00",
       "apply_end": "2026-09-01T00:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8789,7 +7180,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "e17cf10ba21259f1",
@@ -8815,7 +7206,7 @@
       "event_start": null,
       "apply_start": "2026-08-31T00:00+09:00",
       "apply_end": "2026-09-01T00:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8831,7 +7222,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "c7f0464648810bcc",
@@ -8857,7 +7248,7 @@
       "event_start": null,
       "apply_start": "2026-09-15T00:00+09:00",
       "apply_end": "2026-09-15T00:00+09:00",
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8874,7 +7265,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "e4cc2abfd060f1aa",
@@ -8899,7 +7290,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8915,7 +7306,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "ab44a432e10d6fcb",
@@ -8941,7 +7332,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8957,48 +7348,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
-    },
-    {
-      "id": "b8b46f94a11c74fb",
-      "title": "『MILGRAM -ミルグラム-』「コトコ」直筆サイン入りCDの数量限定発売決定！",
-      "source": "PR TIMES",
-      "creator": "",
-      "location": "京都",
-      "category": "campaign",
-      "method": "lottery",
-      "score": 8,
-      "reasons": "応募キャンペーン +8",
-      "url": "https://prtimes.jp/main/html/rd/p/000009430.000016064.html",
-      "status": "unknown",
-      "dates": [
-        "2026年8月19日",
-        "2026年9月16日",
-        "8月19日",
-        "9月16日",
-        "9月16日(水)"
-      ],
-      "published_at": "2026-08-19 12:00:02",
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "PR TIMES",
-        "応募企画",
-        "方式未判定",
-        "京都",
-        "日時未取得"
-      ],
-      "source_tag": "PR TIMES",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     },
     {
       "id": "67ac482d625d9be7",
@@ -9024,7 +7374,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-08-31T05:41:36.980840+00:00",
+      "fetched_at": "2026-08-31T13:58:23.571209+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -9040,14 +7390,14 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-29T01:46:25.866236+00:00",
-      "last_seen_at": "2026-08-31T05:41:36.980840+00:00"
+      "last_seen_at": "2026-08-31T13:58:23.571209+00:00"
     }
   ],
-  "expired_count": 174,
-  "visible_estimate": 187,
+  "expired_count": 107,
+  "visible_estimate": 98,
   "score_version": 5,
   "performer_policy": {
-    "low_priority_count": 16,
+    "low_priority_count": 11,
     "exception_count": 0,
     "exceptional_names": [
       "野沢雅子",
@@ -9078,29 +7428,27 @@
     ]
   },
   "ogaki_discovery_version": 2,
-  "expired_removed": 222,
+  "expired_removed": 131,
   "expired_reason_counts": {
-    "collector_expired": 174,
-    "status_closed": 22,
+    "collector_expired": 107,
+    "status_closed": 4,
     "title_deadline_passed": 1,
-    "all_visible_dates_passed": 20,
-    "event_passed": 2,
+    "all_visible_dates_passed": 16,
     "application_deadline_passed": 3
   },
   "action_state_counts": {
+    "date_unknown": 27,
     "upcoming": 11,
-    "active": 22,
-    "date_unknown": 35,
-    "accepting": 23,
-    "on_sale_candidate": 43,
-    "closing_soon": 5
+    "active": 17,
+    "accepting": 5,
+    "on_sale_candidate": 10,
+    "closing_soon": 4
   },
   "feed_policy": "active_only_v6_first_seen_caiman_watch",
   "active_source_counts": {
-    "とらのあな": 9,
-    "PR TIMES": 47,
-    "ゲーマーズ": 18,
-    "書泉": 45,
+    "ゲーマーズ": 19,
+    "とらのあな": 10,
+    "PR TIMES": 45,
     "大垣書店": 20,
     "メロンブックス": 80
   },
@@ -9113,9 +7461,10 @@
     "deadlines_promoted": 0
   },
   "source_fallback_counts": {
+    "ogaki": 20,
     "melonbooks": 80
   },
-  "new_count": 20,
+  "new_count": 18,
   "new_window_hours": 48,
   "caiman_quality": {
     "active_count": 0,
