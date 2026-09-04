@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T16:25:12.752508+00:00",
+  "generated_at": "2026-09-04T19:38:58.240418+00:00",
   "count": 213,
   "sources": {
     "shosen": {
@@ -119,9 +119,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "cf4f8c8b73da9ac0",
@@ -163,7 +163,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "82b39b6a639913d6",
@@ -204,9 +204,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "515102548a8df2ee",
@@ -247,9 +247,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8ee7f363f98c5e95",
@@ -275,7 +275,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -291,7 +291,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "35eea03f06a73780",
@@ -333,7 +333,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-01T08:16:27.881160+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "bb6b4eeaa54a05cc",
@@ -357,7 +357,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-31 11:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -374,7 +374,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "08d175a61ac1455a",
@@ -400,7 +400,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -416,7 +416,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "83588160af7d4e8a",
@@ -456,9 +456,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "1574df340edb8f2c",
@@ -498,9 +498,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6ec1f7e29ebc385e",
@@ -540,9 +540,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "21afbb81034f33cf",
@@ -582,9 +582,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6d47d0883a3624de",
@@ -621,9 +621,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "64a9f50369e7fdd3",
@@ -665,9 +665,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "ca6fb29b9cb993ee",
@@ -693,7 +693,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -709,7 +709,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "11a0909c2f35ec64",
@@ -750,9 +750,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6040f5f1ebcf7687",
@@ -778,7 +778,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -794,7 +794,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "0c7f7abf150b0df7",
@@ -820,7 +820,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -836,7 +836,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-30T09:20:28.573391+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "20d9444880b68cb8",
@@ -878,9 +878,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e79a21e731417bf3",
@@ -903,7 +903,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "creator_or_other",
@@ -919,7 +919,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b2020abd85fb404f",
@@ -937,7 +937,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -954,7 +954,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6ef9e46941f18166",
@@ -979,7 +979,7 @@
       "event_start": null,
       "apply_start": "2026-09-24T00:00+09:00",
       "apply_end": "2026-09-24T00:00+09:00",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -995,7 +995,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "54c002c4cb111272",
@@ -1040,9 +1040,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6f7f2a0e05eaf1a4",
@@ -1087,9 +1087,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "faee571b27bda5b5",
@@ -1114,7 +1114,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 15:00:01",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1132,7 +1132,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "25e49f752dd16ac7",
@@ -1173,9 +1173,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "83b09885f226230c",
@@ -1217,9 +1217,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "242d1203a15424b5",
@@ -1245,7 +1245,7 @@
       "apply_start": "2026-08-19T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-08-26 12:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1261,7 +1261,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "ba982b452dff6b7e",
@@ -1282,7 +1282,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1298,7 +1298,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d9afcc058a605f4a",
@@ -1323,7 +1323,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1339,7 +1339,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "17b0e300837efcc0",
@@ -1365,7 +1365,7 @@
       "apply_start": "2026-09-19T00:00+09:00",
       "apply_end": "2027-01-31T00:00+09:00",
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1385,7 +1385,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "cdeb51f342db35b9",
@@ -1410,7 +1410,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "creator_or_other",
@@ -1426,7 +1426,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f651c089fea88be3",
@@ -1452,7 +1452,7 @@
       "apply_start": "2026-08-31T00:00+09:00",
       "apply_end": "2026-09-23T00:00+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1468,7 +1468,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "1a9c7ec8651553e4",
@@ -1511,9 +1511,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "eff89853d3f70e49",
@@ -1556,9 +1556,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "9a43710a27e4ac9d",
@@ -1579,7 +1579,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1595,7 +1595,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3f54b55b77a41733",
@@ -1618,7 +1618,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1635,7 +1635,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3b3101a0b21884d5",
@@ -1661,7 +1661,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 12:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -1679,7 +1679,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-03T05:51:51.408850+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "fb705add21b9641c",
@@ -1705,7 +1705,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 14:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -1723,7 +1723,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "bcbfe8967d62edec",
@@ -1744,7 +1744,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -1761,7 +1761,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5aa219947634d239",
@@ -1787,7 +1787,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-10-12T00:00+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1803,7 +1803,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T14:56:39.947944+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "956402eef6c94bbf",
@@ -1843,9 +1843,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "cccccdaabf45711a",
@@ -1885,9 +1885,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b1ffda02ca39e2e5",
@@ -1927,9 +1927,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f3eb94152b107d4b",
@@ -1969,9 +1969,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5e7bb8297ebba5e3",
@@ -2008,9 +2008,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d78d9e3ad383d6e9",
@@ -2047,9 +2047,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3a2f2d9d9851fc7a",
@@ -2086,9 +2086,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "976c6070fa89d2fd",
@@ -2125,9 +2125,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "352b50a08942c522",
@@ -2164,9 +2164,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "34a9a4feafc73a0c",
@@ -2203,9 +2203,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "423d87c1e1e62e11",
@@ -2242,9 +2242,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "cdf05b65e42b962b",
@@ -2281,9 +2281,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5852c6faab2df620",
@@ -2309,7 +2309,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-06T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/r_qay",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2326,7 +2326,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c5e4b783125f3fc3",
@@ -2352,7 +2352,7 @@
       "apply_start": "2026-08-19T00:00+09:00",
       "apply_end": "2026-09-06T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/h26c4",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2370,7 +2370,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6748ccf54f179bd9",
@@ -2396,7 +2396,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-09T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/mz9zj",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2412,7 +2412,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "7cd1410530b01990",
@@ -2438,7 +2438,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-13T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/0xwbh",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2454,7 +2454,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3c0d86f0c17f2e5f",
@@ -2480,7 +2480,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-13T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/xk0tf",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2496,7 +2496,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "1539043736ab9e4a",
@@ -2522,7 +2522,7 @@
       "apply_start": "2026-09-05T00:00+09:00",
       "apply_end": "2026-09-23T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/wg-pv",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2538,7 +2538,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6cb98b905bf69c3e",
@@ -2564,7 +2564,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-27T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/2xjgy",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2580,7 +2580,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3cc5624250cebe47",
@@ -2598,7 +2598,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2614,7 +2614,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2f448f49e1dcc196",
@@ -2636,7 +2636,7 @@
       "apply_start": null,
       "apply_end": null,
       "apply_url": "https://livepocket.jp/e/ldzra",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2652,7 +2652,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5902fcece0b6449d",
@@ -2678,7 +2678,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-25 10:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2693,7 +2693,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "511b662331737656",
@@ -2718,7 +2718,7 @@
       "event_start": null,
       "apply_start": "2027-01-13T00:00+09:00",
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2735,7 +2735,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f331c91346f91ff8",
@@ -2760,7 +2760,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -2777,7 +2777,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2f6a015bde002caf",
@@ -2799,7 +2799,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2815,7 +2815,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "aca951fd8907f1fc",
@@ -2837,7 +2837,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2853,7 +2853,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d53322ee8de22cda",
@@ -2875,7 +2875,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2891,7 +2891,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e72efc28dafa67ae",
@@ -2913,7 +2913,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2929,7 +2929,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "99afa8dd6f3e415b",
@@ -2951,7 +2951,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2967,7 +2967,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "a22978c787894a56",
@@ -3007,9 +3007,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8bc4b5c0965e911f",
@@ -3046,9 +3046,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f5c8dce728c98faf",
@@ -3085,9 +3085,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T06:43:47.788460+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f3ac8b2406b5d49f",
@@ -3127,9 +3127,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "196340d50c454caa",
@@ -3166,9 +3166,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b6404a91b784e42c",
@@ -3208,9 +3208,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3dfb83f1e0ece079",
@@ -3250,9 +3250,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-02T16:37:58.756051+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2f34549762ffb4b1",
@@ -3289,9 +3289,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "39ca75dd34d4ac22",
@@ -3328,9 +3328,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "043b5bb608858222",
@@ -3370,9 +3370,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8ea10ee690abce32",
@@ -3409,9 +3409,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "62c84bc7982d42fd",
@@ -3448,9 +3448,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8fcc8f25141f95ee",
@@ -3487,9 +3487,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "73c4a8b2c0bc2d1a",
@@ -3529,9 +3529,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c2e95e7b55796a2c",
@@ -3568,9 +3568,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "678c4c2afcb1bd22",
@@ -3610,9 +3610,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3d97b4a440d6e2d7",
@@ -3649,9 +3649,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "78f9a9136d5109d8",
@@ -3688,9 +3688,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "0a77180c9f886063",
@@ -3727,9 +3727,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "a99eed5a77125523",
@@ -3770,9 +3770,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b29a51645909c337",
@@ -3809,9 +3809,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "809c91dcbf78e4a6",
@@ -3848,9 +3848,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5b9cc735f00a5402",
@@ -3894,9 +3894,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "68183958a321e884",
@@ -3938,9 +3938,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f0fc0ea061ff75d0",
@@ -3985,9 +3985,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e310e8e2852f2bb3",
@@ -4032,9 +4032,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c845d5ce4ed6d4cc",
@@ -4077,9 +4077,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "fb9e927a34eba337",
@@ -4100,7 +4100,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -4118,7 +4118,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6d05f79dc2537dcf",
@@ -4144,7 +4144,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -4160,7 +4160,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "70308a8dc5c09856",
@@ -4178,7 +4178,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -4195,7 +4195,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "6016daaf80a77686",
@@ -4221,7 +4221,7 @@
       "apply_start": null,
       "apply_end": "2026-10-26T23:59+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -4237,7 +4237,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "79403cab2304cf60",
@@ -4262,7 +4262,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -4278,7 +4278,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "9cf8c338c1a6b904",
@@ -4304,7 +4304,7 @@
       "apply_start": "2026-08-29T00:00+09:00",
       "apply_end": "2026-09-14T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/db2wj",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4320,7 +4320,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8a6048d04db567c5",
@@ -4346,7 +4346,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-10-02T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/dgjik",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4362,7 +4362,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8aceca5456f98246",
@@ -4388,7 +4388,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-10-10T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/mlhc_",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4404,7 +4404,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d90865ce430feff6",
@@ -4429,7 +4429,7 @@
       "event_start": null,
       "apply_start": "2026-08-28T10:00+09:00",
       "apply_end": "2027-08-28T10:00+09:00",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4446,7 +4446,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "1eff7acca5c34277",
@@ -4486,9 +4486,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T16:29:03.522626+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "43754518ff289deb",
@@ -4525,9 +4525,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2dff84b529e8fb86",
@@ -4564,9 +4564,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "efa8ee41c5d01195",
@@ -4603,9 +4603,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "db8b2126a29ae851",
@@ -4642,9 +4642,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "7481ecf10cac0cc4",
@@ -4681,9 +4681,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "0f52cce159c745a5",
@@ -4720,9 +4720,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5fd22e293a8b34d3",
@@ -4759,9 +4759,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "1685a49912530f80",
@@ -4798,9 +4798,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b8fba494e60a857f",
@@ -4837,9 +4837,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "759cc2465e8d9af0",
@@ -4876,9 +4876,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "0b479d38b5ec718f",
@@ -4904,7 +4904,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -4920,7 +4920,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b4de900ba19e616c",
@@ -4956,9 +4956,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5a90a23704a7d78a",
@@ -4994,9 +4994,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "155b1e5c07e1f45f",
@@ -5040,9 +5040,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "1db649b03639fbbb",
@@ -5079,9 +5079,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "bd6147c816bece3e",
@@ -5121,9 +5121,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d0cb5ddd43055c7f",
@@ -5163,9 +5163,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "69a34562c44cb23c",
@@ -5206,9 +5206,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "beb2a52c2af71bcf",
@@ -5248,9 +5248,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "9ad4aa7ee007f4ef",
@@ -5291,9 +5291,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "20b5a936e5f07b05",
@@ -5333,9 +5333,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c91ef66e64625728",
@@ -5376,9 +5376,9 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b2b0265ebc9eb08f",
@@ -5399,7 +5399,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5415,7 +5415,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "9a8477e591c86f3d",
@@ -5438,7 +5438,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5455,7 +5455,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-04T16:25:12.752508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "25ade65953ab283b",
@@ -5478,7 +5478,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5494,7 +5494,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "14eef49a7e9aafba",
@@ -5515,7 +5515,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5531,7 +5531,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "0161fc6a4d71cc7f",
@@ -5552,7 +5552,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5568,7 +5568,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "243f3d44960833a3",
@@ -5589,7 +5589,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5605,7 +5605,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "32ddf34b8ca56ddb",
@@ -5626,7 +5626,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5642,7 +5642,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "de38d447952d674d",
@@ -5663,7 +5663,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5679,7 +5679,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "80a9ead4b14bb1b2",
@@ -5704,7 +5704,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5720,7 +5720,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "0c93ee8b9abcbf62",
@@ -5746,7 +5746,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-19 00:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -5763,7 +5763,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5ba85188355e0e1c",
@@ -5788,7 +5788,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -5805,7 +5805,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e559ecc684d1effb",
@@ -5831,7 +5831,7 @@
       "apply_start": "2026-09-05T10:00+09:00",
       "apply_end": "2026-09-13T00:00+09:00",
       "published_at": "2026-09-04 18:00:01",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -5849,7 +5849,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "070769c5ec56db3a",
@@ -5875,7 +5875,7 @@
       "apply_start": "2026-08-28T00:00+09:00",
       "apply_end": "2026-09-21T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/7xtlx",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5892,7 +5892,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "74fdbd8b743356e5",
@@ -5918,7 +5918,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-22T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/xl2yi",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5935,7 +5935,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2a0cf762aec7f388",
@@ -5956,7 +5956,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "performer",
@@ -5973,7 +5973,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2f78a73be00d41fd",
@@ -5994,7 +5994,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "performer",
@@ -6011,7 +6011,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "23550072c3b6d080",
@@ -6032,7 +6032,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6048,7 +6048,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "ee0ff76a7c42b6cd",
@@ -6069,7 +6069,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6085,7 +6085,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e28d5c740f6fa534",
@@ -6106,7 +6106,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6122,7 +6122,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "56cb86aa1592d88f",
@@ -6148,7 +6148,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 12:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6165,7 +6165,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-03T05:51:51.408850+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "db25360350f5e38b",
@@ -6186,7 +6186,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6202,7 +6202,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b5b552f851d31a5e",
@@ -6243,9 +6243,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "7056a80945bfb7b6",
@@ -6266,7 +6266,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6282,7 +6282,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c828e7effb42827d",
@@ -6303,7 +6303,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6319,7 +6319,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "19aad824f8080822",
@@ -6340,7 +6340,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6356,7 +6356,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "34a1de6a29cea1ad",
@@ -6377,7 +6377,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6393,7 +6393,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "956bf8fddab321de",
@@ -6414,7 +6414,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6430,7 +6430,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "18cbff3e9d6928ab",
@@ -6451,7 +6451,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6467,7 +6467,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f153c031aec7a52d",
@@ -6488,7 +6488,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6504,7 +6504,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f0d5a5dfb325bf72",
@@ -6525,7 +6525,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6541,7 +6541,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "a7740e4e41f8f853",
@@ -6562,7 +6562,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6578,7 +6578,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "198c05e24573336a",
@@ -6599,7 +6599,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6615,7 +6615,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8abd283f1018d51e",
@@ -6636,7 +6636,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6652,7 +6652,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5429b7e363865586",
@@ -6673,7 +6673,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6689,7 +6689,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c9679e3838a0e58b",
@@ -6714,7 +6714,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6730,7 +6730,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2eabb722db308a89",
@@ -6756,7 +6756,7 @@
       "apply_start": "2026-09-11T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-09-01 09:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer_exception",
@@ -6773,7 +6773,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "b6450d47b8a9726f",
@@ -6799,7 +6799,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-27 11:00:03",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6816,7 +6816,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f3bf333b41c89a0d",
@@ -6841,7 +6841,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -6857,7 +6857,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "aec6395f926ca737",
@@ -6882,7 +6882,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6899,7 +6899,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c34143ff86ada71f",
@@ -6925,7 +6925,7 @@
       "apply_start": null,
       "apply_end": "2026-10-30T00:00+09:00",
       "published_at": "2026-09-02 10:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -6943,7 +6943,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-02T05:52:09.625496+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c38a9f0601e96e80",
@@ -6969,7 +6969,7 @@
       "apply_start": "2026-10-11T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-09-01 12:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6985,7 +6985,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "74ffa666c4bac225",
@@ -7010,7 +7010,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7027,7 +7027,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8b0eb0a3a70e0243",
@@ -7048,7 +7048,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7064,7 +7064,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f710c20b1b2861e5",
@@ -7089,7 +7089,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7106,7 +7106,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "3c105d12adbb15ae",
@@ -7128,7 +7128,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "performer",
       "tags": [
@@ -7145,7 +7145,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "469bf6f7f825c4df",
@@ -7170,7 +7170,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7187,7 +7187,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d571d1852399e19e",
@@ -7228,9 +7228,9 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00",
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00",
       "source_stale": true,
-      "source_stale_since": "2026-09-04T16:25:12.752508+00:00"
+      "source_stale_since": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "9d1c936160e8d6ef",
@@ -7251,7 +7251,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "performer",
@@ -7268,7 +7268,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "18ce19b4e40af3f9",
@@ -7294,7 +7294,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 05:00:01",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7311,7 +7311,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-03T22:37:18.725743+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "30ef36af9c1066ba",
@@ -7336,7 +7336,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7353,7 +7353,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "048a471cc9723373",
@@ -7374,7 +7374,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "performer",
@@ -7391,7 +7391,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e4e9ce83050f5c9a",
@@ -7416,7 +7416,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "subject_type": "performer",
       "tags": [
@@ -7433,7 +7433,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "31c32190aedd48e5",
@@ -7456,7 +7456,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7473,7 +7473,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T16:25:12.752508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "a44508b7f0f1221b",
@@ -7496,7 +7496,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7512,7 +7512,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5e2e54706fdbdb92",
@@ -7534,7 +7534,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7550,7 +7550,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d26681b574baa792",
@@ -7576,7 +7576,7 @@
       "apply_start": "2026-09-07T00:00+09:00",
       "apply_end": "2026-09-07T00:00+09:00",
       "published_at": "2026-09-04 10:00:21",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7593,7 +7593,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T01:01:31.457371+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "d6e6f9c0c39e6f94",
@@ -7618,7 +7618,7 @@
       "event_start": null,
       "apply_start": "2026-09-07T00:00+09:00",
       "apply_end": "2026-09-07T00:00+09:00",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7636,7 +7636,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "4ddbb8e9b28a4a6b",
@@ -7662,7 +7662,7 @@
       "apply_start": "2026-09-04T00:00+09:00",
       "apply_end": "2026-09-23T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/ld7h2",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7680,7 +7680,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "13189ee264aae0b3",
@@ -7706,7 +7706,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-24T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/9gcqb",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7723,7 +7723,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T08:16:27.881160+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c6010dbc88baf4c4",
@@ -7749,7 +7749,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7766,7 +7766,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e3870df59150413d",
@@ -7791,7 +7791,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-28 13:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7807,7 +7807,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "4d01654aca214c23",
@@ -7833,7 +7833,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7848,7 +7848,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-29T09:06:40.352840+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "61fb488258f420af",
@@ -7872,7 +7872,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7889,7 +7889,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "04a31f30ba181653",
@@ -7914,7 +7914,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 19:00:01",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7931,7 +7931,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "019ba42038aa4e27",
@@ -7954,7 +7954,7 @@
       "apply_start": "2026-09-01T00:00+09:00",
       "apply_end": "2026-09-10T00:00+09:00",
       "published_at": "2026-09-01 00:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7970,7 +7970,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "da9a0ff4e651fba9",
@@ -7996,7 +7996,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-27 17:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8011,7 +8011,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "eabd65e6ab927fc6",
@@ -8036,7 +8036,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8052,7 +8052,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c59aed96f065b68c",
@@ -8070,7 +8070,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -8087,7 +8087,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "cb642ac5da65f98c",
@@ -8112,7 +8112,7 @@
       "event_start": "2026-09-19T00:00+09:00",
       "apply_start": "2026-09-19T00:00+09:00",
       "apply_end": "2026-09-19T00:00+09:00",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8129,7 +8129,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "30a845faf991a539",
@@ -8155,7 +8155,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8172,7 +8172,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8b410327e978d49a",
@@ -8198,7 +8198,7 @@
       "event_start": "2026-09-13T00:00+09:00",
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8213,7 +8213,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "04d9d74a307d4fcf",
@@ -8239,7 +8239,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8255,7 +8255,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2c16581d7eebfaa4",
@@ -8281,7 +8281,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8298,7 +8298,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "1c621c06142b3953",
@@ -8323,7 +8323,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8339,7 +8339,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "557da744590a0a64",
@@ -8365,7 +8365,7 @@
       "apply_start": "2026-09-25T00:00+09:00",
       "apply_end": "2026-09-25T00:00+09:00",
       "published_at": "2026-09-03 12:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8382,7 +8382,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-03T05:51:51.408850+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "5a717c6e043ad687",
@@ -8407,7 +8407,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 18:20:42",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8424,7 +8424,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "f83f861e8c83f5a6",
@@ -8450,7 +8450,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 12:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8467,7 +8467,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T05:51:51.408850+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "406e6884060d76ce",
@@ -8493,7 +8493,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 11:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8510,7 +8510,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "9118111f280be3ba",
@@ -8534,7 +8534,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-01 11:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8550,7 +8550,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "c7f0464648810bcc",
@@ -8576,7 +8576,7 @@
       "event_start": null,
       "apply_start": "2026-09-15T00:00+09:00",
       "apply_end": "2026-09-15T00:00+09:00",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8593,7 +8593,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "2ace599cbfdd4592",
@@ -8619,7 +8619,7 @@
       "event_start": "2026-09-27T00:00+09:00",
       "apply_start": "2026-09-08T00:00+09:00",
       "apply_end": "2026-09-27T00:00+09:00",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8636,7 +8636,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "e051424a6cc74a16",
@@ -8662,7 +8662,7 @@
       "event_start": "2026-09-16T10:00+09:00",
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8679,7 +8679,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "38f4c8a0b0a9b421",
@@ -8704,7 +8704,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8720,7 +8720,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     },
     {
       "id": "8c34fbb1dfc226cc",
@@ -8746,7 +8746,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 11:00:02",
-      "fetched_at": "2026-09-04T16:25:12.752508+00:00",
+      "fetched_at": "2026-09-04T19:38:58.240418+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8763,7 +8763,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-04T16:25:12.752508+00:00"
+      "last_seen_at": "2026-09-04T19:38:58.240418+00:00"
     }
   ],
   "expired_count": 176,
