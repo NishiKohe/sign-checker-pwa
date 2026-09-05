@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T10:40:11.072481+00:00",
-  "count": 214,
+  "generated_at": "2026-09-05T13:53:01.899056+00:00",
+  "count": 223,
   "sources": {
     "shosen": {
       "enabled": true,
@@ -13,11 +13,9 @@
       "active_count": 19
     },
     "melonbooks": {
-      "enabled": false,
-      "count": 0,
-      "active_count": 80,
-      "stale_fallback_count": 80,
-      "stale_from_generated_at": "2026-09-05T05:48:05.317481+00:00"
+      "enabled": true,
+      "count": 320,
+      "active_count": 86
     },
     "prtimes": {
       "enabled": true,
@@ -31,8 +29,8 @@
     },
     "gamers": {
       "enabled": true,
-      "count": 51,
-      "active_count": 17
+      "count": 55,
+      "active_count": 20
     },
     "toranoana": {
       "enabled": true,
@@ -63,9 +61,9 @@
     }
   },
   "category_counts": {
+    "signed_book": 113,
     "autograph_event": 55,
-    "signed_book": 102,
-    "original_art": 31,
+    "original_art": 29,
     "exhibition": 10,
     "campaign": 16
   },
@@ -98,12 +96,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "先着",
@@ -119,9 +116,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "cf4f8c8b73da9ac0",
@@ -163,7 +158,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "82b39b6a639913d6",
@@ -183,12 +178,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "先着",
@@ -204,9 +198,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "515102548a8df2ee",
@@ -226,12 +218,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -247,9 +238,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8ee7f363f98c5e95",
@@ -275,7 +264,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -291,7 +280,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "35eea03f06a73780",
@@ -333,7 +322,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-01T08:16:27.881160+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "bb6b4eeaa54a05cc",
@@ -357,7 +346,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-31 11:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -374,7 +363,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "08d175a61ac1455a",
@@ -400,7 +389,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -416,7 +405,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "83588160af7d4e8a",
@@ -436,12 +425,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -456,9 +444,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1574df340edb8f2c",
@@ -478,12 +464,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -498,9 +483,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6ec1f7e29ebc385e",
@@ -520,12 +503,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -540,9 +522,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "21afbb81034f33cf",
@@ -562,12 +542,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -582,9 +561,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6d47d0883a3624de",
@@ -602,12 +579,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "先着",
@@ -621,9 +597,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "64a9f50369e7fdd3",
@@ -645,12 +619,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -665,9 +638,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "ca6fb29b9cb993ee",
@@ -693,7 +664,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -709,7 +680,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "11a0909c2f35ec64",
@@ -731,12 +702,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -750,9 +720,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "853dffe15a2f2319",
@@ -777,7 +745,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -794,7 +762,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-05T05:48:05.317481+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6040f5f1ebcf7687",
@@ -820,7 +788,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -836,7 +804,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "0c7f7abf150b0df7",
@@ -862,7 +830,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "first_come",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -878,7 +846,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-30T09:20:28.573391+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "20d9444880b68cb8",
@@ -900,12 +868,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "抽選",
@@ -920,9 +887,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "e79a21e731417bf3",
@@ -945,7 +910,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "creator_or_other",
@@ -961,7 +926,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b2020abd85fb404f",
@@ -979,7 +944,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -996,7 +961,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6ef9e46941f18166",
@@ -1021,7 +986,7 @@
       "event_start": null,
       "apply_start": "2026-09-24T00:00+09:00",
       "apply_end": "2026-09-24T00:00+09:00",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1037,7 +1002,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "54c002c4cb111272",
@@ -1062,12 +1027,12 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": "2026-09-23T23:59+09:00",
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
+        "新着",
         "メロンブックス",
         "原画・色紙・一点物",
         "抽選",
@@ -1082,9 +1047,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6f7f2a0e05eaf1a4",
@@ -1109,12 +1072,12 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": "2026-09-23T23:59+09:00",
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
+        "新着",
         "メロンブックス",
         "原画・色紙・一点物",
         "抽選",
@@ -1129,9 +1092,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "faee571b27bda5b5",
@@ -1156,7 +1117,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 15:00:01",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1174,7 +1135,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "25e49f752dd16ac7",
@@ -1196,12 +1157,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -1215,9 +1175,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "83b09885f226230c",
@@ -1239,12 +1197,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -1259,9 +1216,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "242d1203a15424b5",
@@ -1287,7 +1242,7 @@
       "apply_start": "2026-08-19T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-08-26 12:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1303,7 +1258,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "ba982b452dff6b7e",
@@ -1324,7 +1279,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1340,7 +1295,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d9afcc058a605f4a",
@@ -1365,7 +1320,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1381,7 +1336,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "17b0e300837efcc0",
@@ -1407,7 +1362,7 @@
       "apply_start": "2026-09-19T00:00+09:00",
       "apply_end": "2027-01-31T00:00+09:00",
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1427,7 +1382,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "cdeb51f342db35b9",
@@ -1452,7 +1407,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "creator_or_other",
@@ -1468,7 +1423,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f651c089fea88be3",
@@ -1494,7 +1449,7 @@
       "apply_start": "2026-08-31T00:00+09:00",
       "apply_end": "2026-09-23T00:00+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -1510,7 +1465,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1a9c7ec8651553e4",
@@ -1532,12 +1487,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -1553,9 +1507,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "eff89853d3f70e49",
@@ -1577,12 +1529,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -1598,9 +1549,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "9a43710a27e4ac9d",
@@ -1621,7 +1570,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1637,7 +1586,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3f54b55b77a41733",
@@ -1660,7 +1609,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1677,7 +1626,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3b3101a0b21884d5",
@@ -1703,7 +1652,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 12:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -1720,7 +1669,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-03T05:51:51.408850+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "fb705add21b9641c",
@@ -1746,7 +1695,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 14:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -1764,7 +1713,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "71b72b76310e60c0",
@@ -1785,7 +1734,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -1803,7 +1752,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "bcbfe8967d62edec",
@@ -1824,7 +1773,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -1841,7 +1790,49 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "5aa219947634d239",
+      "title": "「ゴスロリ横丁」2巻発売記念サイン色紙プレゼントフェア",
+      "source": "ゲーマーズ",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "lottery",
+      "score": 60,
+      "reasons": "サイン本 +12 / 購入条件付き抽選 +5 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7922",
+      "status": "open",
+      "dates": [
+        "2026年09月02日",
+        "2026年9月11日(金)",
+        "2026年10月12日(月・祝)",
+        "2026/09/11",
+        "09月02日",
+        "9月11日(金)"
+      ],
+      "event_start": null,
+      "apply_start": "2026-09-02T00:00+09:00",
+      "apply_end": "2026-10-12T00:00+09:00",
+      "acquisition": "lottery_purchase",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "subject_type": "creator_or_other",
+      "tags": [
+        "ゲーマーズ",
+        "サイン本",
+        "購入条件付き抽選",
+        "オンライン",
+        "成人向け",
+        "受付中"
+      ],
+      "source_tag": "ゲーマーズ",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "accepting",
+      "first_seen_at": "2026-09-01T14:56:39.947944+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "956402eef6c94bbf",
@@ -1859,12 +1850,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -1881,9 +1871,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "cccccdaabf45711a",
@@ -1901,12 +1889,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -1923,9 +1910,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b1ffda02ca39e2e5",
@@ -1943,12 +1928,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -1965,9 +1949,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f3eb94152b107d4b",
@@ -1985,12 +1967,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2007,9 +1988,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5e7bb8297ebba5e3",
@@ -2027,12 +2006,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2046,9 +2024,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d78d9e3ad383d6e9",
@@ -2066,12 +2042,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2085,9 +2060,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3a2f2d9d9851fc7a",
@@ -2105,12 +2078,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2124,9 +2096,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "976c6070fa89d2fd",
@@ -2144,12 +2114,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2163,9 +2132,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "352b50a08942c522",
@@ -2183,12 +2150,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2202,9 +2168,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "34a9a4feafc73a0c",
@@ -2222,12 +2186,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2241,9 +2204,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "423d87c1e1e62e11",
@@ -2261,12 +2222,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2280,9 +2240,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "cdf05b65e42b962b",
@@ -2300,12 +2258,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -2319,9 +2276,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5852c6faab2df620",
@@ -2347,7 +2302,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-06T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/r_qay",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2364,7 +2319,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c5e4b783125f3fc3",
@@ -2390,7 +2345,7 @@
       "apply_start": "2026-08-19T00:00+09:00",
       "apply_end": "2026-09-06T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/h26c4",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2408,7 +2363,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "closing_soon",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6748ccf54f179bd9",
@@ -2434,7 +2389,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-09T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/mz9zj",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2450,7 +2405,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "7cd1410530b01990",
@@ -2476,7 +2431,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-13T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/0xwbh",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2492,7 +2447,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3c0d86f0c17f2e5f",
@@ -2518,7 +2473,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-13T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/xk0tf",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2534,7 +2489,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1539043736ab9e4a",
@@ -2560,7 +2515,7 @@
       "apply_start": "2026-09-05T00:00+09:00",
       "apply_end": "2026-09-23T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/wg-pv",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2576,7 +2531,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6cb98b905bf69c3e",
@@ -2602,7 +2557,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-27T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/2xjgy",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2618,7 +2573,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3cc5624250cebe47",
@@ -2636,7 +2591,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2652,7 +2607,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2f448f49e1dcc196",
@@ -2674,7 +2629,7 @@
       "apply_start": null,
       "apply_end": null,
       "apply_url": "https://livepocket.jp/e/ldzra",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2690,7 +2645,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5902fcece0b6449d",
@@ -2716,7 +2671,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-25 10:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "creator_or_other",
@@ -2731,7 +2686,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "511b662331737656",
@@ -2756,7 +2711,7 @@
       "event_start": null,
       "apply_start": "2027-01-13T00:00+09:00",
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -2773,7 +2728,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "upcoming",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f331c91346f91ff8",
@@ -2798,7 +2753,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -2815,7 +2770,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2f6a015bde002caf",
@@ -2837,7 +2792,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2853,7 +2808,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "aca951fd8907f1fc",
@@ -2875,7 +2830,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2891,7 +2846,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d53322ee8de22cda",
@@ -2913,7 +2868,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2929,7 +2884,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "e72efc28dafa67ae",
@@ -2951,7 +2906,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -2967,7 +2922,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "99afa8dd6f3e415b",
@@ -2989,7 +2944,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -3005,7 +2960,229 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "f97092bc48fae629",
+      "title": "【サイン本】おかえりせっくす総集編【コミティア156】（アクアドロップ）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649259",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "e1aca815525ad3fb",
+      "title": "【サイン本】おかえりせっくす総集編特装版【コミティア156】（アクアドロップ）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649260",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "c743e6db8f0c9bdb",
+      "title": "【サイン本】おでかけせっくす総集編【コミティア156】（アクアドロップ）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649261",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "9399e7891e04d348",
+      "title": "【サイン本】おとまりせっくす総集編【コミティア156】（アクアドロップ）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649262",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "7a70917db6e52bf6",
+      "title": "【サイン本】おもいでせっくす総集編【コミティア156】（アクアドロップ）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649258",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "1f981f4d91197a76",
+      "title": "【サイン本】おやすみせっくす総集編【コミティア156】（アクアドロップ）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649255",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "a22978c787894a56",
@@ -3023,12 +3200,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3045,9 +3221,44 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "2b4ded49707e1584",
+      "title": "【サイン本】みけのとおでかけ【コミティア156】（ひやしてかためる）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649387",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8bc4b5c0965e911f",
@@ -3065,12 +3276,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3084,9 +3294,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f5c8dce728c98faf",
@@ -3104,12 +3312,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3123,9 +3330,44 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T06:43:47.788460+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "9b458e350cf80c9f",
+      "title": "【サイン本】妹とAV見る総集編 おやすみせっくすいちゃラブ番外まとめ【コミティア156】（アクアドロップ）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3649256",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f3ac8b2406b5d49f",
@@ -3143,12 +3385,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3165,9 +3406,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "196340d50c454caa",
@@ -3185,12 +3424,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3204,9 +3442,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b6404a91b784e42c",
@@ -3224,12 +3460,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3246,9 +3481,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3dfb83f1e0ece079",
@@ -3266,12 +3499,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3288,9 +3520,47 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-02T16:37:58.756051+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "e316234cddfa2bc1",
+      "title": "【サイン本】恥じらいキャット【C108】（きらきらランド）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3769491",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "C108",
+        "夏コミ",
+        "C108サイン本フェア",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2f34549762ffb4b1",
@@ -3308,12 +3578,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3327,9 +3596,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "39ca75dd34d4ac22",
@@ -3347,12 +3614,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3366,9 +3632,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1ad135952c98c70c",
@@ -3386,12 +3650,12 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
+        "新着",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3408,9 +3672,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-04T22:22:57.069576+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "043b5bb608858222",
@@ -3428,12 +3690,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3450,9 +3711,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8ea10ee690abce32",
@@ -3470,12 +3729,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3489,9 +3747,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "62c84bc7982d42fd",
@@ -3509,12 +3765,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3528,9 +3783,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8fcc8f25141f95ee",
@@ -3548,12 +3801,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3567,9 +3819,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "73c4a8b2c0bc2d1a",
@@ -3587,12 +3837,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3609,9 +3858,47 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "4ba1d5b62d441a48",
+      "title": "【サイン本】黒猫の甘い誘い【C108】（きらきらランド）の通販・購入はメロンブックス",
+      "source": "メロンブックス",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 55,
+      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
+      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3769492",
+      "status": "unknown",
+      "dates": [],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "acquisition": "unknown",
+      "subject_type": "creator_or_other",
+      "tags": [
+        "新着",
+        "メロンブックス",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "成人向け",
+        "C108",
+        "夏コミ",
+        "C108サイン本フェア",
+        "メロブ直筆・サイン",
+        "販売中候補"
+      ],
+      "source_tag": "メロンブックス",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-09-05T13:53:01.899056+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "678c4c2afcb1bd22",
@@ -3631,12 +3918,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3651,9 +3937,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3d97b4a440d6e2d7",
@@ -3671,12 +3955,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3690,9 +3973,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "78f9a9136d5109d8",
@@ -3710,12 +3991,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3729,9 +4009,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "0a77180c9f886063",
@@ -3749,12 +4027,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3768,52 +4045,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
-    },
-    {
-      "id": "a99eed5a77125523",
-      "title": "お気楽領主の楽しい領地防衛～生産系魔術で名もなき村を最強の城塞都市に～ EDテーマ「Make it」/大渕野々花 直筆サイン入り限定盤（ビクターエンタテインメント）の通販・購入はメロンブックス",
-      "source": "メロンブックス",
-      "creator": "",
-      "location": "オンライン",
-      "category": "signed_book",
-      "method": "unknown",
-      "score": 55,
-      "reasons": "サイン本 +12 / 成人向け +25 / サイン本重点 +18",
-      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3375358",
-      "status": "unknown",
-      "dates": [
-        "2026年02月25日",
-        "2026/02/25",
-        "02月25日"
-      ],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "前回取得情報",
-        "メロンブックス",
-        "サイン本",
-        "方式未判定",
-        "オンライン",
-        "成人向け",
-        "メロブ直筆・サイン",
-        "販売中候補"
-      ],
-      "source_tag": "メロンブックス",
-      "lifecycle": "active",
-      "lifecycle_reason": "signed_book_or_direct_sale",
-      "action_state": "on_sale_candidate",
-      "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b29a51645909c337",
@@ -3831,12 +4063,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3850,9 +4081,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "809c91dcbf78e4a6",
@@ -3870,12 +4099,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3889,9 +4117,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5b9cc735f00a5402",
@@ -3915,12 +4141,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3935,9 +4160,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "68183958a321e884",
@@ -3959,12 +4182,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -3979,9 +4201,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f0fc0ea061ff75d0",
@@ -4006,12 +4226,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": "2026-10-11T23:59+09:00",
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4026,9 +4245,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "e310e8e2852f2bb3",
@@ -4053,12 +4270,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": "2026-10-11T23:59+09:00",
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4073,9 +4289,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c845d5ce4ed6d4cc",
@@ -4099,12 +4313,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": "2026-12-07T23:59+09:00",
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "購入条件付き抽選",
@@ -4118,9 +4331,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "fb9e927a34eba337",
@@ -4141,7 +4352,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -4159,7 +4370,49 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "6d05f79dc2537dcf",
+      "title": "「花岩香奈 1st写真集 Polaris」パネル展示＆抽選会",
+      "source": "ゲーマーズ",
+      "creator": "",
+      "location": "オンライン",
+      "category": "original_art",
+      "method": "lottery",
+      "score": 50,
+      "reasons": "原画・直筆 +20 / 購入条件付き抽選 +5 / 成人向け +25",
+      "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7863",
+      "status": "open",
+      "dates": [
+        "2026年09月01日",
+        "2026年9月9日(水)",
+        "2026年9月23日(水・祝)",
+        "2026年9月11日(金)",
+        "2026/09/11",
+        "09月01日"
+      ],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "acquisition": "lottery_purchase",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "subject_type": "creator_or_other",
+      "tags": [
+        "ゲーマーズ",
+        "原画・色紙・一点物",
+        "購入条件付き抽選",
+        "オンライン",
+        "成人向け",
+        "受付中"
+      ],
+      "source_tag": "ゲーマーズ",
+      "lifecycle": "active",
+      "lifecycle_reason": "active_or_unknown",
+      "action_state": "accepting",
+      "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "70308a8dc5c09856",
@@ -4177,7 +4430,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -4194,7 +4447,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "6016daaf80a77686",
@@ -4220,7 +4473,7 @@
       "apply_start": null,
       "apply_end": "2026-10-26T23:59+09:00",
       "acquisition": "lottery_purchase",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -4236,7 +4489,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "79403cab2304cf60",
@@ -4261,7 +4514,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -4277,7 +4530,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "9cf8c338c1a6b904",
@@ -4303,7 +4556,7 @@
       "apply_start": "2026-08-29T00:00+09:00",
       "apply_end": "2026-09-14T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/db2wj",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4319,7 +4572,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8a6048d04db567c5",
@@ -4345,7 +4598,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-10-02T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/dgjik",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4361,7 +4614,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8aceca5456f98246",
@@ -4387,7 +4640,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-10-10T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/mlhc_",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4403,7 +4656,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d90865ce430feff6",
@@ -4428,7 +4681,7 @@
       "event_start": null,
       "apply_start": "2026-08-28T10:00+09:00",
       "apply_end": "2027-08-28T10:00+09:00",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -4445,7 +4698,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1eff7acca5c34277",
@@ -4463,12 +4716,12 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
+        "新着",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4485,87 +4738,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T16:29:03.522626+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
-    },
-    {
-      "id": "43754518ff289deb",
-      "title": "【3次受注】三色網戸。 描き下ろし 直筆サイン入り複製原画 La Vacances (成年)（うりぼうざっか店）の通販・購入はメロンブックス",
-      "source": "メロンブックス",
-      "creator": "",
-      "location": "オンライン",
-      "category": "original_art",
-      "method": "unknown",
-      "score": 45,
-      "reasons": "原画・直筆 +20 / 成人向け +25",
-      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=2764303",
-      "status": "unknown",
-      "dates": [],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "前回取得情報",
-        "メロンブックス",
-        "原画・色紙・一点物",
-        "方式未判定",
-        "オンライン",
-        "成人向け",
-        "メロブ直筆・サイン",
-        "日時未取得"
-      ],
-      "source_tag": "メロンブックス",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
-    },
-    {
-      "id": "2dff84b529e8fb86",
-      "title": "【3次受注】三色網戸。 描き下ろし 直筆サイン入り複製原画 La Vacances (成年差分)（うりぼうざっか店）の通販・購入はメロンブックス",
-      "source": "メロンブックス",
-      "creator": "",
-      "location": "オンライン",
-      "category": "original_art",
-      "method": "unknown",
-      "score": 45,
-      "reasons": "原画・直筆 +20 / 成人向け +25",
-      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=2764304",
-      "status": "unknown",
-      "dates": [],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "前回取得情報",
-        "メロンブックス",
-        "原画・色紙・一点物",
-        "方式未判定",
-        "オンライン",
-        "成人向け",
-        "メロブ直筆・サイン",
-        "日時未取得"
-      ],
-      "source_tag": "メロンブックス",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "efa8ee41c5d01195",
@@ -4583,12 +4756,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4602,9 +4774,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "db8b2126a29ae851",
@@ -4622,12 +4792,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4641,9 +4810,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "7481ecf10cac0cc4",
@@ -4661,12 +4828,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4680,9 +4846,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "0f52cce159c745a5",
@@ -4700,12 +4864,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4719,9 +4882,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5fd22e293a8b34d3",
@@ -4739,12 +4900,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4758,9 +4918,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1685a49912530f80",
@@ -4778,12 +4936,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4797,9 +4954,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b8fba494e60a857f",
@@ -4817,12 +4972,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4836,9 +4990,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "759cc2465e8d9af0",
@@ -4856,12 +5008,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4875,9 +5026,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "0b479d38b5ec718f",
@@ -4903,7 +5052,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "creator_or_other",
       "tags": [
@@ -4919,7 +5068,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b4de900ba19e616c",
@@ -4937,12 +5086,12 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
+        "新着",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -4955,47 +5104,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
-    },
-    {
-      "id": "5a90a23704a7d78a",
-      "title": "猫のまたたび cat5 色紙セット（しぐにゃん）の通販・購入はメロンブックス",
-      "source": "メロンブックス",
-      "creator": "",
-      "location": "オンライン",
-      "category": "original_art",
-      "method": "unknown",
-      "score": 45,
-      "reasons": "原画・直筆 +20 / 成人向け +25",
-      "url": "https://org.melonbooks.co.jp/detail/detail.php?product_id=3844661",
-      "status": "unknown",
-      "dates": [],
-      "event_start": null,
-      "apply_start": null,
-      "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
-      "expired": false,
-      "acquisition": "unknown",
-      "subject_type": "creator_or_other",
-      "tags": [
-        "前回取得情報",
-        "メロンブックス",
-        "原画・色紙・一点物",
-        "方式未判定",
-        "オンライン",
-        "成人向け",
-        "日時未取得"
-      ],
-      "source_tag": "メロンブックス",
-      "lifecycle": "active",
-      "lifecycle_reason": "active_or_unknown",
-      "action_state": "date_unknown",
-      "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "155b1e5c07e1f45f",
@@ -5019,12 +5128,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "原画・色紙・一点物",
         "方式未判定",
@@ -5039,9 +5147,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1db649b03639fbbb",
@@ -5059,12 +5165,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5078,9 +5183,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "bd6147c816bece3e",
@@ -5100,12 +5203,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5120,9 +5222,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d0cb5ddd43055c7f",
@@ -5144,12 +5244,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5162,9 +5261,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "69a34562c44cb23c",
@@ -5186,12 +5283,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5205,9 +5301,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "beb2a52c2af71bcf",
@@ -5229,12 +5323,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5247,9 +5340,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "9ad4aa7ee007f4ef",
@@ -5271,12 +5362,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5290,9 +5380,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "20b5a936e5f07b05",
@@ -5314,12 +5402,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5332,9 +5419,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c91ef66e64625728",
@@ -5356,12 +5441,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン会",
         "方式未判定",
@@ -5375,9 +5459,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b2b0265ebc9eb08f",
@@ -5398,7 +5480,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5414,7 +5496,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "9a8477e591c86f3d",
@@ -5437,7 +5519,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5454,7 +5536,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-04T16:25:12.752508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "25ade65953ab283b",
@@ -5477,7 +5559,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5493,7 +5575,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "14eef49a7e9aafba",
@@ -5514,7 +5596,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5530,7 +5612,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "0161fc6a4d71cc7f",
@@ -5551,7 +5633,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5567,7 +5649,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "243f3d44960833a3",
@@ -5588,7 +5670,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5604,7 +5686,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "32ddf34b8ca56ddb",
@@ -5625,7 +5707,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5641,7 +5723,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "de38d447952d674d",
@@ -5662,7 +5744,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5678,7 +5760,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "80a9ead4b14bb1b2",
@@ -5703,7 +5785,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5719,7 +5801,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "0c93ee8b9abcbf62",
@@ -5745,7 +5827,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-19 00:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -5762,7 +5844,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5ba85188355e0e1c",
@@ -5787,7 +5869,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -5804,7 +5886,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "e559ecc684d1effb",
@@ -5830,7 +5912,7 @@
       "apply_start": "2026-09-05T10:00+09:00",
       "apply_end": "2026-09-13T00:00+09:00",
       "published_at": "2026-09-04 18:00:01",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_open",
       "subject_type": "creator_or_other",
@@ -5847,7 +5929,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "070769c5ec56db3a",
@@ -5873,7 +5955,7 @@
       "apply_start": "2026-08-28T00:00+09:00",
       "apply_end": "2026-09-21T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/7xtlx",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5890,7 +5972,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "74fdbd8b743356e5",
@@ -5916,7 +5998,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-22T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/xl2yi",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -5933,7 +6015,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2a0cf762aec7f388",
@@ -5954,7 +6036,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "performer",
@@ -5971,7 +6053,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2f78a73be00d41fd",
@@ -5992,7 +6074,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "performer",
@@ -6009,7 +6091,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "23550072c3b6d080",
@@ -6030,7 +6112,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6046,7 +6128,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "ee0ff76a7c42b6cd",
@@ -6067,7 +6149,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6083,7 +6165,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "e28d5c740f6fa534",
@@ -6104,7 +6186,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6120,7 +6202,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "db25360350f5e38b",
@@ -6141,7 +6223,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6157,7 +6239,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b5b552f851d31a5e",
@@ -6177,12 +6259,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "first_come",
       "subject_type": "performer",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "先着",
@@ -6198,9 +6279,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "7056a80945bfb7b6",
@@ -6221,7 +6300,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6237,7 +6316,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c828e7effb42827d",
@@ -6258,7 +6337,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6274,7 +6353,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "19aad824f8080822",
@@ -6295,7 +6374,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6311,7 +6390,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "34a1de6a29cea1ad",
@@ -6332,7 +6411,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6348,7 +6427,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "956bf8fddab321de",
@@ -6369,7 +6448,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6385,7 +6464,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "18cbff3e9d6928ab",
@@ -6406,7 +6485,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6422,7 +6501,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f153c031aec7a52d",
@@ -6443,7 +6522,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6459,7 +6538,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f0d5a5dfb325bf72",
@@ -6480,7 +6559,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6496,7 +6575,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-28T17:27:59.641021+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "a7740e4e41f8f853",
@@ -6517,7 +6596,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6533,7 +6612,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "198c05e24573336a",
@@ -6554,7 +6633,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6570,7 +6649,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8abd283f1018d51e",
@@ -6591,7 +6670,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6607,7 +6686,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-30T17:32:41.731659+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5429b7e363865586",
@@ -6628,7 +6707,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6644,7 +6723,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c9679e3838a0e58b",
@@ -6669,7 +6748,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6685,7 +6764,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2eabb722db308a89",
@@ -6711,7 +6790,7 @@
       "apply_start": "2026-09-11T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-09-01 09:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer_exception",
@@ -6728,7 +6807,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "b6450d47b8a9726f",
@@ -6754,7 +6833,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-27 11:00:03",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6771,7 +6850,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f3bf333b41c89a0d",
@@ -6796,7 +6875,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -6812,7 +6891,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "74494455813b791a",
@@ -6837,7 +6916,7 @@
       "event_start": "2026-09-19T00:00+09:00",
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6855,7 +6934,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "aec6395f926ca737",
@@ -6880,7 +6959,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6897,7 +6976,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c34143ff86ada71f",
@@ -6923,7 +7002,7 @@
       "apply_start": null,
       "apply_end": "2026-10-30T00:00+09:00",
       "published_at": "2026-09-02 10:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -6941,7 +7020,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-02T05:52:09.625496+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c38a9f0601e96e80",
@@ -6967,7 +7046,7 @@
       "apply_start": "2026-10-11T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-09-01 12:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -6983,7 +7062,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "74ffa666c4bac225",
@@ -7008,7 +7087,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7025,7 +7104,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8b0eb0a3a70e0243",
@@ -7046,7 +7125,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7062,7 +7141,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f710c20b1b2861e5",
@@ -7087,7 +7166,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7104,7 +7183,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "3c105d12adbb15ae",
@@ -7126,7 +7205,7 @@
       "apply_start": null,
       "apply_end": null,
       "acquisition": "unknown",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "subject_type": "performer",
       "tags": [
@@ -7143,7 +7222,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "469bf6f7f825c4df",
@@ -7168,7 +7247,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7185,7 +7264,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d571d1852399e19e",
@@ -7203,12 +7282,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T05:48:05.317481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
       "tags": [
-        "前回取得情報",
         "メロンブックス",
         "サイン本",
         "方式未判定",
@@ -7226,9 +7304,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": "2026-09-01T10:12:53.545717+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "source_stale": true,
-      "source_stale_since": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "9d1c936160e8d6ef",
@@ -7249,7 +7325,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "performer",
@@ -7266,7 +7342,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "18ce19b4e40af3f9",
@@ -7292,7 +7368,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 05:00:01",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7309,7 +7385,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-03T22:37:18.725743+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "30ef36af9c1066ba",
@@ -7334,7 +7410,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7351,7 +7427,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "048a471cc9723373",
@@ -7372,7 +7448,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "direct_sale",
       "subject_type": "performer",
@@ -7389,7 +7465,49 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
+    },
+    {
+      "id": "e4e9ce83050f5c9a",
+      "title": "ゲーマーズ30周年×「ラブライブ！シリーズ」マンスリーフェア第3弾 9月「スクールアイドルミュージカル」",
+      "source": "ゲーマーズ",
+      "creator": "",
+      "location": "オンライン",
+      "category": "signed_book",
+      "method": "unknown",
+      "score": 28,
+      "reasons": "サイン本 +12 / 成人向け +25 / 声優・出演者系 低優先 37→28",
+      "url": "https://www.gamers.co.jp/contents/event_fair/detail.php?id=7872",
+      "status": "unknown",
+      "dates": [
+        "2026年08月31日",
+        "2026年9月1日",
+        "08月31日",
+        "9月1日",
+        "9月30日"
+      ],
+      "event_start": null,
+      "apply_start": null,
+      "apply_end": null,
+      "acquisition": "unknown",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
+      "expired": false,
+      "subject_type": "performer",
+      "tags": [
+        "ゲーマーズ",
+        "サイン本",
+        "方式未判定",
+        "オンライン",
+        "声優・出演者",
+        "成人向け",
+        "販売中候補"
+      ],
+      "source_tag": "ゲーマーズ",
+      "lifecycle": "active",
+      "lifecycle_reason": "signed_book_or_direct_sale",
+      "action_state": "on_sale_candidate",
+      "first_seen_at": "2026-08-31T05:41:36.980840+00:00",
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "31c32190aedd48e5",
@@ -7412,7 +7530,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7429,7 +7547,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T16:25:12.752508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "a44508b7f0f1221b",
@@ -7452,7 +7570,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7468,7 +7586,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5e2e54706fdbdb92",
@@ -7490,7 +7608,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7506,7 +7624,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d26681b574baa792",
@@ -7532,7 +7650,7 @@
       "apply_start": "2026-09-07T00:00+09:00",
       "apply_end": "2026-09-07T00:00+09:00",
       "published_at": "2026-09-04 10:00:21",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7549,7 +7667,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T01:01:31.457371+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "d6e6f9c0c39e6f94",
@@ -7574,7 +7692,7 @@
       "event_start": null,
       "apply_start": "2026-09-07T00:00+09:00",
       "apply_end": "2026-09-07T00:00+09:00",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7592,7 +7710,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "4ddbb8e9b28a4a6b",
@@ -7618,12 +7736,11 @@
       "apply_start": "2026-09-04T00:00+09:00",
       "apply_end": "2026-09-23T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/ld7h2",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
       "tags": [
-        "新着",
         "大垣書店",
         "サイン会",
         "購入条件付き抽選",
@@ -7636,7 +7753,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "13189ee264aae0b3",
@@ -7662,7 +7779,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-24T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/9gcqb",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7679,7 +7796,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-01T08:16:27.881160+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "16dcfd8c5b5fb76c",
@@ -7705,7 +7822,7 @@
       "apply_start": "2026-09-02T00:00+09:00",
       "apply_end": "2026-09-30T23:59+09:00",
       "apply_url": "https://livepocket.jp/e/m77w4",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "lottery_purchase",
       "subject_type": "creator_or_other",
@@ -7722,7 +7839,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-05T10:40:11.072481+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c6010dbc88baf4c4",
@@ -7748,7 +7865,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7765,7 +7882,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "e3870df59150413d",
@@ -7790,7 +7907,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-28 13:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7806,7 +7923,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-28T04:22:44.633155+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "4d01654aca214c23",
@@ -7832,7 +7949,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7847,7 +7964,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-08-29T09:06:40.352840+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "61fb488258f420af",
@@ -7871,7 +7988,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7888,7 +8005,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "04a31f30ba181653",
@@ -7913,12 +8030,11 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 19:00:01",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "新着",
         "PR TIMES",
         "サイン会",
         "方式未判定",
@@ -7930,7 +8046,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "019ba42038aa4e27",
@@ -7953,7 +8069,7 @@
       "apply_start": "2026-09-01T00:00+09:00",
       "apply_end": "2026-09-10T00:00+09:00",
       "published_at": "2026-09-01 00:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -7969,7 +8085,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-08-31T20:08:42.929931+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "22cd40a0a2635557",
@@ -7995,7 +8111,7 @@
       "apply_start": "2026-09-05T00:00+09:00",
       "apply_end": null,
       "published_at": "2026-09-05 12:00:01",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -8012,7 +8128,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": "2026-09-05T05:48:05.317481+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "da9a0ff4e651fba9",
@@ -8038,7 +8154,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-08-27 17:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8053,7 +8169,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "eabd65e6ab927fc6",
@@ -8078,7 +8194,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8094,7 +8210,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c59aed96f065b68c",
@@ -8112,7 +8228,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "performer",
@@ -8129,7 +8245,7 @@
       "lifecycle_reason": "signed_book_or_direct_sale",
       "action_state": "on_sale_candidate",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "cb642ac5da65f98c",
@@ -8154,7 +8270,7 @@
       "event_start": "2026-09-19T00:00+09:00",
       "apply_start": "2026-09-19T00:00+09:00",
       "apply_end": "2026-09-19T00:00+09:00",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8171,7 +8287,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "30a845faf991a539",
@@ -8197,7 +8313,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8214,7 +8330,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8b410327e978d49a",
@@ -8240,7 +8356,7 @@
       "event_start": "2026-09-13T00:00+09:00",
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8255,7 +8371,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "accepting",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "04d9d74a307d4fcf",
@@ -8281,7 +8397,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8297,7 +8413,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2c16581d7eebfaa4",
@@ -8323,12 +8439,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "新着",
         "PR TIMES",
         "応募企画",
         "方式未判定",
@@ -8340,7 +8455,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "1c621c06142b3953",
@@ -8365,7 +8480,7 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8381,7 +8496,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "557da744590a0a64",
@@ -8407,7 +8522,7 @@
       "apply_start": "2026-09-25T00:00+09:00",
       "apply_end": "2026-09-25T00:00+09:00",
       "published_at": "2026-09-03 12:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8423,7 +8538,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-03T05:51:51.408850+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "5a717c6e043ad687",
@@ -8448,7 +8563,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 18:20:42",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8465,7 +8580,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T11:23:25.607048+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "f83f861e8c83f5a6",
@@ -8491,7 +8606,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-03 12:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8507,7 +8622,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T05:51:51.408850+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "406e6884060d76ce",
@@ -8533,7 +8648,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 11:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8550,7 +8665,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "9118111f280be3ba",
@@ -8574,7 +8689,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-01 11:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8590,7 +8705,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-01T05:15:16.475549+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "c7f0464648810bcc",
@@ -8616,7 +8731,7 @@
       "event_start": null,
       "apply_start": "2026-09-15T00:00+09:00",
       "apply_end": "2026-09-15T00:00+09:00",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8633,7 +8748,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": null,
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "2ace599cbfdd4592",
@@ -8659,7 +8774,7 @@
       "event_start": "2026-09-27T00:00+09:00",
       "apply_start": "2026-09-08T00:00+09:00",
       "apply_end": "2026-09-27T00:00+09:00",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8676,7 +8791,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "upcoming",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "e051424a6cc74a16",
@@ -8702,7 +8817,7 @@
       "event_start": "2026-09-16T10:00+09:00",
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8719,7 +8834,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "active",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "38f4c8a0b0a9b421",
@@ -8744,12 +8859,11 @@
       "event_start": null,
       "apply_start": null,
       "apply_end": null,
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
       "tags": [
-        "新着",
         "PR TIMES",
         "応募企画",
         "方式未判定",
@@ -8760,7 +8874,7 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-03T11:20:15.297144+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     },
     {
       "id": "8c34fbb1dfc226cc",
@@ -8786,7 +8900,7 @@
       "apply_start": null,
       "apply_end": null,
       "published_at": "2026-09-04 11:00:02",
-      "fetched_at": "2026-09-05T10:40:11.072481+00:00",
+      "fetched_at": "2026-09-05T13:53:01.899056+00:00",
       "expired": false,
       "acquisition": "unknown",
       "subject_type": "creator_or_other",
@@ -8803,14 +8917,14 @@
       "lifecycle_reason": "active_or_unknown",
       "action_state": "date_unknown",
       "first_seen_at": "2026-09-04T05:57:25.443508+00:00",
-      "last_seen_at": "2026-09-05T10:40:11.072481+00:00"
+      "last_seen_at": "2026-09-05T13:53:01.899056+00:00"
     }
   ],
-  "expired_count": 173,
-  "visible_estimate": 177,
+  "expired_count": 174,
+  "visible_estimate": 500,
   "score_version": 5,
   "performer_policy": {
-    "low_priority_count": 14,
+    "low_priority_count": 21,
     "exception_count": 1,
     "exceptional_names": [
       "野沢雅子",
@@ -8841,44 +8955,43 @@
     ]
   },
   "ogaki_discovery_version": 2,
-  "expired_removed": 218,
+  "expired_removed": 453,
   "expired_reason_counts": {
-    "collector_expired": 173,
-    "status_closed": 22,
+    "collector_expired": 174,
+    "status_closed": 23,
     "title_deadline_passed": 1,
-    "all_visible_dates_passed": 20,
-    "event_passed": 2
+    "all_visible_dates_passed": 32,
+    "event_passed": 2,
+    "application_deadline_passed": 10
   },
   "action_state_counts": {
-    "date_unknown": 32,
-    "active": 15,
-    "accepting": 29,
+    "on_sale_candidate": 93,
+    "accepting": 47,
+    "date_unknown": 52,
+    "active": 16,
     "upcoming": 11,
-    "on_sale_candidate": 43,
     "closing_soon": 2
   },
   "feed_policy": "active_only_v7_caiman_embedded_guard",
   "active_source_counts": {
-    "ゲーマーズ": 17,
+    "メロンブックス": 86,
+    "ゲーマーズ": 20,
     "PR TIMES": 41,
     "書泉": 49,
     "とらのあな": 6,
     "大垣書店": 19,
-    "メロンブックス": 80,
     "space caiman": 2
   },
   "melon_quality": {
-    "active_count": 0,
-    "explicit_signed_book_titles": 0,
-    "c108_signed_fair_items": 0,
-    "original_art_items": 0,
-    "generic_false_positives_removed": 0,
-    "deadlines_promoted": 0
+    "active_count": 86,
+    "explicit_signed_book_titles": 69,
+    "c108_signed_fair_items": 20,
+    "original_art_items": 17,
+    "generic_false_positives_removed": 221,
+    "deadlines_promoted": 15
   },
-  "source_fallback_counts": {
-    "melonbooks": 80
-  },
-  "new_count": 27,
+  "source_fallback_counts": {},
+  "new_count": 38,
   "new_window_hours": 48,
   "caiman_quality": {
     "active_count": 2,
