@@ -3,113 +3,154 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#6d28d9">
+  <meta name="theme-color" content="#111827">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Sign Checker">
   <title>Sign Checker</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=13">
+  <link rel="stylesheet" href="./styles.css?v=20">
 </head>
 <body>
   <header class="topbar">
-    <div><div class="eyebrow">AUTOGRAPH RADAR · UI v0.13</div><h1>Sign Checker</h1></div>
-    <div class="top-actions"><button id="installBtn" class="secondary hidden">インストール</button><button id="syncBtn">同期</button></div>
+    <div class="brand">
+      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.20</div>
+      <h1>Sign Checker</h1>
+    </div>
+    <div class="top-actions">
+      <button id="installBtn" class="ghost hidden">インストール</button>
+      <button id="syncBtn">更新</button>
+    </div>
   </header>
 
   <main class="content">
-    <section class="hero card">
-      <div><h2>サイン・色紙まとめ</h2><p>サイン会、サイン本、原画・直筆色紙、一点物、個展情報を情報元横断で整理。</p></div>
-      <div class="pills"><span>サイン本重点</span><span>先着優先</span><span>購入不要抽選優先</span><span>完了履歴から学習</span><span>終了済み非表示</span></div>
-      <p id="learnSummary" class="learn-summary">応募・購入完了を付けると好みを学習します</p>
+    <section class="radar-head card">
+      <div>
+        <span class="section-kicker">いま見るべきもの</span>
+        <h2>応募・購入・イベントを、行動順に。</h2>
+        <p>情報元ではなく「次に何をするか」で整理。Sランクの新着・重要更新はメール通知対象です。</p>
+      </div>
+      <div class="sync-meta">
+        <small>最終収集</small>
+        <strong id="feedTime">--</strong>
+        <span id="feedPolicy">収集状況を確認中</span>
+      </div>
     </section>
 
-    <section class="stats">
-      <article class="card"><small>未読</small><strong id="statUnseen">0</strong></article>
-      <article class="card"><small>緊急 85+</small><strong id="statUrgent">0</strong></article>
-      <article class="card"><small>応募・購入完了</small><strong id="statCompleted">0</strong></article>
-      <article class="card"><small>表示可能</small><strong id="statTotal">0</strong></article>
+    <section class="stats" aria-label="サマリー">
+      <button class="stat card" data-lane="new"><small>NEW</small><strong id="statNew">0</strong><span>新着48h</span></button>
+      <button class="stat card critical-stat" data-lane="critical"><small>S TIER</small><strong id="statCritical">0</strong><span>超高価値</span></button>
+      <button class="stat card" data-lane="action"><small>DUE</small><strong id="statDue">0</strong><span>72h以内</span></button>
+      <button class="stat card" data-lane="completed"><small>DONE</small><strong id="statCompleted">0</strong><span>応募・購入完了</span></button>
     </section>
 
-    <section class="filters card">
-      <div class="filter-head"><strong>検索・絞り込み</strong><span id="resultCount">0件</span></div>
-      <input id="q" class="wide" placeholder="作家名・作品名・情報元・タグ・会場で検索">
-      <select id="sourceFilter"><option value="all">すべての情報元</option></select>
-      <select id="acquisitionFilter">
-        <option value="all">すべての獲得方式</option>
-        <option value="first_come">先着</option>
-        <option value="direct_sale">直接販売</option>
-        <option value="lottery_free">購入不要抽選</option>
-        <option value="lottery_open">抽選</option>
-        <option value="lottery_purchase">購入条件付き抽選</option>
-        <option value="unknown">方式未判定</option>
-      </select>
-      <select id="scoreFilter">
-        <option value="0">全優先度</option>
-        <option value="50">50+</option>
-        <option value="85">85+ 緊急</option>
-        <option value="100">100+ 最優先</option>
-      </select>
-      <select id="sortMode" aria-label="並び順">
-        <option value="score">優先度順</option>
-        <option value="event_start">開催日順</option>
-        <option value="apply_start">申込開始順</option>
-        <option value="apply_end">申込締切順</option>
-      </select>
+    <section class="lane-switch card" aria-label="ビュー切替">
+      <button class="lane active" data-lane="action"><span>今日やる</span><small>応募・購入</small></button>
+      <button class="lane" data-lane="new"><span>新着</span><small>初回検出</small></button>
+      <button class="lane" data-lane="critical"><span>高価値</span><small>S / A優先</small></button>
+      <button class="lane" data-lane="watching"><span>追う</span><small>★保存</small></button>
+      <button class="lane" data-lane="completed"><span>完了</span><small>学習データ</small></button>
+    </section>
 
-      <div class="filter-section wide">
-        <small>情報元</small>
-        <div class="source-chips" id="sourceChips"></div>
+    <section class="toolbar card">
+      <div class="search-row">
+        <input id="q" class="search" placeholder="作家・作品・イベント・販売元を検索">
+        <span id="resultCount" class="result-count">0件</span>
       </div>
-      <div id="activeTag" class="active-tag wide hidden"></div>
-      <div class="chips wide" id="tabs">
-        <button class="chip active" data-tab="all">すべて</button>
-        <button class="chip" data-tab="urgent">緊急</button>
-        <button class="chip" data-tab="autograph_event">サイン会</button>
-        <button class="chip" data-tab="signed_book">サイン本</button>
-        <button class="chip" data-tab="original_art">原画・色紙</button>
-        <button class="chip" data-tab="exhibition">個展・POP UP</button>
-        <button class="chip" data-tab="campaign">応募企画</button>
-        <button class="chip" data-tab="favorites">★</button>
-        <button class="chip" data-tab="completed">応募・購入完了</button>
+      <div class="quick-types">
+        <button class="type-chip active" data-type="all">全部</button>
+        <button class="type-chip" data-type="lottery">抽選</button>
+        <button class="type-chip" data-type="sale">販売</button>
+        <button class="type-chip" data-type="event">イベント</button>
+        <button class="type-chip" data-type="campaign">応募企画</button>
       </div>
+      <details class="advanced">
+        <summary>詳細フィルター</summary>
+        <div class="filter-grid">
+          <select id="sourceFilter"><option value="all">すべての情報元</option></select>
+          <select id="tierFilter">
+            <option value="all">すべての価値</option>
+            <option value="S">S 超高価値</option>
+            <option value="A">A 高価値</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+          </select>
+          <select id="acquisitionFilter">
+            <option value="all">すべての獲得方式</option>
+            <option value="first_come">先着</option>
+            <option value="direct_sale">直接販売</option>
+            <option value="lottery_free">購入不要抽選</option>
+            <option value="lottery_open">抽選</option>
+            <option value="lottery_purchase">購入条件付き抽選</option>
+            <option value="unknown">方式未判定</option>
+          </select>
+          <select id="sortMode">
+            <option value="smart">おすすめ順</option>
+            <option value="deadline">締切が近い順</option>
+            <option value="newest">新着順</option>
+            <option value="value">価値順</option>
+          </select>
+        </div>
+        <div id="activeTag" class="active-tag hidden"></div>
+      </details>
+    </section>
+
+    <section class="section-head">
+      <div><span class="section-kicker" id="laneKicker">ACTION</span><h2 id="laneTitle">今日やる</h2></div>
+      <p id="laneHelp">受付中・販売中・締切間近を優先して表示します。</p>
     </section>
 
     <section id="list" class="list" aria-live="polite"></section>
 
+    <section class="health card">
+      <details>
+        <summary>情報元の取得状況 <span id="healthSummary"></span></summary>
+        <div id="sourceHealth" class="source-health"></div>
+      </details>
+    </section>
+
     <section class="settings card">
-      <details><summary>設定 / バックエンド接続</summary><div class="settings-grid">
-        <label>APIベースURL<input id="apiBase" placeholder="https://example.com"></label>
+      <details><summary>設定</summary><div class="settings-grid">
         <label>ウォッチリスト<input id="watchlist" placeholder="Na-Ga, 村田蓮爾, あるぷ"></label>
+        <label class="check"><input id="showExpired" type="checkbox"> 終了済みも表示（確認用）</label>
         <label class="check"><input id="demoMode" type="checkbox"> デモモード</label>
-        <label class="check"><input id="showExpired" type="checkbox"> 終了済みも表示（確認・デバッグ用）</label>
-        <div class="actions"><button id="saveSettingsBtn">設定保存</button><button id="seedBtn" class="secondary">デモ初期化</button></div>
+        <label class="hidden">APIベースURL<input id="apiBase"></label>
+        <div class="actions"><button id="saveSettingsBtn">設定保存</button><button id="seedBtn" class="ghost">デモ初期化</button></div>
       </div></details>
     </section>
   </main>
 
   <nav class="bottom-nav">
-    <button data-tab="all" class="nav active">一覧</button><button data-tab="urgent" class="nav">緊急</button><button data-tab="autograph_event" class="nav">会</button><button data-tab="signed_book" class="nav">本</button><button data-tab="original_art" class="nav">色紙</button>
+    <button data-lane="action" class="nav active"><b>●</b><span>今日</span></button>
+    <button data-lane="new" class="nav"><b>＋</b><span>新着</span></button>
+    <button data-lane="critical" class="nav"><b>◆</b><span>高価値</span></button>
+    <button data-lane="watching" class="nav"><b>★</b><span>追う</span></button>
+    <button data-lane="completed" class="nav"><b>✓</b><span>完了</span></button>
   </nav>
 
   <template id="itemTpl">
-    <article class="item card">
-      <div class="item-head">
-        <div class="item-title-wrap"><h3></h3><div class="card-meta"><span class="creator"></span><span class="location"></span></div></div>
-        <div class="score-box"><small>優先度</small><strong class="score-value"></strong></div>
+    <article class="opportunity card">
+      <div class="opportunity-top">
+        <div class="badges"><span class="tier-badge"></span><span class="action-badge"></span><span class="new-badge hidden">NEW</span></div>
+        <div class="score-mini"><small>VALUE</small><strong class="value-score"></strong></div>
       </div>
+      <h3></h3>
+      <div class="card-meta"><span class="source"></span><span class="creator"></span><span class="location"></span></div>
+      <div class="deadline-panel">
+        <div><small>次の締切</small><strong class="deadline-main">未取得</strong></div>
+        <span class="countdown"></span>
+      </div>
+      <div class="event-date"><small>開催</small><strong>未取得</strong></div>
       <div class="item-tags"></div>
-      <div class="timeline-grid">
-        <div class="date-box" data-date="event_start"><small>開催</small><strong class="date-value">未取得</strong></div>
-        <div class="date-box" data-date="apply_start"><small>申込開始</small><strong class="date-value">未取得</strong></div>
-        <div class="date-box" data-date="apply_end"><small>申込締切</small><strong class="date-value">未取得</strong></div>
-      </div>
-      <details class="reason-details"><summary>優先度の根拠</summary><p class="reason"></p></details>
-      <div class="actions item-actions"></div>
+      <div class="why-line"></div>
+      <details class="reason-details"><summary>判定・学習の根拠</summary><p class="reason"></p></details>
+      <div class="primary-actions"></div>
+      <div class="manage-actions"></div>
     </article>
   </template>
-  <script>try{if(!localStorage.getItem('sign-checker-pwa-v5')&&localStorage.getItem('sign-checker-pwa-v4'))localStorage.setItem('sign-checker-pwa-v5',localStorage.getItem('sign-checker-pwa-v4'))}catch{}</script>
-  <script src="./app.js?v=13" defer></script>
+
+  <script>try{if(!localStorage.getItem('sign-checker-pwa-v6')){const old=localStorage.getItem('sign-checker-pwa-v5')||localStorage.getItem('sign-checker-pwa-v4');if(old)localStorage.setItem('sign-checker-pwa-v6',old)}}catch{}</script>
+  <script src="./app.js?v=20" defer></script>
 </body>
 </html>
