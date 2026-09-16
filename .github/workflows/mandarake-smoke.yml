@@ -6,6 +6,7 @@ on:
     branches: ['main']
     paths:
       - 'collector_v21.py'
+      - 'collector_v22.py'
       - 'tests/test_mandarake_daily.py'
       - '.github/workflows/mandarake-smoke.yml'
 
@@ -34,19 +35,14 @@ jobs:
           print('response', r.status_code, 'bytes', len(r.content), 'url', r.url)
           r.raise_for_status()
           soup = BeautifulSoup(r.text, 'html.parser')
-          links = [x.get('href') for x in soup.find_all('a', href=True) if 'itemInfoJa.html' in x.get('href', '')]
-          print('detail links', len(links), 'samples', links[:3])
+          first = next(x for x in soup.find_all('a', href=True) if 'index=790574' in x.get('href', ''))
+          for level, node in enumerate([first, *list(first.parents)[:6]]):
+              print('DOM',level,'tag',node.name,'class',node.get('class'),'text',a.compact(node.get_text(' ',strip=True))[:650])
+              print('HTML',str(node)[:2400])
           items = a.parse_list(r.text, url, datetime.now(a.JST))
           print('matched daily autograph lots', len(items), 'samples', [(x['title'], x['url']) for x in items[:6]])
-          bad = [x for x in items if not any(w in x['title'] for w in ('直筆','サイン','原画','色紙','肉筆','手描き','手書き','イラスト入り'))]
-          print('invalid-title count', len(bad))
-          if bad:
-              index = bad[0]['auction_lot_id']
-              first = next(x for x in soup.find_all('a', href=True) if f'index={index}' in x.get('href', ''))
-              for level, node in enumerate([first, *list(first.parents)[:6]]):
-                  print('DOM',level,'tag',node.name,'class',node.get('class'), 'text',a.compact(node.get_text(' ',strip=True))[:500])
-                  print('HTML', str(node)[:2800])
+          nonsense = [x for x in items if x['title'].startswith('0 ') or x['title'].startswith('ギャラリー')]
+          print('nonsense-title count', len(nonsense))
           if not items:
-              print('body sample', soup.get_text(' ', strip=True)[:700])
-              raise SystemExit('Daily-auction parser returned zero items; inspect site markup or access')
+              raise SystemExit('Daily-auction parser returned zero items')
           PY
