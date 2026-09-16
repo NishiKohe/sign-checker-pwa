@@ -1,0 +1,44 @@
+name: Mandarake auction parser smoke test
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['main']
+    paths:
+      - 'collector_v21.py'
+      - 'tests/test_mandarake_daily.py'
+      - '.github/workflows/mandarake-smoke.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Parser regression tests
+        run: python -m unittest discover -s tests -p 'test_mandarake_daily.py' -v
+      - name: Check live daily-auction category
+        run: |
+          python - <<'PY'
+          from datetime import datetime
+          from bs4 import BeautifulSoup
+          import collector_v21 as a
+          url = a.url_for(a.SEARCHES[0]); r = a.base.HTTP.get(url, timeout=25)
+          print('response', r.status_code, 'bytes', len(r.content), 'url', r.url)
+          r.raise_for_status()
+          soup = BeautifulSoup(r.text, 'html.parser')
+          links = [x.get('href') for x in soup.find_all('a', href=True) if 'itemInfoJa.html' in x.get('href', '')]
+          print('detail links', len(links), 'samples', links[:3])
+          items = a.parse_list(r.text, url, datetime.now(a.JST))
+          print('matched daily autograph lots', len(items), 'samples', [(x['title'], x['url']) for x in items[:4]])
+          if not items:
+              print('body sample', soup.get_text(' ', strip=True)[:700])
+              raise SystemExit('Daily-auction parser returned zero items; inspect site markup or access')
+          PY
