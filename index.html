@@ -15,7 +15,7 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.21</div>
+      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.22</div>
       <h1>Sign Checker</h1>
     </div>
     <div class="top-actions">
@@ -28,7 +28,7 @@
     <section class="radar-head card">
       <div>
         <span class="section-kicker">いま見るべきもの</span>
-        <h2>応募・購入・イベントを、行動順に。</h2>
+        <h2>応募・購入・入札・イベントを、行動順に。</h2>
         <p>情報元ではなく「次に何をするか」で整理。更新ボタンでその場で再収集します。Sランクの新着・重要更新はメール通知対象です。</p>
       </div>
       <div class="sync-meta">
@@ -46,7 +46,7 @@
     </section>
 
     <section class="lane-switch card" aria-label="ビュー切替">
-      <button class="lane active" data-lane="action"><span>今日やる</span><small>応募・購入</small></button>
+      <button class="lane active" data-lane="action"><span>今日やる</span><small>応募・購入・入札</small></button>
       <button class="lane" data-lane="new"><span>新着</span><small>初回検出</small></button>
       <button class="lane" data-lane="critical"><span>高価値</span><small>S / A優先</small></button>
       <button class="lane" data-lane="watching"><span>追う</span><small>★保存</small></button>
@@ -62,6 +62,7 @@
         <button class="type-chip active" data-type="all">全部</button>
         <button class="type-chip" data-type="lottery">抽選</button>
         <button class="type-chip" data-type="sale">販売</button>
+        <button class="type-chip" data-type="auction">オークション</button>
         <button class="type-chip" data-type="event">イベント</button>
         <button class="type-chip" data-type="campaign">応募企画</button>
       </div>
@@ -80,6 +81,7 @@
             <option value="all">すべての獲得方式</option>
             <option value="first_come">先着</option>
             <option value="direct_sale">直接販売</option>
+            <option value="auction">オークション入札</option>
             <option value="lottery_free">購入不要抽選</option>
             <option value="lottery_open">抽選</option>
             <option value="lottery_purchase">購入条件付き抽選</option>
@@ -152,6 +154,7 @@
 
   <script>try{if(!localStorage.getItem('sign-checker-pwa-v6')){const old=localStorage.getItem('sign-checker-pwa-v5')||localStorage.getItem('sign-checker-pwa-v4');if(old)localStorage.setItem('sign-checker-pwa-v6',old)}}catch{}</script>
   <script src="./app.js?v=20" defer></script>
+  <script src="./auction-ui.js?v=22" defer></script>
   <script src="./manual-refresh.js?v=21" defer></script>
 </body>
 </html>
