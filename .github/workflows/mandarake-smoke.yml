@@ -29,20 +29,15 @@ jobs:
         run: |
           python - <<'PY'
           from datetime import datetime
-          from bs4 import BeautifulSoup
+          import collector_v22
           import collector_v21 as a
           url = a.url_for(a.SEARCHES[0]); r = a.base.HTTP.get(url, timeout=25)
           print('response', r.status_code, 'bytes', len(r.content), 'url', r.url)
           r.raise_for_status()
-          soup = BeautifulSoup(r.text, 'html.parser')
-          first = next(x for x in soup.find_all('a', href=True) if 'index=790574' in x.get('href', ''))
-          for level, node in enumerate([first, *list(first.parents)[:6]]):
-              print('DOM',level,'tag',node.name,'class',node.get('class'),'text',a.compact(node.get_text(' ',strip=True))[:650])
-              print('HTML',str(node)[:2400])
           items = a.parse_list(r.text, url, datetime.now(a.JST))
-          print('matched daily autograph lots', len(items), 'samples', [(x['title'], x['url']) for x in items[:6]])
-          nonsense = [x for x in items if x['title'].startswith('0 ') or x['title'].startswith('ギャラリー')]
+          print('matched daily autograph lots', len(items), 'samples', [(x['title'], x['url']) for x in items[:8]])
+          nonsense = [x for x in items if x['title'].startswith('0 ') or x['title'].startswith('ギャラリー') or 'ギャラリー サイン本' in x['title']]
           print('nonsense-title count', len(nonsense))
-          if not items:
-              raise SystemExit('Daily-auction parser returned zero items')
+          assert len(items) >= 10, 'Daily-auction parser returned unexpectedly few lots'
+          assert not nonsense, 'Found breadcrumb/countdown in lot title'
           PY
