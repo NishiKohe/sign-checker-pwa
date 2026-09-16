@@ -28,6 +28,7 @@ on:
       - 'collector_v19.py'
       - 'collector_v20.py'
       - 'collector_v21.py'
+      - 'tests/test_mandarake_daily.py'
       - 'config/creator_priority.json'
       - 'config/performer_priority.json'
       - 'requirements.txt'
@@ -56,6 +57,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Test auction parser
+        run: python -m unittest discover -s tests -p 'test_mandarake_daily.py' -v
 
       - name: Collect
         env:
