@@ -1,6 +1,7 @@
 import unittest
 from datetime import datetime
 
+import collector_v22  # installs the DOM-specific parser before the legacy test import
 import collector_v21 as auctions
 
 
@@ -30,6 +31,21 @@ class MandarakeDailyTest(unittest.TestCase):
         self.assertEqual(items[0]['auction_price_yen'], 300)
         self.assertIsNone(items[0]['apply_end'])
         self.assertIn('終了時刻要確認', items[0]['tags'])
+
+    def test_real_product_card_markup(self):
+        html = '''<div class="infolist"><div class="block">
+          <div class="basic"><span id="auctionName">毎オク</span><span id="itemNo">03009479430100003</span></div>
+          <div class="pic"><a href="itemInfoJa.html?index=790574"><img alt="商品画像"/></a></div>
+          <div class="title"><p><a href="itemInfoJa.html?index=790574"><span id="itemName">連打一人 直筆イラストサイン本「王様ゲーム」3巻</span></a></p></div>
+          <div class="bid"><a href="itemInfoJa.html?index=790574">入札</a></div>
+          <div class="price_now"><span id="nowPrice">800</span>円</div>
+          <div class="count_down">45分3秒</div>
+          <div class="path">ギャラリー サイン本</div>
+        </div></div>'''
+        items = auctions.parse_list(html, auctions.url_for(auctions.SEARCHES[0]), NOW)
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]['title'], '連打一人 直筆イラストサイン本「王様ゲーム」3巻')
+        self.assertEqual(items[0]['auction_price_yen'], 800)
 
     def test_closed_lot_and_replica(self):
         html = '''<div>
