@@ -15,7 +15,7 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.20</div>
+      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.21</div>
       <h1>Sign Checker</h1>
     </div>
     <div class="top-actions">
@@ -29,7 +29,7 @@
       <div>
         <span class="section-kicker">いま見るべきもの</span>
         <h2>応募・購入・イベントを、行動順に。</h2>
-        <p>情報元ではなく「次に何をするか」で整理。Sランクの新着・重要更新はメール通知対象です。</p>
+        <p>情報元ではなく「次に何をするか」で整理。更新ボタンでその場で再収集します。Sランクの新着・重要更新はメール通知対象です。</p>
       </div>
       <div class="sync-meta">
         <small>最終収集</small>
@@ -152,5 +152,6 @@
 
   <script>try{if(!localStorage.getItem('sign-checker-pwa-v6')){const old=localStorage.getItem('sign-checker-pwa-v5')||localStorage.getItem('sign-checker-pwa-v4');if(old)localStorage.setItem('sign-checker-pwa-v6',old)}}catch{}</script>
   <script src="./app.js?v=20" defer></script>
+  <script src="./manual-refresh.js?v=21" defer></script>
 </body>
 </html>
