@@ -1,0 +1,29 @@
+name: Feed persistence regression
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['main']
+    paths:
+      - 'feed-guard.js'
+      - 'feed-state.js'
+      - 'manual-refresh.js'
+      - 'tests/test_feed_persistence.cjs'
+      - '.github/workflows/feed-persistence-test.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JavaScript syntax
+        run: |
+          node --check feed-guard.js
+          node --check feed-state.js
+          node --check manual-refresh.js
+      - name: Check feed preservation across reopening
+        run: node tests/test_feed_persistence.cjs
