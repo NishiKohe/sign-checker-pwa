@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#111827">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Sign Checker">
+  <meta name="apple-mobile-app-title" content="Sign Checker">
   <title>Sign Checker</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
@@ -15,7 +15,7 @@
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.22</div>
+      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.23</div>
       <h1>Sign Checker</h1>
     </div>
     <div class="top-actions">
@@ -153,8 +153,10 @@
   </template>
 
   <script>try{if(!localStorage.getItem('sign-checker-pwa-v6')){const old=localStorage.getItem('sign-checker-pwa-v5')||localStorage.getItem('sign-checker-pwa-v4');if(old)localStorage.setItem('sign-checker-pwa-v6',old)}}catch{}</script>
+  <script src="./feed-guard.js?v=23" defer></script>
   <script src="./app.js?v=20" defer></script>
+  <script src="./feed-state.js?v=23" defer></script>
   <script src="./auction-ui.js?v=22" defer></script>
-  <script src="./manual-refresh.js?v=21" defer></script>
+  <script src="./manual-refresh.js?v=23" defer></script>
 </body>
 </html>
