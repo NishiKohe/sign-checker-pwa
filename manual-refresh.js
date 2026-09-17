@@ -11,6 +11,7 @@
     try { if (typeof toast === 'function') return toast(msg); } catch {}
     console.log(msg);
   };
+  const freshness = p => Date.parse(p?.generated_at || '') || 0;
 
   async function fetchLatestPayload() {
     const urls = [
@@ -18,32 +19,42 @@
       `./data/items.json?t=${Date.now()}`
     ];
     let lastError;
+    let best = window.SignCheckerFeedGuard?.read() || null;
     for (const url of urls) {
       try {
         const r = await fetch(url, { cache: 'no-store' });
         if (!r.ok) throw new Error(`feed ${r.status}`);
-        return await r.json();
+        const payload = await r.json();
+        if (!Array.isArray(payload.items) || !freshness(payload)) throw new Error('Invalid feed');
+        best = window.SignCheckerFeedGuard?.choose(best, payload) || payload;
       } catch (error) {
         lastError = error;
       }
     }
+    if (best) return best;
     throw lastError || new Error('最新フィードを取得できません');
   }
 
   function applyPayload(payload) {
-    if (typeof mergeFeed !== 'function' || typeof render !== 'function') return;
-    mergeFeed(Array.isArray(payload.items) ? payload.items : []);
+    if (typeof mergeFeed !== 'function' || typeof render !== 'function') return false;
+    const guard = window.SignCheckerFeedGuard;
+    const chosen = guard ? guard.accept(payload) : payload;
+    if (!chosen || (state.feed?.generatedAt && freshness(chosen) < Date.parse(state.feed.generatedAt))) {
+      return false; // A delayed CDN response must never replace a newer collection.
+    }
+    mergeFeed(Array.isArray(chosen.items) ? chosen.items : []);
     state.feed = {
-      generatedAt: payload.generated_at || null,
-      sources: payload.sources || {},
-      schemaVersion: payload.schema_version || null,
-      policy: payload.feed_policy || '',
-      newCount: payload.new_count || 0,
-      opportunityCounts: payload.opportunity_counts || {},
-      tierCounts: payload.value_tier_counts || {}
+      generatedAt: chosen.generated_at || null,
+      sources: chosen.sources || {},
+      schemaVersion: chosen.schema_version || null,
+      policy: chosen.feed_policy || '',
+      newCount: chosen.new_count || 0,
+      opportunityCounts: chosen.opportunity_counts || {},
+      tierCounts: chosen.value_tier_counts || {}
     };
     save();
     render();
+    return true;
   }
 
   async function startCollection(button) {
@@ -81,11 +92,10 @@
         const generated = payload.generated_at || null;
         const changed = generated && generated !== beforeGenerated &&
           (!beforeGenerated || Date.parse(generated) > Date.parse(beforeGenerated));
-        if (changed) {
-          applyPayload(payload);
+        if (changed && applyPayload(payload)) {
           button.textContent = '更新完了';
           if (policy) policy.textContent = `手動収集完了 · ${payload.count ?? (payload.items || []).length}件`;
-          notify(`収集完了：${payload.count ?? (payload.items || []).length}件を反映`);
+          notify(`収集完了：${payload.count ?? (payload.items || []).length}件を反映・保存`);
           await sleep(1200);
           return;
         }
@@ -104,10 +114,8 @@
     button.dataset.manualRefreshBound = '1';
 
     button.addEventListener('click', async event => {
-      // Keep the existing demo-mode behavior.
       const demo = document.querySelector('#demoMode');
       if (demo?.checked) return;
-
       event.preventDefault();
       event.stopImmediatePropagation();
 
