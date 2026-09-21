@@ -1,5 +1,5 @@
-const CACHE='sign-checker-pwa-v23';
-const ASSETS=['./','./index.html','./styles.css?v=20','./feed-guard.js?v=23','./app.js?v=20','./feed-state.js?v=23','./auction-ui.js?v=22','./manual-refresh.js?v=23','./manifest.webmanifest','./icon.svg'];
+const CACHE='sign-checker-pwa-v24';
+const ASSETS=['./','./index.html','./styles.css?v=20','./date-panel.css?v=24','./feed-guard.js?v=23','./app.js?v=20','./feed-state.js?v=23','./auction-ui.js?v=22','./date-panel.js?v=24','./manual-refresh.js?v=23','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('sign-checker-pwa-')&&k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
 self.addEventListener('fetch',e=>{
