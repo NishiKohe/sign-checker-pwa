@@ -22,9 +22,15 @@ _original_melon = melon.source_item
 
 
 def labelled_date_fixed(text, labels, reference, *, end=False, allow_before=False):
-    # Publishers often print "2026年9月14日 掲載", not "掲載: 2026...".
+    # "2026年9月14日 掲載 2026年9月11日 最終更新" must not
+    # associate 9/11 with 掲載 simply because it comes after that label.
     if labels in (current.PUBLISH_LABELS, current.UPDATED_LABELS):
-        allow_before = True
+        for label in labels:
+            for match in re.finditer(label, text, re.I):
+                before = text[max(0, match.start()-60):match.start()]
+                dates = current.date_tokens(before, reference, end=end)
+                if dates and len(before)-dates[-1][1] <= 16:
+                    return dates[-1][2]
     return _original_labelled(text, labels, reference, end=end, allow_before=allow_before)
 
 
@@ -49,7 +55,6 @@ def page_dates_source(raw_html, source_name, now, *, title=''):
             start, end = current.range_dates(text[found.start():found.start()+190], dates.get('published_at') or now, (r'販売受付期間',))
             if start and end:
                 windows.append((start, end))
-        # A first lottery may have closed while second-round first-come sales remain open.
         valid = [window for window in windows if window[1] >= now]
         if valid:
             start, end = min(valid, key=lambda pair: pair[0])
@@ -63,7 +68,6 @@ def from_scoped_text(item, source_name, title, body):
         return item
     fragment = '<main>' + html.escape(str(title or '') + ' ' + str(body or '')) + '</main>'
     metadata, evidence = current.page_dates(fragment, source_name, datetime.now(current.JST), title=title)
-    # Existing structured dates are higher confidence than another label in extracted text.
     return current.enrich(item, metadata, evidence, prefer_source=False)
 
 
@@ -94,7 +98,6 @@ def main():
     current.labelled_date = labelled_date_fixed
     current.page_dates = page_dates_source
     shosen.parse_shosen_page = shosen_dates
-    # v8 resolves make_item at execution; v9 PR TIMES uses strict_make_item directly.
     pr_and_strict.strict_make_item = strict_dates
     source.make_item = strict_dates
     ogaki.make_item = ogaki_dates
