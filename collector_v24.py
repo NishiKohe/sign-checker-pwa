@@ -22,12 +22,12 @@ _original_melon = melon.source_item
 
 
 def labelled_date_fixed(text, labels, reference, *, end=False, allow_before=False):
-    # "2026年9月14日 掲載 2026年9月11日 最終更新" must not
-    # associate 9/11 with 掲載 simply because it comes after that label.
-    if labels in (current.PUBLISH_LABELS, current.UPDATED_LABELS):
+    # Pages frequently format as "2026年9月14日 掲載" or "11月25日(水)発売".
+    # Prefer an adjacent date BEFORE the label to a different date after it.
+    if labels in (current.PUBLISH_LABELS, current.UPDATED_LABELS, current.RELEASE_LABELS):
         for label in labels:
             for match in re.finditer(label, text, re.I):
-                before = text[max(0, match.start()-60):match.start()]
+                before = text[max(0, match.start()-70):match.start()]
                 dates = current.date_tokens(before, reference, end=end)
                 if dates and len(before)-dates[-1][1] <= 16:
                     return dates[-1][2]
