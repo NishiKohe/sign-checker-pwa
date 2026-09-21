@@ -8,6 +8,9 @@ on:
       - 'feed-guard.js'
       - 'feed-state.js'
       - 'manual-refresh.js'
+      - 'date-panel.js'
+      - 'date-panel.css'
+      - 'index.html'
       - 'tests/test_feed_persistence.cjs'
       - '.github/workflows/feed-persistence-test.yml'
 
@@ -25,5 +28,11 @@ jobs:
           node --check feed-guard.js
           node --check feed-state.js
           node --check manual-refresh.js
+          node --check date-panel.js
       - name: Check feed preservation across reopening
         run: node tests/test_feed_persistence.cjs
+      - name: Date assets are referenced by the app
+        run: |
+          grep -q 'date-panel.js?v=24' index.html
+          grep -q 'date-panel.css?v=24' index.html
+          grep -q 'date-panel.js?v=24' sw.js
