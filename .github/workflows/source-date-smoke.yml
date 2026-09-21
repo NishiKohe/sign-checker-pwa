@@ -25,15 +25,28 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Source date parser regression
         run: python -m unittest discover -s tests -p 'test_dates_sources.py' -v
-      - name: Public Animate listing diagnostic
+      - name: Public Animate and LivePocket source diagnostic
         run: |
           python - <<'PY'
           import requests
+          from bs4 import BeautifulSoup
           from collector_v23 import animate_detail_links
           url='https://www.animate-onlineshop.jp/contents/fair_event/index.php?lmode=event&pageno=1'
           try:
               r=requests.get(url,timeout=18,headers={'User-Agent':'Mozilla/5.0'})
-              print('Animate list HTTP',r.status_code,'bytes',len(r.content),'detail links',len(animate_detail_links(r.text,url)))
+              links=animate_detail_links(r.text,url)
+              print('Animate list HTTP',r.status_code,'bytes',len(r.content),'detail links',len(links),'sample',list(links.items())[:8])
+              if links:
+                  sample=next(iter(links))
+                  dr=requests.get(sample,timeout=18,headers={'User-Agent':'Mozilla/5.0'})
+                  print('Animate detail HTTP',dr.status_code,'bytes',len(dr.content),'title',BeautifulSoup(dr.text,'html.parser').title)
           except Exception as e:
-              print('Animate site diagnostic unavailable:',type(e).__name__)
+              print('Animate site diagnostic unavailable:',type(e).__name__,str(e)[:200])
+          live='https://livepocket.jp/e/ruz-h'
+          try:
+              r=requests.get(live,timeout=15,headers={'User-Agent':'Mozilla/5.0'})
+              text=BeautifulSoup(r.text,'html.parser').get_text(' ',strip=True)
+              print('LivePocket detail HTTP',r.status_code,'bytes',len(r.content),'body_chars',len(text),'sample',text[:180])
+          except Exception as e:
+              print('LivePocket site diagnostic unavailable:',type(e).__name__,str(e)[:160])
           PY
