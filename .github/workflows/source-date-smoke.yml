@@ -1,0 +1,39 @@
+name: Source date and freshness regression
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['main']
+    paths:
+      - 'collector_v23.py'
+      - 'collector_v24.py'
+      - 'tests/test_dates_sources.py'
+      - '.github/workflows/source-date-smoke.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  dates:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Source date parser regression
+        run: python -m unittest discover -s tests -p 'test_dates_sources.py' -v
+      - name: Public Animate listing diagnostic
+        run: |
+          python - <<'PY'
+          import requests
+          from collector_v23 import animate_detail_links
+          url='https://www.animate-onlineshop.jp/contents/fair_event/index.php?lmode=event&pageno=1'
+          try:
+              r=requests.get(url,timeout=18,headers={'User-Agent':'Mozilla/5.0'})
+              print('Animate list HTTP',r.status_code,'bytes',len(r.content),'detail links',len(animate_detail_links(r.text,url)))
+          except Exception as e:
+              print('Animate site diagnostic unavailable:',type(e).__name__)
+          PY
