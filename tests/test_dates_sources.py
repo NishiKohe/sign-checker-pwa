@@ -84,6 +84,22 @@ class TimelineTests(unittest.TestCase):
         self.assertFalse(item['alert_event'])
         self.assertEqual(item['origin_url'], parent['url'])
 
+    def test_livepocket_focuses_on_signing_session(self):
+        item = {'title': '漫画家A先生 WEBサイン会', 'source': 'LivePocket', 'category': 'autograph_event', 'tags': []}
+        self.assertEqual(sites.livepocket_focus(item), 'autograph_session')
+
+    def test_livepocket_focuses_on_signed_book(self):
+        item = {'title': '作家B先生 サイン本抽選販売', 'source': 'LivePocket', 'category': 'signed_book', 'tags': []}
+        self.assertEqual(sites.livepocket_focus(item), 'signed_book')
+
+    def test_livepocket_focuses_on_event_containing_signing(self):
+        item = {'title': 'COMIC ART FEST 2026', 'source': 'LivePocket', 'category': 'autograph_event', 'tags': ['イベント', 'サイン会']}
+        self.assertEqual(sites.livepocket_focus(item), 'event_with_autograph_session')
+
+    def test_livepocket_rejects_generic_event_without_signing(self):
+        item = {'title': '声優トークイベント', 'source': 'LivePocket', 'category': 'event', 'tags': ['イベント']}
+        self.assertIsNone(sites.livepocket_focus(item))
+
 
 if __name__ == '__main__':
     unittest.main()
