@@ -31,6 +31,7 @@ LIVEPOCKET_SESSION_WORDS = (
 )
 LIVEPOCKET_EVENT_WORDS = (
     'イベント', 'フェア', '祭', 'フェス', '展示', '展覧会', '個展', '即売会', 'トークショー', 'トークイベント',
+    'festival', 'fest', 'convention', 'expo', 'market',
 )
 
 
@@ -127,9 +128,9 @@ def livepocket_focus(item):
 
     title_has_session = any(word.lower() in title.lower() for word in LIVEPOCKET_SESSION_WORDS)
     combined_has_session = any(word.lower() in combined for word in LIVEPOCKET_SESSION_WORDS)
-    title_has_event = any(word.lower() in title.lower() for word in LIVEPOCKET_EVENT_WORDS)
+    combined_has_event = any(word.lower() in combined for word in LIVEPOCKET_EVENT_WORDS)
 
-    if title_has_event and combined_has_session and not title_has_session:
+    if combined_has_event and combined_has_session and not title_has_session:
         return 'event_with_autograph_session'
     if title_has_session:
         return 'autograph_session'
