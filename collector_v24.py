@@ -27,7 +27,8 @@ LIVEPOCKET_SIGNED_BOOK_WORDS = (
 )
 LIVEPOCKET_SESSION_WORDS = (
     'サイン会', 'webサイン会', 'リアルサイン会', 'トーク＆サイン', 'トーク&サイン',
-    '署名会', 'サインイベント',
+    '署名会', 'サインイベント', 'サイン対応', 'サイン実施', 'サインを実施',
+    'サインをお入れ', 'サインをお書き', '直筆サイン', 'サイン特典',
 )
 LIVEPOCKET_EVENT_WORDS = (
     'イベント', 'フェア', '祭', 'フェス', '展示', '展覧会', '個展', '即売会', 'トークショー', 'トークイベント',
@@ -121,7 +122,10 @@ def livepocket_focus(item):
     title = current.tidy(item.get('title', ''))
     tags = ' '.join(str(x) for x in (item.get('tags') or []))
     reasons = str(item.get('reasons') or '')
-    combined = current.tidy(' '.join((title, tags, reasons))).lower()
+    detail = ' '.join(str(item.get(k) or '') for k in (
+        'livepocket_detail_text', 'description', 'summary', 'body', 'details',
+    ))
+    combined = current.tidy(' '.join((title, tags, reasons, detail))).lower()
 
     if item.get('category') == 'signed_book' or any(word.lower() in combined for word in LIVEPOCKET_SIGNED_BOOK_WORDS):
         return 'signed_book'
@@ -165,9 +169,18 @@ def apply_livepocket_focus(payload):
         if label not in tags:
             tags.insert(1 if tags and tags[0] == 'LivePocket' else 0, label)
         item['tags'] = list(dict.fromkeys(tags))[:16]
+        # Re-score after body-based focus classification so price, creator type and the
+        # actual LivePocket description affect ordering rather than the inherited title alone.
+        item = current.radar.normalize_opportunity(item, datetime.now(current.JST))
         focus_counts[focus] += 1
         kept.append(item)
 
+    kept.sort(key=lambda x: (
+        0 if x.get('top_priority') else 1,
+        -int(x.get('value_score') or 0),
+        -int(x.get('score') or 0),
+        x.get('apply_end') or '9999',
+    ))
     payload['items'] = kept
     payload['count'] = len(kept)
     payload = current.history_util.rebuild_counts(payload)
