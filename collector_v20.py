@@ -382,6 +382,11 @@ def normalize_opportunity(item: dict, now: datetime) -> dict:
 
     adult = any(k in text for k in ("成人向け", "成年", "18禁", "R18", "R-18", "ワニマガジン", "快楽天"))
     oneoff = any(k in text for k in ("一点物", "一点もの", "直筆色紙", "直筆イラスト", "原画・直筆", "オークション色紙"))
+    signed_book_fair = bool(
+        re.search(r"サイン(?:入り|付(?:き)?)?本.{0,10}(?:フェア|祭|まつり)", text, re.I)
+        or re.search(r"(?:フェア|祭|まつり).{0,10}サイン(?:入り|付(?:き)?)?本", text, re.I)
+        or "サイン本フェア" in text
+    )
     bulk = any(k in text for k in ("大量サイン本", "サイン本フェア", "成年コミックフェア"))
     priority = any(name.lower() in low for name in PRIORITY_CREATORS)
     creator = str(item.get("creator") or "")
@@ -396,6 +401,16 @@ def normalize_opportunity(item: dict, now: datetime) -> dict:
     if "新着" in (item.get("tags") or []): value += 3
     if item.get("subject_type") == "performer": value -= 42
     value = max(0, min(140, value))
+    # Signed-book fairs are the user's highest-priority opportunity class. Force them
+    # to the maximum value and give them an explicit top-priority flag so they sort
+    # above other S-tier items even when those also reach the score ceiling.
+    if signed_book_fair:
+        value = 140
+        item["top_priority"] = True
+        item["priority_reason"] = "サイン本フェア"
+        add_tag(item, "最優先")
+    else:
+        item["top_priority"] = False
 
     tier = "S" if value >= 100 else ("A" if value >= 80 else ("B" if value >= 60 else "C"))
     deadline = iso_dt(item.get("apply_end"))
@@ -415,7 +430,7 @@ def normalize_opportunity(item: dict, now: datetime) -> dict:
     item["alert_candidate"] = tier == "S" and not item.get("source_stale")
     item["alert_event"] = bool(item["alert_candidate"] and (is_new or is_updated))
     item["alert_reason"] = " / ".join(x for x, yes in (
-        ("成人向け", adult), ("一点物・直筆", oneoff), ("大量サイン本/フェア", bulk),
+        ("サイン本フェア最優先", signed_book_fair), ("成人向け", adult), ("一点物・直筆", oneoff), ("大量サイン本/フェア", bulk),
         ("優先作家", priority), ("先着", acq == "first_come"), ("購入不要抽選", acq == "lottery_free"),
     ) if yes)
     add_tag(item, f"価値{tier}")
@@ -472,7 +487,12 @@ def main():
     payload = seen.rebuild_counts(payload)
 
     payload["items"] = [normalize_opportunity(item, now) for item in (payload.get("items") or [])]
-    payload["items"].sort(key=lambda x: (-int(x.get("value_score") or 0), -int(x.get("score") or 0), x.get("apply_end") or "9999"))
+    payload["items"].sort(key=lambda x: (
+        0 if x.get("top_priority") else 1,
+        -int(x.get("value_score") or 0),
+        -int(x.get("score") or 0),
+        x.get("apply_end") or "9999",
+    ))
     payload = rebuild_opportunity_meta(payload, shosen_meta)
 
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
