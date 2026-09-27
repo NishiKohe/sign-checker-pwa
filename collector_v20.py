@@ -351,10 +351,103 @@ def add_tag(item: dict, tag: str):
     item["tags"] = tags[:16]
 
 
+def extract_price_yen(item: dict, text: str) -> int | None:
+    """Extract a likely user-facing purchase/entry price, excluding obvious fees/shipping."""
+    direct = item.get("price_yen")
+    if isinstance(direct, (int, float)) and 100 <= direct <= 500000:
+        return int(direct)
+    candidates = []
+    for match in re.finditer(r"(?:[¥￥]\s*([0-9][0-9,]{2,})|([0-9][0-9,]{2,})\s*円)", text):
+        raw = match.group(1) or match.group(2)
+        try:
+            value = int(raw.replace(",", ""))
+        except Exception:
+            continue
+        if not 500 <= value <= 500000:
+            continue
+        context = text[max(0, match.start()-18):match.end()+18]
+        if any(k in context for k in ("送料", "手数料", "システム利用料", "決済手数料")):
+            continue
+        candidates.append(value)
+    return min(candidates) if candidates else None
+
+
+def price_penalty(price_yen: int | None) -> int:
+    if price_yen is None:
+        return 0
+    if price_yen >= 50000:
+        return 30
+    if price_yen >= 30000:
+        return 22
+    if price_yen >= 20000:
+        return 15
+    if price_yen >= 10000:
+        return 8
+    if price_yen >= 5000:
+        return 4
+    return 0
+
+
+def acquisition_rank(item: dict, text: str, category: str) -> tuple[str, int]:
+    """User preference: first-come purchase > purchase lottery > giveaway lottery."""
+    current = str(item.get("acquisition") or "")
+    purchase_words = ("購入", "販売", "注文", "対象商品", "チケット", "受注")
+    giveaway_words = ("プレゼント", "購入不要", "無料応募", "当選者に", "抽選で進呈")
+    has_purchase = any(k in text for k in purchase_words)
+    has_giveaway = any(k in text for k in giveaway_words)
+
+    if current == "first_come" and (has_purchase or category in {"signed_book", "original_art"}):
+        return "first_come_purchase", 30
+    if current == "direct_sale":
+        return "direct_sale", 24
+    if current == "first_come":
+        return "first_come", 22
+    if current == "lottery_purchase" or (current in {"lottery_open", "lottery_free"} and has_purchase and not has_giveaway):
+        return "lottery_purchase", 15
+    if current == "lottery_free" or has_giveaway:
+        return "lottery_free", 3
+    if current == "lottery_open":
+        return "lottery_open", 8
+    return current or "unknown", 0
+
+
+def subject_adjustment(text: str, item: dict) -> tuple[int, list[str]]:
+    """Favor visual creators; keep authors neutral; down-rank gravure/TL/BL."""
+    low = text.lower()
+    factors = []
+    delta = 0
+    visual_creator = any(k.lower() in low for k in (
+        "イラストレーター", "漫画家", "原画家", "絵師", "キャラクターデザイナー",
+        "キャラデザ", "illustrator", "comic artist", "manga artist",
+    ))
+    general_creator = any(k.lower() in low for k in ("クリエイター", "creator"))
+    gravure = any(k.lower() in low for k in ("グラドル", "グラビアアイドル", "グラビアモデル"))
+    tl_bl = bool(re.search(r"(?<![a-z])(?:tl|bl)(?![a-z])", low)) or any(k in text for k in ("ティーンズラブ", "ボーイズラブ"))
+
+    if visual_creator:
+        delta += 20
+        factors.append("イラスト・漫画系クリエイター")
+    elif general_creator:
+        delta += 14
+        factors.append("クリエイター")
+    # 作家・著者・小説家は基準値のまま（普通）。
+    if gravure:
+        delta -= 30
+        factors.append("グラビア低優先")
+    if tl_bl:
+        delta -= 18
+        factors.append("TL/BL低優先")
+    if item.get("subject_type") == "performer" and not gravure:
+        delta -= 18
+        factors.append("出演者系")
+    return delta, factors
+
+
 def normalize_opportunity(item: dict, now: datetime) -> dict:
     text = " ".join([
         str(item.get("title") or ""), str(item.get("reasons") or ""),
         " ".join(str(x) for x in (item.get("tags") or [])), str(item.get("creator") or ""),
+        str(item.get("livepocket_detail_text") or ""), str(item.get("description") or ""),
     ])
     low = text.lower()
     category = item.get("category") or "other"
@@ -378,7 +471,9 @@ def normalize_opportunity(item: dict, now: datetime) -> dict:
 
     value = min(62, int(item.get("score") or 0) // 2)
     value += {"autograph_event": 24, "original_art": 28, "signed_book": 22, "campaign": 10, "exhibition": 5}.get(category, 0)
-    value += {"first_come": 20, "direct_sale": 17, "lottery_free": 20, "lottery_open": 11, "lottery_purchase": 4}.get(acq, 0)
+    ranked_acq, acquisition_bonus = acquisition_rank(item, text, category)
+    item["acquisition_priority"] = ranked_acq
+    value += acquisition_bonus
 
     adult = any(k in text for k in ("成人向け", "成年", "18禁", "R18", "R-18", "ワニマガジン", "快楽天"))
     oneoff = any(k in text for k in ("一点物", "一点もの", "直筆色紙", "直筆イラスト", "原画・直筆", "オークション色紙"))
@@ -399,7 +494,15 @@ def normalize_opportunity(item: dict, now: datetime) -> dict:
     if priority: value += 25
     if item.get("source") == "space caiman": value += 8
     if "新着" in (item.get("tags") or []): value += 3
-    if item.get("subject_type") == "performer": value -= 42
+
+    subject_delta, subject_factors = subject_adjustment(text, item)
+    value += subject_delta
+    price_yen = extract_price_yen(item, text)
+    penalty = price_penalty(price_yen)
+    value -= penalty
+    item["price_yen"] = price_yen
+    item["price_priority_penalty"] = penalty
+    item["subject_priority_factors"] = subject_factors
     value = max(0, min(140, value))
     # Signed-book fairs are the user's highest-priority opportunity class. Force them
     # to the maximum value and give them an explicit top-priority flag so they sort
@@ -431,7 +534,8 @@ def normalize_opportunity(item: dict, now: datetime) -> dict:
     item["alert_event"] = bool(item["alert_candidate"] and (is_new or is_updated))
     item["alert_reason"] = " / ".join(x for x, yes in (
         ("サイン本フェア最優先", signed_book_fair), ("成人向け", adult), ("一点物・直筆", oneoff), ("大量サイン本/フェア", bulk),
-        ("優先作家", priority), ("先着", acq == "first_come"), ("購入不要抽選", acq == "lottery_free"),
+        ("優先作家", priority), ("先着購入", ranked_acq == "first_come_purchase"), ("購入抽選", ranked_acq == "lottery_purchase"),
+        ("プレゼント抽選", ranked_acq == "lottery_free"), ("高額ペナルティ", penalty > 0),
     ) if yes)
     add_tag(item, f"価値{tier}")
     add_tag(item, {"lottery": "抽選", "sale": "販売", "event": "イベント", "campaign": "応募企画"}.get(opp, opp))
