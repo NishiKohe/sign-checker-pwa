@@ -133,6 +133,76 @@ class TimelineTests(unittest.TestCase):
         ))
         self.assertIs(ordered[0], fair)
 
+    def test_livepocket_body_can_reveal_hidden_signing(self):
+        item = {
+            'title': 'COMIC ART FEST 2026 入場券',
+            'source': 'LivePocket',
+            'category': 'event',
+            'tags': ['イベント'],
+            'livepocket_detail_text': '会場内企画として人気イラストレーターによる直筆サイン会を実施します。',
+        }
+        self.assertEqual(sites.livepocket_focus(item), 'event_with_autograph_session')
+
+    def test_acquisition_priority_order(self):
+        base = {
+            'source': 'LivePocket', 'category': 'signed_book', 'score': 10,
+            'status': 'unknown', 'creator': '作家A',
+        }
+        first = collect.radar.normalize_opportunity({
+            **base, 'title': 'サイン本 先着販売', 'acquisition': 'first_come',
+            'reasons': '先着で購入できます',
+        }, NOW)
+        purchase_lottery = collect.radar.normalize_opportunity({
+            **base, 'title': 'サイン本 抽選販売', 'acquisition': 'lottery_purchase',
+            'reasons': '購入権を抽選',
+        }, NOW)
+        giveaway = collect.radar.normalize_opportunity({
+            **base, 'title': 'サイン本 プレゼント', 'acquisition': 'lottery_free',
+            'reasons': '抽選でプレゼント',
+        }, NOW)
+        self.assertGreater(first['value_score'], purchase_lottery['value_score'])
+        self.assertGreater(purchase_lottery['value_score'], giveaway['value_score'])
+        self.assertEqual(first['acquisition_priority'], 'first_come_purchase')
+        self.assertEqual(purchase_lottery['acquisition_priority'], 'lottery_purchase')
+        self.assertEqual(giveaway['acquisition_priority'], 'lottery_free')
+
+    def test_high_price_reduces_priority(self):
+        base = {
+            'source': 'LivePocket', 'category': 'autograph_event', 'score': 20,
+            'status': 'unknown', 'acquisition': 'first_come',
+        }
+        cheap = collect.radar.normalize_opportunity({
+            **base, 'title': 'イラストレーター サイン会', 'reasons': '参加費 3,000円',
+        }, NOW)
+        expensive = collect.radar.normalize_opportunity({
+            **base, 'title': 'イラストレーター サイン会', 'reasons': '参加費 50,000円',
+        }, NOW)
+        self.assertGreater(cheap['value_score'], expensive['value_score'])
+        self.assertEqual(expensive['price_yen'], 50000)
+        self.assertGreater(expensive['price_priority_penalty'], 0)
+
+    def test_creator_priority_and_low_priority_genres(self):
+        base = {
+            'source': 'LivePocket', 'category': 'autograph_event', 'score': 20,
+            'status': 'unknown', 'acquisition': 'lottery_purchase',
+        }
+        illustrator = collect.radar.normalize_opportunity({
+            **base, 'title': '人気イラストレーター サイン会',
+        }, NOW)
+        author = collect.radar.normalize_opportunity({
+            **base, 'title': '作家 サイン会',
+        }, NOW)
+        gravure = collect.radar.normalize_opportunity({
+            **base, 'title': 'グラビアアイドル サイン会',
+        }, NOW)
+        bl = collect.radar.normalize_opportunity({
+            **base, 'title': 'BL作家 サイン会',
+        }, NOW)
+        self.assertGreater(illustrator['value_score'], author['value_score'])
+        self.assertGreater(author['value_score'], gravure['value_score'])
+        self.assertGreater(author['value_score'], bl['value_score'])
+
+
 
 if __name__ == '__main__':
     unittest.main()
