@@ -320,21 +320,30 @@ def linked_livepocket_v23(items):
         copy['tags'] = list(dict.fromkeys(['LivePocket', '主催者リンク由来', *(parent.get('tags') or [])]))[:16]
         copy['alert_candidate'] = False
         copy['alert_event'] = False
-        if number < 10:
+        # LivePocket titles are often generic. Inspect the detail body whenever it is publicly
+        # readable and preserve a bounded text snapshot for relevance/priority classification.
+        if number < 80:
             try:
                 response = radar.HTTP.get(url, timeout=8)
                 response.raise_for_status()
                 soup = BeautifulSoup(response.text, 'html.parser')
-                text = tidy((soup.find('main') or soup).get_text(' ', strip=True))
-                if len(text) > 250 and not any(x in text.lower() for x in ('verify that you', 'access denied', 'javascript is disabled')):
+                root = soup.find('main') or soup.find('article') or soup
+                text = tidy(root.get_text(' ', strip=True))
+                blocked = any(x in text.lower() for x in ('verify that you', 'access denied', 'javascript is disabled'))
+                if len(text) > 120 and not blocked:
                     fetched += 1
                     copy['livepocket_detail_verified'] = True
-                    copy['reasons'] = 'LivePocket公開ページで詳細を取得'
+                    copy['livepocket_detail_text'] = text[:12000]
+                    copy['livepocket_body_checked'] = True
+                    copy['reasons'] = 'LivePocket公開ページ本文まで確認'
                     dates, evidence = page_dates(response.text, 'LivePocket', datetime.now(JST))
                     enrich(copy, dates, evidence)
                     if soup.find('h1'):
                         copy['title'] = tidy(soup.find('h1').get_text(' ', strip=True))
+                else:
+                    copy['livepocket_body_checked'] = False
             except Exception as exc:
+                copy['livepocket_body_checked'] = False
                 errors.append(f'{urlparse(url).path}:{type(exc).__name__}')
         matched.append(copy)
     items.extend(matched)
