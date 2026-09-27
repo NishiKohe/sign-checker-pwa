@@ -100,6 +100,39 @@ class TimelineTests(unittest.TestCase):
         item = {'title': '声優トークイベント', 'source': 'LivePocket', 'category': 'event', 'tags': ['イベント']}
         self.assertIsNone(sites.livepocket_focus(item))
 
+    def test_signed_book_fair_is_absolute_top_priority(self):
+        fair = {
+            'title': '秋のサイン本フェア',
+            'source': 'LivePocket',
+            'category': 'signed_book',
+            'score': 20,
+            'status': 'unknown',
+            'tags': ['サイン本フェア'],
+        }
+        normal = {
+            'title': '人気作家 直筆色紙 先着販売',
+            'source': '書泉',
+            'category': 'original_art',
+            'score': 140,
+            'method': 'first_come',
+            'status': 'unknown',
+            'tags': ['直筆色紙'],
+        }
+        fair = collect.radar.normalize_opportunity(fair, NOW)
+        normal = collect.radar.normalize_opportunity(normal, NOW)
+        self.assertTrue(fair['top_priority'])
+        self.assertEqual(fair['priority_reason'], 'サイン本フェア')
+        self.assertEqual(fair['value_score'], 140)
+        self.assertEqual(fair['value_tier'], 'S')
+        self.assertIn('最優先', fair['tags'])
+        ordered = sorted([normal, fair], key=lambda x: (
+            0 if x.get('top_priority') else 1,
+            -int(x.get('value_score') or 0),
+            -int(x.get('score') or 0),
+            x.get('apply_end') or '9999',
+        ))
+        self.assertIs(ordered[0], fair)
+
 
 if __name__ == '__main__':
     unittest.main()
