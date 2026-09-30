@@ -10,13 +10,13 @@
   <title>Sign Checker</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=20">
+  <link rel="stylesheet" href="./styles.css?v=25">
   <link rel="stylesheet" href="./date-panel.css?v=24">
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="eyebrow">OPPORTUNITY RADAR · UI v0.24</div>
+      <div class="eyebrow">COLLECTOR RADAR · v0.25</div>
       <h1>Sign Checker</h1>
     </div>
     <div class="top-actions">
@@ -29,8 +29,8 @@
     <section class="radar-head card">
       <div>
         <span class="section-kicker">いま見るべきもの</span>
-        <h2>応募・購入・入札・イベントを、行動順に。</h2>
-        <p>掲載日・発売日・受付開始と終了を区別し、古い終了案件を除外。更新ボタンで情報を再収集します。</p>
+        <h2>見逃せない一件を、最短で。</h2>
+        <p>先着・直筆・高価値を前へ。低期待値の抽選は静かに。</p>
       </div>
       <div class="sync-meta">
         <small>最終収集</small>
@@ -41,7 +41,7 @@
 
     <section class="stats" aria-label="サマリー">
       <button class="stat card" data-lane="new"><small>NEW</small><strong id="statNew">0</strong><span>新着48h</span></button>
-      <button class="stat card critical-stat" data-lane="critical"><small>S TIER</small><strong id="statCritical">0</strong><span>超高価値</span></button>
+      <button class="stat card critical-stat" data-lane="critical"><small>MUST</small><strong id="statCritical">0</strong><span>最重要</span></button>
       <button class="stat card" data-lane="action"><small>DUE</small><strong id="statDue">0</strong><span>72h以内</span></button>
       <button class="stat card" data-lane="completed"><small>DONE</small><strong id="statCompleted">0</strong><span>応募・購入完了</span></button>
     </section>
@@ -49,7 +49,7 @@
     <section class="lane-switch card" aria-label="ビュー切替">
       <button class="lane active" data-lane="action"><span>今日やる</span><small>応募・購入・入札</small></button>
       <button class="lane" data-lane="new"><span>新着</span><small>初回検出</small></button>
-      <button class="lane" data-lane="critical"><span>高価値</span><small>S / A優先</small></button>
+      <button class="lane" data-lane="critical"><span>最重要</span><small>S / A優先</small></button>
       <button class="lane" data-lane="watching"><span>追う</span><small>★保存</small></button>
       <button class="lane" data-lane="completed"><span>完了</span><small>学習データ</small></button>
     </section>
