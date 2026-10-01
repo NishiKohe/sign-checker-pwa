@@ -31,6 +31,7 @@ on:
       - 'collector_v22.py'
       - 'collector_v23.py'
       - 'collector_v24.py'
+      - 'collector_v25.py'
       - 'tests/test_mandarake_daily.py'
       - 'tests/test_dates_sources.py'
       - 'config/creator_priority.json'
@@ -72,7 +73,7 @@ jobs:
       - name: Collect
         env:
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
-        run: python collector_v24.py
+        run: python collector_v25.py
 
       - name: Commit updated feed
         run: |
