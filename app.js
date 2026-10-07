@@ -21,7 +21,7 @@ const demo=[
 
 function defaults(){return{
   items:[],
-  settings:{apiBase:'',watchlist:'Na-Ga, 村田蓮爾, あるぷ',demoMode:false,showExpired:false},
+  settings:{apiBase:'',watchlist:'村田蓮爾, あるぷ',demoMode:false,showExpired:false},
   ui:{lane:'action',q:'',source:'all',tier:'all',acquisition:'all',type:'all',sort:'smart',tagFilter:''},
   feed:{generatedAt:null,sources:{},schemaVersion:null,policy:'',newCount:0,opportunityCounts:{},tierCounts:{}}
 }}
@@ -154,6 +154,17 @@ function addTag(box,text,x){if(!text)return;const b=document.createElement('butt
 function addManage(box,label,act,id,cls=''){const b=document.createElement('button');b.className=('manage '+cls).trim();b.dataset.act=act;b.dataset.id=id;b.textContent=label;box.appendChild(b)}
 function addLink(box,label,url,primary=false){const a=document.createElement('a');a.href=safeUrl(url);a.target='_blank';a.rel='noopener';a.textContent=label;a.className=primary?'primary-link':'secondary-link';box.appendChild(a)}
 
+const SOURCE_GROUPS=[
+  {name:'メロンブックス',keys:['メロンブックス','メロブ','melonbooks']},
+  {name:'書泉',keys:['書泉','shosen']},
+  {name:'大垣書店',keys:['大垣書店','大垣','ogaki']},
+  {name:'まんが王',keys:['まんが王','mangaoh']},
+  {name:'LivePocket',keys:['LivePocket','livepocket']},
+];
+function sourceMatches(x,g){const s=String(x.source||'').toLowerCase();return g.keys.some(k=>s.includes(String(k).toLowerCase()))}
+function getKind(x){const t=((x.tags||[]).join(' ')+' '+(x.title||''));if(x.category==='original_art'||/色紙|原画|一点物/.test(t))return '直筆色紙・原画';if(x.category==='autograph_event')return '対面サイン';if(x.category==='signed_book')return '直筆サイン本';return labels[x.category]||'直筆機会'}
+function getMethod(x){const a=acquisitionOf(x);const m={first_come:'先着・確保型',direct_sale:'直接購入',lottery_purchase:'購入抽選',lottery_open:'抽選',lottery_free:'無料抽選',unknown:'条件確認'};return m[a]||acquisitions[a]||a}
+function renderSourceRadar(){const box=$('#sourceRadar');if(!box)return;box.textContent='';const active=visibleBase().filter(x=>!x.completed);for(const g of SOURCE_GROUPS){const items=active.filter(x=>sourceMatches(x,g));const fresh=items.filter(isNew).length;const urgent=items.filter(x=>{const h=deadlineHours(x);return tierOf(x)==='S'||(h!==null&&h>=0&&h<=72)}).length;const b=document.createElement('button');b.className='source-radar-item';b.dataset.sourceGroup=g.name;const name=document.createElement('strong');name.textContent=g.name;const count=document.createElement('b');count.textContent=String(items.length);const meta=document.createElement('span');meta.textContent=(fresh?'新着 '+fresh+' · ':'')+'要注目 '+urgent;b.append(name,count,meta);box.appendChild(b)}}
 function renderHealth(){
   const box=$('#sourceHealth');box.textContent='';const sources=state.feed.sources||{};let bad=0,total=0;
   for(const [key,m0] of Object.entries(sources)){
@@ -169,7 +180,7 @@ function render(){
   const all=visibleBase(),p=learningProfile();
   $('#q').value=state.ui.q||'';$('#tierFilter').value=state.ui.tier||'all';$('#acquisitionFilter').value=state.ui.acquisition||'all';$('#sortMode').value=state.ui.sort||'smart';
   $('#watchlist').value=state.settings.watchlist||'';$('#showExpired').checked=!!state.settings.showExpired;$('#demoMode').checked=!!state.settings.demoMode;$('#apiBase').value=state.settings.apiBase||'';
-  renderSourceFilter(all);renderTagFilter();renderHealth();renderLaneHead();
+  renderSourceFilter(all);renderTagFilter();renderSourceRadar();renderHealth();renderLaneHead();
   document.querySelectorAll('[data-lane]').forEach(b=>b.classList.toggle('active',b.dataset.lane===state.ui.lane));
   document.querySelectorAll('[data-type]').forEach(b=>b.classList.toggle('active',b.dataset.type===state.ui.type));
   $('#feedTime').textContent=fmtFeed(state.feed.generatedAt);$('#feedPolicy').textContent=state.feed.schemaVersion?`schema v${state.feed.schemaVersion} · 自動収集`:'自動収集';
@@ -186,7 +197,7 @@ function render(){
     n.querySelector('.tier-badge').textContent=`${tier} TIER`;n.querySelector('.tier-badge').classList.add(`tier-${tier.toLowerCase()}`);
     n.querySelector('.action-badge').textContent=oppLabels[oppType(x)]||oppType(x);n.querySelector('.value-score').textContent=value;
     if(isNew(x))n.querySelector('.new-badge').classList.remove('hidden');
-    n.querySelector('h3').textContent=x.title||'(タイトル未取得)';n.querySelector('.source').textContent=x.source||'情報元不明';n.querySelector('.creator').textContent=x.creator||labels[x.category]||'作家未抽出';n.querySelector('.location').textContent=x.location||'場所未取得';
+    n.querySelector('.get-kind').textContent=getKind(x);n.querySelector('.get-method').textContent=getMethod(x);n.querySelector('h3').textContent=x.title||'(タイトル未取得)';n.querySelector('.source').textContent=x.source||'情報元不明';n.querySelector('.creator').textContent=x.creator||labels[x.category]||'作家未抽出';n.querySelector('.location').textContent=x.location||'場所未取得';
     n.querySelector('.deadline-main').textContent=fmtDate(x.apply_end);const cd=n.querySelector('.countdown');cd.textContent=countdown(x);if((deadlineHours(x)??999)<=72)cd.classList.add('hot');
     n.querySelector('.event-date strong').textContent=fmtDate(x.event_start);
     const tagBox=n.querySelector('.item-tags');tagsFor(x).filter(t=>!String(t).startsWith('価値')).slice(0,9).forEach(t=>addTag(tagBox,t,x));
@@ -201,7 +212,7 @@ function render(){
 
 function boostWatchlist(items){
   const names=(state.settings.watchlist||'').split(',').map(s=>s.trim()).filter(Boolean);
-  return items.map(x=>{let add=0,rs='';for(const name of names){if(`${x.title||''} ${x.creator||''}`.includes(name)){const b=name==='Na-Ga'?25:12;add+=b;rs+=` / ウォッチ:${name} +${b}`}}return add?{...x,value_score:Math.min(140,serverValue(x)+add),reasons:(x.reasons||'')+rs}:x});
+  return items.map(x=>{let add=0,rs='';for(const name of names){if(`${x.title||''} ${x.creator||''}`.includes(name)){const b=12;add+=b;rs+=` / ウォッチ:${name} +${b}`}}return add?{...x,value_score:Math.min(140,serverValue(x)+add),reasons:(x.reasons||'')+rs}:x});
 }
 function mergeFeed(items){
   const old=new Map(state.items.map(x=>[x.id,x]));const incoming=boostWatchlist(items);const ids=new Set(incoming.map(x=>x.id));
@@ -218,7 +229,7 @@ $('#q').addEventListener('input',e=>{state.ui.q=e.target.value;save();render()})
 document.addEventListener('click',e=>{
   const lane=e.target.closest('[data-lane]');if(lane){state.ui.lane=lane.dataset.lane;save();render();return}
   const type=e.target.closest('[data-type]');if(type){state.ui.type=type.dataset.type;save();render();return}
-  const source=e.target.closest('[data-source]');if(source){state.ui.source=source.dataset.source;save();render();return}
+  const group=e.target.closest('[data-source-group]');if(group){const g=SOURCE_GROUPS.find(v=>v.name===group.dataset.sourceGroup);if(g){state.ui.source='all';state.ui.q=g.keys[0];state.ui.lane='all';save();render()}return}\n  const source=e.target.closest('[data-source]');if(source){state.ui.source=source.dataset.source;save();render();return}
   const tag=e.target.closest('[data-filter-tag]');if(tag){state.ui.tagFilter=tag.dataset.filterTag;save();render();return}
   if(e.target.closest('[data-clear-tag]')){state.ui.tagFilter='';save();render();return}
   const a=e.target.closest('[data-act]');if(!a)return;const x=state.items.find(v=>v.id===a.dataset.id);if(!x)return;
