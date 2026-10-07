@@ -10,13 +10,13 @@
   <title>Sign Checker</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=25">
+  <link rel="stylesheet" href="./styles.css?v=26">
   <link rel="stylesheet" href="./date-panel.css?v=24">
 </head>
 <body>
   <header class="topbar">
     <div class="brand">
-      <div class="eyebrow">COLLECTOR RADAR · v0.25</div>
+      <div class="eyebrow">COLLECTOR RADAR · v0.26</div>
       <h1>Sign Checker</h1>
     </div>
     <div class="top-actions">
@@ -52,6 +52,14 @@
       <button class="lane" data-lane="critical"><span>最重要</span><small>S / A優先</small></button>
       <button class="lane" data-lane="watching"><span>追う</span><small>★保存</small></button>
       <button class="lane" data-lane="completed"><span>完了</span><small>学習データ</small></button>
+    </section>
+
+    <section class="source-radar card">
+      <div class="source-radar-head">
+        <div><span class="section-kicker">SOURCE RADAR</span><h2>主要ショップ監視</h2></div>
+        <small>新着・受付中を横断</small>
+      </div>
+      <div id="sourceRadar" class="source-radar-grid"></div>
     </section>
 
     <section class="toolbar card">
@@ -138,6 +146,7 @@
         <div class="badges"><span class="tier-badge"></span><span class="action-badge"></span><span class="new-badge hidden">NEW</span></div>
         <div class="score-mini"><small>VALUE</small><strong class="value-score"></strong></div>
       </div>
+      <div class="acquisition-summary"><strong class="get-kind"></strong><span class="get-method"></span></div>
       <h3></h3>
       <div class="card-meta"><span class="source"></span><span class="creator"></span><span class="location"></span></div>
       <div class="deadline-panel">
@@ -155,7 +164,7 @@
 
   <script>try{if(!localStorage.getItem('sign-checker-pwa-v6')){const old=localStorage.getItem('sign-checker-pwa-v5')||localStorage.getItem('sign-checker-pwa-v4');if(old)localStorage.setItem('sign-checker-pwa-v6',old)}}catch{}</script>
   <script src="./feed-guard.js?v=23" defer></script>
-  <script src="./app.js?v=20" defer></script>
+  <script src="./app.js?v=26" defer></script>
   <script src="./feed-state.js?v=23" defer></script>
   <script src="./auction-ui.js?v=22" defer></script>
   <script src="./date-panel.js?v=24" defer></script>
