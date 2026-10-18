@@ -12,7 +12,7 @@ const yen = x => {
 };
 const format = x => x ? (typeof fmtDate === 'function' ? fmtDate(x) : String(x)) : '未確認';
 function health(){
- const host=$('#sourceDiagnostics');if(!host || !window.state && typeof state === 'undefined')return;
+ const host=$('#sourceDiagnostics');if(!host || typeof state === 'undefined')return;
  const feed=state.feed||{}, sources=feed.sources||{},generated=feed.generatedAt;
  const age=generated ? (Date.now()-Date.parse(generated))/3600000 : Infinity;
  const entries=Object.entries(sources);
@@ -30,7 +30,7 @@ function health(){
  }).join('')+'</div></details><p class="report-note">「最終成功 未記録」は失敗を意味しません。現行フィードにソース別成功日時が保存されていない状態です。停止した収集元の復旧には収集スクリプト側の対応が必要です。</p>';
 }
 function cards(){
- const nodes=$$('#list .opportunity');const visible=typeof visibleBase==='function'?state.items:[];
+ const nodes=$$('#list .opportunity');const visible=typeof state!=='undefined'?state.items:[];
  nodes.forEach(n=>{
   const title=n.querySelector('h3')?.textContent||'';
   const x=visible.find(v=>v.title===title);
