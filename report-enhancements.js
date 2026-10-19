@@ -17,13 +17,14 @@ function health(){
  const age=generated ? (Date.now()-Date.parse(generated))/3600000 : Infinity;
  const entries=Object.entries(sources);
  const disabled=entries.filter(([,v])=>v.enabled===false);
- const errors=entries.filter(([,v])=>(v.errors||[]).length || (v.discovery_errors||[]).length || (v.page_errors||[]).length);
+ const asErrors = v => [v.errors,v.discovery_errors,v.page_errors].flatMap(e => Array.isArray(e)?e:(e?[String(e)]:[]));
+ const errors=entries.filter(([,v])=>asErrors(v).length);
  const failed=disabled.length+errors.filter(([k])=>!disabled.some(([n])=>n===k)).length;
  const label= !Number.isFinite(age)?'収集日時不明':age>24?'24時間以上更新なし':age>6?'6時間以上前に収集':'フィード更新済み';
  host.innerHTML='<div class="report-health-top"><strong>収集元の稼働状況</strong><span class="'+(failed||age>6?'report-warn':'report-ok')+'">'+escape(label)+'</span></div>'+
  '<p>最終フィード生成：'+escape(generated?format(generated):'不明')+' ／ 無効・エラー：'+failed+'件 ／ 登録ソース：'+entries.length+'件</p>'+
  '<details><summary>収集元別の状態・エラーを見る</summary><div class="report-source-grid">'+entries.map(([name,v])=>{
- const errs=[...(v.errors||[]),...(v.discovery_errors||[]),...(v.page_errors||[])];
+ const errs=asErrors(v);
  const status=v.enabled===false?'停止・代替収集':errs.length?'エラーあり':'稼働';
  const stamp=v.last_success_at||v.last_success||v.last_successful_fetch_at;
  return '<div class="report-source"><b>'+escape(name)+'</b><span>'+escape(status)+'</span><small>検出 '+escape(v.active_count??v.count??'不明')+'件 / 最終成功 '+escape(stamp?format(stamp):'未記録')+'</small>'+ (errs.length?'<small class="report-error">'+escape(errs.slice(0,2).join(' / '))+'</small>':'')+'</div>';
