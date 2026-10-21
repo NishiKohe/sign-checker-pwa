@@ -7,9 +7,20 @@
       "source_url": "https://x.com/kyockcho/status/2112740672520266087",
       "priority": "S",
       "category": "adult_illustrator",
-      "verification": "post_text_not_accessible",
-      "event_details": null,
-      "notes": "User explicitly marked this post extremely important on 2026-10-21. Verify original post before creating an event, deadline, or availability claim. Track subsequent announcements and actionable changes.",
+      "verification": "user_supplied_artist_post_text; official_store_page_unavailable",
+      "event_details": {
+        "title": "きょくちょ画集発売記念オンリーSHOP",
+        "start_date": "2026-11-13",
+        "end_date": "2026-11-23",
+        "area": "秋葉原",
+        "organizer": "メロンブックス",
+        "official_page": "https://www.melonbooks.co.jp/tags/index.php?tag=kyockcho-lovebox",
+        "signed_artbook": "possible_not_confirmed",
+        "goods": "expected",
+        "sale_method": "unknown",
+        "entry_requirements": "unknown"
+      },
+      "notes": "Artist post says on sale date Akihabara-only shop Nov 13-23 and expects signed artbooks and goods. Do not assert signed copies are confirmed. Check shop's inventory, release time, lottery/first-come, tickets and store location. Notify only actionable new changes.",
       "added_at": "2026-10-21"
     }
   ]
