@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "priority_watch": [
+    {
+      "creator": "きょくちょ",
+      "handle": "@kyockcho",
+      "source_url": "https://x.com/kyockcho/status/2112740672520266087",
+      "priority": "S",
+      "category": "adult_illustrator",
+      "verification": "post_text_not_accessible",
+      "event_details": null,
+      "notes": "User explicitly marked this post extremely important on 2026-10-21. Verify original post before creating an event, deadline, or availability claim. Track subsequent announcements and actionable changes.",
+      "added_at": "2026-10-21"
+    }
+  ]
+}
