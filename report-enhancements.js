@@ -30,12 +30,38 @@ function health(){
  return '<div class="report-source"><b>'+escape(name)+'</b><span>'+escape(status)+'</span><small>検出 '+escape(v.active_count??v.count??'不明')+'件 / 最終成功 '+escape(stamp?format(stamp):'未記録')+'</small>'+ (errs.length?'<small class="report-error">'+escape(errs.slice(0,2).join(' / '))+'</small>':'')+'</div>';
  }).join('')+'</div></details><p class="report-note">「最終成功 未記録」は失敗を意味しません。現行フィードにソース別成功日時が保存されていない状態です。停止した収集元の復旧には収集スクリプト側の対応が必要です。</p>';
 }
+
+// Flag possible duplicate listings without hiding distinct signup opportunities.
+// A change of event date, venue or application route remains a separate opportunity.
+const canonical = value => String(value || '').normalize('NFKC').toLowerCase()
+  .replace(/[\\s・･_‐‑–—―「」『』()（）]/g, '');
+const day = value => String(value || '').slice(0, 10);
+function duplicateGroups(items) {
+ const groups = new Map();
+ for (const item of items || []) {
+  const creator = canonical(item.creator);
+  const event = day(item.event_start);
+  const venue = canonical(item.location);
+  const route = canonical(item.apply_url || item.url);
+  if (!creator || !event || !venue || !route) continue;
+  const key = [creator, event, venue, route].join('|');
+  const group = groups.get(key) || [];
+  group.push(item);
+  groups.set(key, group);
+ }
+ return [...groups.values()].filter(group => group.length > 1);
+}
+
 function cards(){
- const nodes=$$('#list .opportunity');const visible=typeof state!=='undefined'?state.items:[];
+ const nodes=$('#list .opportunity');const visible=typeof state!=='undefined'?state.items:[];
+ const possibleDuplicates = new Set(duplicateGroups(visible).flatMap(group => group.slice(1)));
+
  nodes.forEach(n=>{
   const title=n.querySelector('h3')?.textContent||'';
   const x=visible.find(v=>v.title===title);
   if(!x || n.querySelector('.report-facts'))return;
+  if(possibleDuplicates.has(x)) { const badge=document.createElement('span');badge.className='report-gallery-label';badge.textContent='重複候補・要確認';n.querySelector('.badges')?.appendChild(badge); }
+
   const isGallery=gallery(x);
   if(isGallery){n.classList.add('report-gallery');const b=document.createElement('span');b.className='report-gallery-label';b.textContent='在廊・展示候補';n.querySelector('.badges')?.appendChild(b);}
   const facts=document.createElement('div');facts.className='report-facts';
