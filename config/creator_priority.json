@@ -1,6 +1,5 @@
 {
   "tier_s": [
-    "Na-Ga",
     "米山舞",
     "大暮維人",
     "村田蓮爾",
@@ -28,7 +27,9 @@
     "べっかんこう",
     "みつみ美里",
     "甘露樹",
-    "涼香"
+    "涼香",
+    "隅田かずあさ",
+    "村田真哉"
   ],
-  "notes": "Server-side seed list for creator-value scoring. The PWA watchlist adds a separate personal boost. Expand this curated list as real results are reviewed."
+  "notes": "Server-side seed list for creator-value scoring. The PWA watchlist adds a separate personal boost. Expand this curated list as real results are reviewed. Killing Bites creators monitored as tier A; Na-Ga has no special priority."
 }

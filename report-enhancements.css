@@ -1,0 +1,16 @@
+/* Report card enhancement */
+.report-health{padding:16px 20px;display:grid;gap:8px}
+.report-health-top{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center}
+.report-health p{margin:0;color:var(--muted);font-size:.78rem;line-height:1.6}
+.report-health summary{cursor:pointer;font-weight:750;font-size:.85rem}
+.report-health .report-ok{color:#067647}.report-health .report-warn{color:#b54708}
+.report-source-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px;margin-top:12px}
+.report-source{padding:10px;border:1px solid var(--line);border-radius:12px;display:grid;gap:3px}
+.report-source span{font-size:.76rem}.report-source small{font-size:.7rem;color:var(--muted);overflow-wrap:anywhere}
+.report-source .report-error{color:#b42318}.report-health .report-note{font-size:.7rem}
+.report-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:12px;border-radius:13px;background:var(--soft)}
+.report-fact{display:grid;gap:3px;min-width:0}.report-fact small{color:var(--muted);font-size:.69rem}.report-fact span{font-size:.82rem;font-weight:650;overflow-wrap:anywhere}
+.report-fact:nth-child(5),.report-fact:nth-child(6){grid-column:1/-1}
+.report-official{grid-column:1/-1;font-size:.82rem;font-weight:800;color:#5b21b6}
+.report-gallery-label{font-size:.68rem;font-weight:800;background:#ecfdf3;color:#067647;border-radius:20px;padding:5px 9px}
+.report-gallery{border-color:#a6dfc6}

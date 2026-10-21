@@ -12,6 +12,7 @@
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css?v=26">
   <link rel="stylesheet" href="./date-panel.css?v=24">
+  <link rel="stylesheet" href="./report-enhancements.css?v=1">
 </head>
 <body>
   <header class="topbar">
@@ -53,6 +54,8 @@
       <button class="lane" data-lane="watching"><span>追う</span><small>★保存</small></button>
       <button class="lane" data-lane="completed"><span>完了</span><small>学習データ</small></button>
     </section>
+
+    <section id="sourceDiagnostics" class="report-health card" aria-label="収集元の稼働状況"></section>
 
     <section class="source-radar card">
       <div class="source-radar-head">
@@ -169,5 +172,6 @@
   <script src="./auction-ui.js?v=22" defer></script>
   <script src="./date-panel.js?v=24" defer></script>
   <script src="./manual-refresh.js?v=23" defer></script>
+  <script src="./report-enhancements.js?v=1" defer></script>
 </body>
 </html>
