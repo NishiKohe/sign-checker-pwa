@@ -229,7 +229,8 @@ $('#q').addEventListener('input',e=>{state.ui.q=e.target.value;save();render()})
 document.addEventListener('click',e=>{
   const lane=e.target.closest('[data-lane]');if(lane){state.ui.lane=lane.dataset.lane;save();render();return}
   const type=e.target.closest('[data-type]');if(type){state.ui.type=type.dataset.type;save();render();return}
-  const group=e.target.closest('[data-source-group]');if(group){const g=SOURCE_GROUPS.find(v=>v.name===group.dataset.sourceGroup);if(g){state.ui.source='all';state.ui.q=g.keys[0];state.ui.lane='all';save();render()}return}\n  const source=e.target.closest('[data-source]');if(source){state.ui.source=source.dataset.source;save();render();return}
+  const group=e.target.closest('[data-source-group]');if(group){const g=SOURCE_GROUPS.find(v=>v.name===group.dataset.sourceGroup);if(g){state.ui.source='all';state.ui.q=g.keys[0];state.ui.lane='all';save();render()}return}
+  const source=e.target.closest('[data-source]');if(source){state.ui.source=source.dataset.source;save();render();return}
   const tag=e.target.closest('[data-filter-tag]');if(tag){state.ui.tagFilter=tag.dataset.filterTag;save();render();return}
   if(e.target.closest('[data-clear-tag]')){state.ui.tagFilter='';save();render();return}
   const a=e.target.closest('[data-act]');if(!a)return;const x=state.items.find(v=>v.id===a.dataset.id);if(!x)return;
