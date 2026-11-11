@@ -81,6 +81,16 @@ def fetch(url):
 
 
 def parse_watch(spec, previous_payload, now):
+    event_start = spec.get("event_start")
+    if event_start:
+        try:
+            event_dt = datetime.fromisoformat(str(event_start).replace("Z", "+00:00"))
+            if event_dt.tzinfo is None:
+                event_dt = event_dt.replace(tzinfo=JST)
+            if event_dt < now:
+                return None
+        except (ValueError, TypeError):
+            pass
     raw, final_url = fetch(spec["url"])
     soup = BeautifulSoup(raw, "html.parser")
     text = tidy(soup.get_text(" ", strip=True))
@@ -133,7 +143,7 @@ def parse_watch(spec, previous_payload, now):
         "reasons": "公式告知からサイン会を重点監視" + ((" / " + action_evidence) if action_evidence else ""),
         "url": spec["url"],
         "apply_url": live,
-        "status": "open",
+        "status": "unknown",
         "dates": [],
         "event_start": spec.get("event_start"),
         "apply_start": None,
