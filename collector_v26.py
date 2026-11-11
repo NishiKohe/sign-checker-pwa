@@ -168,6 +168,27 @@ def main():
     payload = previous_collector.previous_collector.current.radar.rebuild_opportunity_meta(
         payload, payload.get("shosen_deep_quality") or {}
     )
+
+    # Final alert safety gate; do not mutate the underlying discovery records.
+    for item in payload["items"]:
+        end = item.get("apply_end") or item.get("event_end") or item.get("event_start")
+        if end:
+            try:
+                deadline = datetime.fromisoformat(str(end).replace("Z", "+00:00"))
+                if deadline.tzinfo is None:
+                    deadline = deadline.replace(tzinfo=JST)
+                if deadline < now:
+                    item.update(expired=True, lifecycle="expired",
+                                action_state="expired", top_priority=False,
+                                alert_candidate=False, alert_event=False)
+            except (ValueError, TypeError):
+                pass
+        subject = " ".join((str(item.get("title") or ""),
+                            str(item.get("reasons") or ""),
+                            " ".join(item.get("subject_priority_factors") or []))).lower()
+        if any(term in subject for term in ("tl/bl低優先", "tlフェア", "blフェア", "グラビア")):
+            item.update(top_priority=False, alert_candidate=False, alert_event=False)
+            item["priority_reason"] = "低優先ジャンル・個別審査"
     payload["count"] = len(payload["items"])
     payload["new_count"] = sum("新着" in (x.get("tags") or []) for x in payload["items"])
     payload["schema_version"] = 26
