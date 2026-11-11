@@ -33,6 +33,34 @@ WATCH_PAGES = [
     },
 ]
 
+# Additional game-creator announcements can be maintained without changing code.
+# These are explicit official announcement URLs, not speculative event listings.
+WATCH_CONFIG = previous_collector.previous_collector.current.ROOT / "config" / "game_creator_watch.json"
+
+
+def load_game_creator_watch():
+    if not WATCH_CONFIG.exists():
+        return []
+    data = json.loads(WATCH_CONFIG.read_text(encoding="utf-8"))
+    out = []
+    for entry in data:
+        if not isinstance(entry, dict):
+            continue
+        url = str(entry.get("url") or "")
+        if not url.startswith("https://") or not entry.get("creator") or not entry.get("title_hint"):
+            continue
+        out.append({
+            "source": entry.get("source") or "ゲームクリエイター公式",
+            "url": url,
+            "creator": entry["creator"],
+            "title_hint": entry["title_hint"],
+            "category": "autograph_event",
+            "location": entry.get("location") or "",
+            "event_start": entry.get("event_start"),
+        })
+    return out
+
+
 SIGN_WORDS = re.compile(r"サイン会|直筆サイン|サイン本|直筆色紙|イラスト色紙|原画|スケブ|在廊|セミオーダー")
 ACTION_WORDS = re.compile(r"申込|応募|受付|整理券|チケット|先着|抽選|締切|定員|キャンセル|追加枠|当日枠|購入条件|対象商品")
 LIVEPOCKET_RE = re.compile(r"https?://(?:t\.)?livepocket\.jp/[^\s\"'<>]+", re.I)
@@ -137,7 +165,8 @@ def main():
     now = datetime.now(JST)
     errors, focused = [], []
 
-    for spec in WATCH_PAGES:
+    watch_pages = WATCH_PAGES + load_game_creator_watch()
+    for spec in watch_pages:
         try:
             item = parse_watch(spec, previous_payload, now)
             if item:
@@ -146,7 +175,7 @@ def main():
         except Exception as exc:
             errors.append(f'{spec["source"]}: {type(exc).__name__}: {exc}')
 
-    watched_ids = {sid(s["url"], s["creator"]) for s in WATCH_PAGES}
+    watched_ids = {sid(s["url"], s["creator"]) for s in watch_pages}
     base = [x for x in payload.get("items", []) if x.get("id") not in watched_ids]
     payload["items"] = focused + base
     payload["items"].sort(key=lambda x: (
@@ -159,7 +188,7 @@ def main():
         "enabled": True,
         "count": len(focused),
         "active_count": len(focused),
-        "watch_pages": [s["url"] for s in WATCH_PAGES],
+        "watch_pages": [s["url"] for s in watch_pages],
         "errors": errors,
         "parser_version": 26,
         "mode": "official_announcement_to_livepocket",
