@@ -34,6 +34,7 @@ on:
       - 'collector_v25.py'
       - 'collector_v26.py'
       - 'scripts/check_source_health.py'
+      - 'tests/test_source_health.py'
       - 'tests/test_mandarake_daily.py'
       - 'tests/test_dates_sources.py'
       - 'config/creator_priority.json'
@@ -71,6 +72,9 @@ jobs:
 
       - name: Test date and source lifecycle
         run: python -m unittest discover -s tests -p 'test_dates_sources.py' -v
+
+      - name: Test source health checks
+        run: python -m unittest discover -s tests -p 'test_source_health.py' -v
 
       - name: Collect
         env:
