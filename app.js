@@ -35,7 +35,7 @@ function load(){
   }catch{return defaults()}
 }
 let state=load();
-function save(){localStorage.setItem(STORAGE,JSON.stringify(state))}
+function save(){try{localStorage.setItem(STORAGE,JSON.stringify(state));return true}catch(err){console.warn('Sign Checker: storage unavailable',err);return false}}
 function toast(t){const e=document.createElement('div');e.className='toast';e.textContent=t;document.body.appendChild(e);setTimeout(()=>e.remove(),2400)}
 function safeUrl(v){try{const u=new URL(v,location.href);return ['http:','https:'].includes(u.protocol)?u.href:'#'}catch{return '#'}}
 function esc(v){return String(v??'')}
@@ -220,7 +220,7 @@ function mergeFeed(items){
   for(const p of state.items)if(p.completed&&!ids.has(p.id))merged.push({...p,archived:true});state.items=merged;
 }
 async function loadStaticFeed(){
-  const r=await fetch(`./data/items.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error('収集データ取得失敗');const payload=await r.json();mergeFeed(Array.isArray(payload.items)?payload.items:[]);
+  const r=await fetch(`./data/items.json?t=${Date.now()}`,{cache:'no-store'});if(!r.ok)throw new Error('収集データ取得失敗 (HTTP '+r.status+')');const payload=await r.json();if(!Array.isArray(payload.items))throw new Error('収集データ形式が不正です');mergeFeed(payload.items);
   state.feed={generatedAt:payload.generated_at||null,sources:payload.sources||{},schemaVersion:payload.schema_version||null,policy:payload.feed_policy||'',newCount:payload.new_count||0,opportunityCounts:payload.opportunity_counts||{},tierCounts:payload.value_tier_counts||{}};save();render();return visibleBase().length;
 }
 
@@ -241,7 +241,7 @@ document.addEventListener('click',e=>{
 $('#saveSettingsBtn').addEventListener('click',async()=>{state.settings.watchlist=$('#watchlist').value.trim();state.settings.showExpired=$('#showExpired').checked;state.settings.demoMode=$('#demoMode').checked;state.settings.apiBase=$('#apiBase').value.trim();save();if(!state.settings.demoMode){try{await loadStaticFeed()}catch{}}render();toast('設定を保存しました')});
 $('#seedBtn').addEventListener('click',()=>{state.items=structuredClone(demo);state.settings.demoMode=true;save();render();toast('デモデータを読み込みました')});
 $('#syncBtn').addEventListener('click',async()=>{const b=$('#syncBtn');b.disabled=true;b.textContent='更新中…';try{if(state.settings.demoMode){state.items=structuredClone(demo);save();render();toast('デモ更新')}else{const n=await loadStaticFeed();toast(`${n}件を最新化`)}}catch(err){toast(err.message||'更新失敗')}finally{b.disabled=false;b.textContent='更新'}});
-if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=20').catch(()=>{}));
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=28').catch(()=>{}));
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('#installBtn').classList.remove('hidden')});
 $('#installBtn').addEventListener('click',async()=>{if(!installPrompt)return;installPrompt.prompt();await installPrompt.userChoice;installPrompt=null;$('#installBtn').classList.add('hidden')});
-render();if(!state.settings.demoMode)loadStaticFeed().catch(()=>{});
+render();if(!state.settings.demoMode)loadStaticFeed().catch(err=>{console.error('Sign Checker feed update failed',err);$('#feedPolicy').textContent='更新失敗・保存済みデータを表示中';toast('データ更新失敗：更新ボタンで再試行してください')});
