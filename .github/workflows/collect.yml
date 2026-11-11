@@ -35,6 +35,7 @@ on:
       - 'collector_v26.py'
       - 'tests/test_mandarake_daily.py'
       - 'tests/test_dates_sources.py'
+      - 'config/game_creator_watch.json'
       - 'config/creator_priority.json'
       - 'config/performer_priority.json'
       - 'requirements.txt'
