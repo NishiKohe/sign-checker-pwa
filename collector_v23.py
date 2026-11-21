@@ -278,6 +278,8 @@ def collect_animate_v23():
     ANIMATE_META = {'enabled': bool(items), 'count': len(items), 'active_count': len(items),
                     'list_pages_fetched': list_success, 'detail_pages_fetched': fetched,
                     'links_discovered': len(links), 'errors': errors[:8], 'parser_version': 23}
+    ANIMATE_META['health'] = 'ok' if items else ('degraded' if links else 'no_candidates')
+    ANIMATE_META['details_unverified'] = max(0, len(links) - fetched)
     print('animate v23', ANIMATE_META)
     return items, bool(items)
 
@@ -347,8 +349,12 @@ def linked_livepocket_v23(items):
                 errors.append(f'{urlparse(url).path}:{type(exc).__name__}')
         matched.append(copy)
     items.extend(matched)
+    # Distinguish organizer-link discovery from verified ticket-page retrieval.
+    # A source with 50 links and zero fetched details is degraded, not healthy.
     LIVE_META = {'enabled': fetched > 0, 'discovered': len(sources), 'fetched': fetched,
                  'linked_count': len(matched), 'mode': 'official_page' if fetched else 'organizer_link_fallback',
+                 'health': 'ok' if fetched else ('degraded' if sources else 'no_candidates'),
+                 'details_unverified': max(0, len(matched) - fetched),
                  'errors': errors[:5], 'parser_version': 23}
     print('livepocket v23', LIVE_META)
     return len(sources), fetched
